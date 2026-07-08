@@ -1,0 +1,32 @@
+Station,RawYear,PM25_Status,Rows
+London Bexley,2021,V ugm-3 (Ref.eq),8760
+London Bexley,2022,V ugm-3 (Ref.eq),8760
+London Bexley,2023,V ugm-3 (Ref.eq),8760
+London Bexley,2024,V ugm-3 (Ref.eq),8784
+London Bexley,2025,V ugm-3 (Ref.eq),8760
+London Harlington,2021,,47
+London Harlington,2021,V ugm-3 (Ref.eq),8713
+London Harlington,2022,,58
+London Harlington,2022,V ugm-3 (Ref.eq),8702
+London Harlington,2023,,5
+London Harlington,2023,V ugm-3 (Ref.eq),8755
+London Harlington,2024,,9
+London Harlington,2024,V ugm-3 (Ref.eq),8775
+London Harlington,2025,,11
+London Harlington,2025,V ugm-3 (Ref.eq),8749
+London Honor Oak Park,2021,V ugm-3 (Ref.eq),8760
+London Honor Oak Park,2022,V ugm-3 (Ref.eq),8760
+London Honor Oak Park,2023,V ugm-3 (Ref.eq),8760
+London Honor Oak Park,2024,V ugm-3 (Ref.eq),8784
+London Honor Oak Park,2025,V ugm-3 (Ref.eq),8760
+London Marylebone Road,2021,V ugm-3 (BAM),229
+London Marylebone Road,2021,V ugm-3 (TEOM FDMS),8531
+London Marylebone Road,2022,V ugm-3 (BAM),8760
+London Marylebone Road,2023,V ugm-3 (BAM),8760
+London Marylebone Road,2024,V ugm-3 (BAM),8784
+London Marylebone Road,2025,V ugm-3 (BAM),8760
+London N. Kensington,2021,V ugm-3 (Ref.eq),8760
+London N. Kensington,2022,V ugm-3 (Ref.eq),8760
+London N. Kensington,2023,V ugm-3 (Ref.eq),8760
+London N. Kensington,2024,V ugm-3 (Ref.eq),8784
+London N. Kensington,2025,V ugm-3 (Ref.eq),8760

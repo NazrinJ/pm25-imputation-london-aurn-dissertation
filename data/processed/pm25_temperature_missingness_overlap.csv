@@ -1,0 +1,5 @@
+Category,Rows,Percentage
+Both PM2.5 and Temperature available,209918,95.8
+"PM2.5 missing, Temperature available",5002,2.28
+"PM2.5 available, Temperature missing",4095,1.87
+Both PM2.5 and Temperature missing,105,0.05

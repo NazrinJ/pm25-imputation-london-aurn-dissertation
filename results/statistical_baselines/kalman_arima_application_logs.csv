@@ -1,0 +1,51 @@
+Split,Station,N_rows,N_missing_input,N_predictions_created,PredictionMethod,Status,Scenario
+Test,London Bexley,8760,993,8760,smoothed_get_prediction,success,random10_point
+Test,London Harlington,8760,905,8760,smoothed_get_prediction,success,random10_point
+Test,London Honor Oak Park,8760,975,8760,smoothed_get_prediction,success,random10_point
+Test,London Marylebone Road,8760,1174,8760,smoothed_get_prediction,success,random10_point
+Test,London N. Kensington,8760,890,8760,smoothed_get_prediction,success,random10_point
+Validation,London Bexley,8784,889,8784,smoothed_get_prediction,success,random10_point
+Validation,London Harlington,8784,904,8784,smoothed_get_prediction,success,random10_point
+Validation,London Honor Oak Park,8784,910,8784,smoothed_get_prediction,success,random10_point
+Validation,London Marylebone Road,8784,1321,8784,smoothed_get_prediction,success,random10_point
+Validation,London N. Kensington,8784,908,8784,smoothed_get_prediction,success,random10_point
+Test,London Bexley,8760,2719,8760,smoothed_get_prediction,success,random30_point
+Test,London Harlington,8760,2650,8760,smoothed_get_prediction,success,random30_point
+Test,London Honor Oak Park,8760,2705,8760,smoothed_get_prediction,success,random30_point
+Test,London Marylebone Road,8760,2860,8760,smoothed_get_prediction,success,random30_point
+Test,London N. Kensington,8760,2639,8760,smoothed_get_prediction,success,random30_point
+Validation,London Bexley,8784,2644,8784,smoothed_get_prediction,success,random30_point
+Validation,London Harlington,8784,2655,8784,smoothed_get_prediction,success,random30_point
+Validation,London Honor Oak Park,8784,2660,8784,smoothed_get_prediction,success,random30_point
+Validation,London Marylebone Road,8784,2980,8784,smoothed_get_prediction,success,random30_point
+Validation,London N. Kensington,8784,2658,8784,smoothed_get_prediction,success,random30_point
+Test,London Bexley,8760,4445,8760,smoothed_get_prediction,success,random50_point
+Test,London Harlington,8760,4396,8760,smoothed_get_prediction,success,random50_point
+Test,London Honor Oak Park,8760,4435,8760,smoothed_get_prediction,success,random50_point
+Test,London Marylebone Road,8760,4545,8760,smoothed_get_prediction,success,random50_point
+Test,London N. Kensington,8760,4388,8760,smoothed_get_prediction,success,random50_point
+Validation,London Bexley,8784,4398,8784,smoothed_get_prediction,success,random50_point
+Validation,London Harlington,8784,4406,8784,smoothed_get_prediction,success,random50_point
+Validation,London Honor Oak Park,8784,4409,8784,smoothed_get_prediction,success,random50_point
+Validation,London Marylebone Road,8784,4638,8784,smoothed_get_prediction,success,random50_point
+Validation,London N. Kensington,8784,4409,8784,smoothed_get_prediction,success,random50_point
+Test,London Bexley,8760,994,8760,smoothed_get_prediction,success,block24_10percent
+Test,London Harlington,8760,920,8760,smoothed_get_prediction,success,block24_10percent
+Test,London Honor Oak Park,8760,998,8760,smoothed_get_prediction,success,block24_10percent
+Test,London Marylebone Road,8760,1195,8760,smoothed_get_prediction,success,block24_10percent
+Test,London N. Kensington,8760,904,8760,smoothed_get_prediction,success,block24_10percent
+Validation,London Bexley,8784,900,8784,smoothed_get_prediction,success,block24_10percent
+Validation,London Harlington,8784,916,8784,smoothed_get_prediction,success,block24_10percent
+Validation,London Honor Oak Park,8784,923,8784,smoothed_get_prediction,success,block24_10percent
+Validation,London Marylebone Road,8784,1332,8784,smoothed_get_prediction,success,block24_10percent
+Validation,London N. Kensington,8784,921,8784,smoothed_get_prediction,success,block24_10percent
+Test,London Bexley,8760,994,8760,smoothed_get_prediction,success,block72_10percent
+Test,London Harlington,8760,968,8760,smoothed_get_prediction,success,block72_10percent
+Test,London Honor Oak Park,8760,1046,8760,smoothed_get_prediction,success,block72_10percent
+Test,London Marylebone Road,8760,1195,8760,smoothed_get_prediction,success,block72_10percent
+Test,London N. Kensington,8760,952,8760,smoothed_get_prediction,success,block72_10percent
+Validation,London Bexley,8784,948,8784,smoothed_get_prediction,success,block72_10percent
+Validation,London Harlington,8784,964,8784,smoothed_get_prediction,success,block72_10percent
+Validation,London Honor Oak Park,8784,971,8784,smoothed_get_prediction,success,block72_10percent
+Validation,London Marylebone Road,8784,1356,8784,smoothed_get_prediction,success,block72_10percent
+Validation,London N. Kensington,8784,969,8784,smoothed_get_prediction,success,block72_10percent

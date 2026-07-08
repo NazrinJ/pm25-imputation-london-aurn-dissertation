@@ -1,0 +1,27 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.env
+
+# Large model files
+models/
+*.pkl
+*.joblib
+*.h5
+*.keras
+
+# Raw compressed files
+*.zip
+data/raw/
+

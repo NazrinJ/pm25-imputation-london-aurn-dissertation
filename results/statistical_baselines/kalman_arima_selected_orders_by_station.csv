@@ -1,0 +1,6 @@
+Station,Order,OrderLabel,Trend,AIC,BIC,LogLikelihood,N_observations,Converged,FitStatus
+London Bexley,"(3, 0, 0)","ARIMA(3, 0, 0)",c,121782.24672529253,121823.12897184669,-60886.12336264626,26280,True,success
+London Harlington,"(2, 1, 1)","ARIMA(2, 1, 1)",n,104657.21341089645,104689.91920813978,-52324.60670544823,26280,True,success
+London Honor Oak Park,"(2, 0, 2)","ARIMA(2, 0, 2)",c,103896.73226639803,103945.79096226301,-51942.366133199015,26280,True,success
+London Marylebone Road,"(2, 1, 1)","ARIMA(2, 1, 1)",n,120754.82351854397,120787.5293157873,-60373.411759271985,26280,True,success
+London N. Kensington,"(2, 0, 2)","ARIMA(2, 0, 2)",c,102882.28988377775,102931.34857964273,-51435.14494188887,26280,True,success

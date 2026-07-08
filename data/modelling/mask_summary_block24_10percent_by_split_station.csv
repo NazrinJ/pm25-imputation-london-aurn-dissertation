@@ -1,0 +1,16 @@
+Split,Station,Total_rows,Observed_PM25,Real_missing_PM25,Artificially_masked,Artificial_mask_rate_%
+Train,London Bexley,26280,26205,75,0,0.0
+Train,London Harlington,26280,26146,134,0,0.0
+Train,London Honor Oak Park,26280,25883,397,0,0.0
+Train,London Marylebone Road,26280,23179,3101,0,0.0
+Train,London N. Kensington,26280,26099,181,0,0.0
+Validation,London Bexley,8784,8772,12,888,10.12
+Validation,London Harlington,8784,8756,28,888,10.14
+Validation,London Honor Oak Park,8784,8749,35,888,10.15
+Validation,London Marylebone Road,8784,8292,492,840,10.13
+Validation,London N. Kensington,8784,8751,33,888,10.15
+Test,London Bexley,8760,8630,130,864,10.01
+Test,London Harlington,8760,8728,32,888,10.17
+Test,London Honor Oak Park,8760,8650,110,888,10.27
+Test,London Marylebone Road,8760,8429,331,864,10.25
+Test,London N. Kensington,8760,8744,16,888,10.16

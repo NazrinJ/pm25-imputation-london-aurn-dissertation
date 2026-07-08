@@ -1,0 +1,13 @@
+Column,MissingCount,Missing_%,NonMissingCount,NonMissing_%,Dtype
+PM25,5107,2.33,214013,97.67,float64
+Temperature,4200,1.92,214920,98.08,float64
+Temperature_Status,4200,1.92,214920,98.08,object
+PM25_Status,130,0.06,218990,99.94,object
+Station,0,0.0,219120,100.0,object
+Datetime,0,0.0,219120,100.0,datetime64[ns]
+RawYear,0,0.0,219120,100.0,int32
+PM25_Missing,0,0.0,219120,100.0,bool
+Temperature_Missing,0,0.0,219120,100.0,bool
+Both_PM25_and_Temperature_Missing,0,0.0,219120,100.0,bool
+PM25_Missing_Temperature_Available,0,0.0,219120,100.0,bool
+PM25_Available_Temperature_Missing,0,0.0,219120,100.0,bool

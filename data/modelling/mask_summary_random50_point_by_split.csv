@@ -1,0 +1,4 @@
+Split,Total_rows,Observed_PM25,Real_missing_PM25,Artificially_masked,Artificial_mask_rate_%
+Train,131400,127512,3888,0,0.0
+Validation,43920,43320,600,21660,50.0
+Test,43800,43181,619,21590,50.0
