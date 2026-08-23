@@ -1,0 +1,11 @@
+Scenario,Split,UniqueCentredWindows,ExtractedTargetRows,ExpectedTargetRows,DuplicateTargetPredictions,ExtractionRule
+random10_point,Validation,3594,4332,4332,0,one centred window per unique target timestamp; centre-step predictions retained only for masked nodes
+random10_point,Test,3536,4318,4318,0,one centred window per unique target timestamp; centre-step predictions retained only for masked nodes
+random30_point,Validation,7284,12997,12997,0,one centred window per unique target timestamp; centre-step predictions retained only for masked nodes
+random30_point,Test,7259,12954,12954,0,one centred window per unique target timestamp; centre-step predictions retained only for masked nodes
+random50_point,Validation,8489,21660,21660,0,one centred window per unique target timestamp; centre-step predictions retained only for masked nodes
+random50_point,Test,8455,21590,21590,0,one centred window per unique target timestamp; centre-step predictions retained only for masked nodes
+block24_10percent,Validation,3662,4392,4392,0,one centred window per unique target timestamp; centre-step predictions retained only for masked nodes
+block24_10percent,Test,3546,4392,4392,0,one centred window per unique target timestamp; centre-step predictions retained only for masked nodes
+block72_10percent,Validation,3547,4608,4608,0,one centred window per unique target timestamp; centre-step predictions retained only for masked nodes
+block72_10percent,Test,3854,4536,4536,0,one centred window per unique target timestamp; centre-step predictions retained only for masked nodes

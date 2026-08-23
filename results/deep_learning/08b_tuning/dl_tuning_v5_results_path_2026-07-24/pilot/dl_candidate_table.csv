@@ -1,0 +1,3 @@
+CandidateID,context_hours,hidden_units,recurrent_layers,dropout,learning_rate
+1,96,32,1,0.0,0.001
+10,168,64,1,0.0,0.001

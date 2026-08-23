@@ -1,0 +1,35 @@
+{
+    "Artifacts": {
+        "RandomForest": {
+            "spatio_temporal": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\models\\machine_learning\\random_forest_best_parameters_spatio_temporal.json",
+            "temporal_only": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\models\\machine_learning\\random_forest_best_parameters_temporal_only.json"
+        },
+        "XGBoost": {
+            "spatio_temporal": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\models\\machine_learning\\xgboost_best_parameters_spatio_temporal.json",
+            "temporal_only": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\models\\machine_learning\\xgboost_best_parameters_temporal_only.json"
+        }
+    },
+    "Diagnostics": {
+        "AllCandidates": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\diagnostics\\ml_tuning_all_candidates.csv",
+        "BoundaryAudit": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\diagnostics\\ml_tuning_boundary_audit.csv",
+        "DiagnosticSummary": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\diagnostics\\ml_tuning_diagnostic_summary.csv",
+        "Figures": {
+            "RandomForestCumulativeBestMAE": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\figures\\randomforest_cumulative_best_mae.png",
+            "XGBoostBestIterations": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\figures\\xgboost_best_iterations.png",
+            "XGBoostCumulativeBestMAE": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\figures\\xgboost_cumulative_best_mae.png"
+        },
+        "Top5Candidates": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\diagnostics\\ml_tuning_top5_candidates.csv",
+        "XGBoostIterationAudit": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\diagnostics\\ml_tuning_xgb_iteration_audit.csv"
+    },
+    "EffectiveWorkers": 12,
+    "EnvironmentPath": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\computational_environment_tuning.json",
+    "InputDataFingerprint": "ac3f585c96f61adbd18f138f48784988b08bd60604af051cf4d9ce4040ca10aa",
+    "PipelineVersion": "ml_features_v2_2026-07-19",
+    "RequestedNJobs": -1,
+    "RuntimeRecordsPath": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\ml_tuning_runtime_records.csv",
+    "RuntimeSummaryPath": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\ml_tuning_runtime_summary.csv",
+    "SelectionMetric": "MAE",
+    "TuningCandidateCount": 30,
+    "TuningProfile": "full",
+    "TuningScenario": "random30_point"
+}

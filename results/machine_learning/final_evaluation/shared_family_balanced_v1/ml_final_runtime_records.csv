@@ -1,0 +1,143 @@
+Model,Scenario,FeatureSet,Stage,Split,ElapsedSeconds,NumberOfRows,NumberOfFeatures,Repetition,RequestedNJobs,EffectiveWorkers,Seed,Notes
+SharedPipeline,base_train,all,feature_engineering,Train,1.584471499954816,219120,,1,1,1,42,Shared feature construction; not included in model fit time
+SharedPipeline,base_train,temporal_only,preprocessing_fit_transform,Train,0.6419777999981306,127512,86.0,1,1,1,42,Train-only median imputer with missingness indicators
+SharedPipeline,base_train,spatio_temporal,preprocessing_fit_transform,Train,0.7419473000336438,127512,97.0,1,1,1,42,Train-only median imputer with missingness indicators
+RandomForest,final_model,temporal_only,final_fit,Train,256.41036779998103,127512,86.0,1,1,1,42,Fresh single-thread final fit
+RandomForest,final_model,spatio_temporal,final_fit,Train,110.80138169997372,127512,97.0,1,1,1,42,Fresh single-thread final fit
+XGBoost,final_model,temporal_only,final_fit,Train,6.884292799979448,127512,86.0,1,1,1,42,Fresh single-thread final fit
+XGBoost,final_model,spatio_temporal,final_fit,Train,9.2351473000017,127512,97.0,1,1,1,42,Fresh single-thread final fit
+SharedPipeline,random10_point,all,feature_engineering,Test,1.316365999984555,219120,,1,1,1,42,Scenario-specific leakage-safe feature construction
+SharedPipeline,random10_point,temporal_only,preprocessing_transform,Test,0.003426700015552342,4318,86.0,1,1,1,42,Frozen Train-fitted imputer
+SharedPipeline,random10_point,spatio_temporal,preprocessing_transform,Test,0.004123399965465069,4318,97.0,1,1,1,42,Frozen Train-fitted imputer
+RandomForest,random10_point,temporal_only,model_load,Test,1.0865545999840833,4318,86.0,1,1,1,42,Excluded from pure inference time
+RandomForest,random10_point,temporal_only,inference,Test,0.39118679997045547,4318,86.0,1,1,1,42,Warm-up excluded; raw model prediction only
+RandomForest,random10_point,temporal_only,inference,Test,0.3740299000055529,4318,86.0,2,1,1,42,Warm-up excluded; raw model prediction only
+RandomForest,random10_point,temporal_only,inference,Test,0.37392819998785853,4318,86.0,3,1,1,42,Warm-up excluded; raw model prediction only
+RandomForest,random10_point,temporal_only,inference,Test,0.3759342000121251,4318,86.0,4,1,1,42,Warm-up excluded; raw model prediction only
+RandomForest,random10_point,temporal_only,inference,Test,0.3731201999471523,4318,86.0,5,1,1,42,Warm-up excluded; raw model prediction only
+RandomForest,random10_point,spatio_temporal,model_load,Test,0.31900150002911687,4318,97.0,1,1,1,42,Excluded from pure inference time
+RandomForest,random10_point,spatio_temporal,inference,Test,0.16123540000990033,4318,97.0,1,1,1,42,Warm-up excluded; raw model prediction only
+RandomForest,random10_point,spatio_temporal,inference,Test,0.16084000002592802,4318,97.0,2,1,1,42,Warm-up excluded; raw model prediction only
+RandomForest,random10_point,spatio_temporal,inference,Test,0.1671832000138238,4318,97.0,3,1,1,42,Warm-up excluded; raw model prediction only
+RandomForest,random10_point,spatio_temporal,inference,Test,0.1620679999468848,4318,97.0,4,1,1,42,Warm-up excluded; raw model prediction only
+RandomForest,random10_point,spatio_temporal,inference,Test,0.1613373999716714,4318,97.0,5,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,random10_point,temporal_only,model_load,Test,0.11953969998285174,4318,86.0,1,1,1,42,Excluded from pure inference time
+XGBoost,random10_point,temporal_only,inference,Test,0.02416480000829324,4318,86.0,1,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,random10_point,temporal_only,inference,Test,0.016336500004399568,4318,86.0,2,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,random10_point,temporal_only,inference,Test,0.016109100019093603,4318,86.0,3,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,random10_point,temporal_only,inference,Test,0.015674599970225245,4318,86.0,4,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,random10_point,temporal_only,inference,Test,0.015569799987133592,4318,86.0,5,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,random10_point,spatio_temporal,model_load,Test,0.134494400001131,4318,97.0,1,1,1,42,Excluded from pure inference time
+XGBoost,random10_point,spatio_temporal,inference,Test,0.030207500036340207,4318,97.0,1,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,random10_point,spatio_temporal,inference,Test,0.020208000030834228,4318,97.0,2,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,random10_point,spatio_temporal,inference,Test,0.019473699969239533,4318,97.0,3,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,random10_point,spatio_temporal,inference,Test,0.018808000022545457,4318,97.0,4,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,random10_point,spatio_temporal,inference,Test,0.018687699979636818,4318,97.0,5,1,1,42,Warm-up excluded; raw model prediction only
+SharedPipeline,random30_point,all,feature_engineering,Test,1.2684894999838434,219120,,1,1,1,42,Scenario-specific leakage-safe feature construction
+SharedPipeline,random30_point,temporal_only,preprocessing_transform,Test,0.009486900002229959,12954,86.0,1,1,1,42,Frozen Train-fitted imputer
+SharedPipeline,random30_point,spatio_temporal,preprocessing_transform,Test,0.010254699969664216,12954,97.0,1,1,1,42,Frozen Train-fitted imputer
+RandomForest,random30_point,temporal_only,model_load,Test,0.9750760999741033,12954,86.0,1,1,1,42,Excluded from pure inference time
+RandomForest,random30_point,temporal_only,inference,Test,0.974699700018391,12954,86.0,1,1,1,42,Warm-up excluded; raw model prediction only
+RandomForest,random30_point,temporal_only,inference,Test,1.007085100049153,12954,86.0,2,1,1,42,Warm-up excluded; raw model prediction only
+RandomForest,random30_point,temporal_only,inference,Test,0.871357399970293,12954,86.0,3,1,1,42,Warm-up excluded; raw model prediction only
+RandomForest,random30_point,temporal_only,inference,Test,0.8713953999686055,12954,86.0,4,1,1,42,Warm-up excluded; raw model prediction only
+RandomForest,random30_point,temporal_only,inference,Test,0.9036318999715149,12954,86.0,5,1,1,42,Warm-up excluded; raw model prediction only
+RandomForest,random30_point,spatio_temporal,model_load,Test,0.3069420999963768,12954,97.0,1,1,1,42,Excluded from pure inference time
+RandomForest,random30_point,spatio_temporal,inference,Test,0.39674930000910535,12954,97.0,1,1,1,42,Warm-up excluded; raw model prediction only
+RandomForest,random30_point,spatio_temporal,inference,Test,0.402121499995701,12954,97.0,2,1,1,42,Warm-up excluded; raw model prediction only
+RandomForest,random30_point,spatio_temporal,inference,Test,0.39579349994892254,12954,97.0,3,1,1,42,Warm-up excluded; raw model prediction only
+RandomForest,random30_point,spatio_temporal,inference,Test,0.4002753000240773,12954,97.0,4,1,1,42,Warm-up excluded; raw model prediction only
+RandomForest,random30_point,spatio_temporal,inference,Test,0.3977956000017002,12954,97.0,5,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,random30_point,temporal_only,model_load,Test,0.09327939996728674,12954,86.0,1,1,1,42,Excluded from pure inference time
+XGBoost,random30_point,temporal_only,inference,Test,0.06263330002548173,12954,86.0,1,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,random30_point,temporal_only,inference,Test,0.0468317000195384,12954,86.0,2,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,random30_point,temporal_only,inference,Test,0.046456300013232976,12954,86.0,3,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,random30_point,temporal_only,inference,Test,0.0442439999897033,12954,86.0,4,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,random30_point,temporal_only,inference,Test,0.04476570000406355,12954,86.0,5,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,random30_point,spatio_temporal,model_load,Test,0.1263209999888204,12954,97.0,1,1,1,42,Excluded from pure inference time
+XGBoost,random30_point,spatio_temporal,inference,Test,0.072764000040479,12954,97.0,1,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,random30_point,spatio_temporal,inference,Test,0.05773499998031184,12954,97.0,2,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,random30_point,spatio_temporal,inference,Test,0.05632739997236058,12954,97.0,3,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,random30_point,spatio_temporal,inference,Test,0.05630529997870326,12954,97.0,4,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,random30_point,spatio_temporal,inference,Test,0.056566799990832806,12954,97.0,5,1,1,42,Warm-up excluded; raw model prediction only
+SharedPipeline,random50_point,all,feature_engineering,Test,1.2675439000013284,219120,,1,1,1,42,Scenario-specific leakage-safe feature construction
+SharedPipeline,random50_point,temporal_only,preprocessing_transform,Test,0.018503499974031,21590,86.0,1,1,1,42,Frozen Train-fitted imputer
+SharedPipeline,random50_point,spatio_temporal,preprocessing_transform,Test,0.018852400011382997,21590,97.0,1,1,1,42,Frozen Train-fitted imputer
+RandomForest,random50_point,temporal_only,model_load,Test,0.9590358000132255,21590,86.0,1,1,1,42,Excluded from pure inference time
+RandomForest,random50_point,temporal_only,inference,Test,1.3297162000089884,21590,86.0,1,1,1,42,Warm-up excluded; raw model prediction only
+RandomForest,random50_point,temporal_only,inference,Test,1.3029837000067346,21590,86.0,2,1,1,42,Warm-up excluded; raw model prediction only
+RandomForest,random50_point,temporal_only,inference,Test,1.3123840000480413,21590,86.0,3,1,1,42,Warm-up excluded; raw model prediction only
+RandomForest,random50_point,temporal_only,inference,Test,1.4181099000270478,21590,86.0,4,1,1,42,Warm-up excluded; raw model prediction only
+RandomForest,random50_point,temporal_only,inference,Test,1.3684874000027776,21590,86.0,5,1,1,42,Warm-up excluded; raw model prediction only
+RandomForest,random50_point,spatio_temporal,model_load,Test,0.3152638000319712,21590,97.0,1,1,1,42,Excluded from pure inference time
+RandomForest,random50_point,spatio_temporal,inference,Test,0.6389812999987043,21590,97.0,1,1,1,42,Warm-up excluded; raw model prediction only
+RandomForest,random50_point,spatio_temporal,inference,Test,0.6523721000412479,21590,97.0,2,1,1,42,Warm-up excluded; raw model prediction only
+RandomForest,random50_point,spatio_temporal,inference,Test,0.6339403999736533,21590,97.0,3,1,1,42,Warm-up excluded; raw model prediction only
+RandomForest,random50_point,spatio_temporal,inference,Test,0.6174717000103556,21590,97.0,4,1,1,42,Warm-up excluded; raw model prediction only
+RandomForest,random50_point,spatio_temporal,inference,Test,0.6174580000224523,21590,97.0,5,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,random50_point,temporal_only,model_load,Test,0.09297630004584789,21590,86.0,1,1,1,42,Excluded from pure inference time
+XGBoost,random50_point,temporal_only,inference,Test,0.09778609999921173,21590,86.0,1,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,random50_point,temporal_only,inference,Test,0.07490749994758517,21590,86.0,2,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,random50_point,temporal_only,inference,Test,0.07432180002797395,21590,86.0,3,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,random50_point,temporal_only,inference,Test,0.07570609997492284,21590,86.0,4,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,random50_point,temporal_only,inference,Test,0.07523119996767491,21590,86.0,5,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,random50_point,spatio_temporal,model_load,Test,0.11904590000631288,21590,97.0,1,1,1,42,Excluded from pure inference time
+XGBoost,random50_point,spatio_temporal,inference,Test,0.11064780002925545,21590,97.0,1,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,random50_point,spatio_temporal,inference,Test,0.0940427000168711,21590,97.0,2,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,random50_point,spatio_temporal,inference,Test,0.09496700001182035,21590,97.0,3,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,random50_point,spatio_temporal,inference,Test,0.10787700000219047,21590,97.0,4,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,random50_point,spatio_temporal,inference,Test,0.09772650001104921,21590,97.0,5,1,1,42,Warm-up excluded; raw model prediction only
+SharedPipeline,block24_10percent,all,feature_engineering,Test,1.2285822999547236,219120,,1,1,1,42,Scenario-specific leakage-safe feature construction
+SharedPipeline,block24_10percent,temporal_only,preprocessing_transform,Test,0.004595700011122972,4392,86.0,1,1,1,42,Frozen Train-fitted imputer
+SharedPipeline,block24_10percent,spatio_temporal,preprocessing_transform,Test,0.0043561000493355095,4392,97.0,1,1,1,42,Frozen Train-fitted imputer
+RandomForest,block24_10percent,temporal_only,model_load,Test,0.9453183999867178,4392,86.0,1,1,1,42,Excluded from pure inference time
+RandomForest,block24_10percent,temporal_only,inference,Test,0.17743380001047626,4392,86.0,1,1,1,42,Warm-up excluded; raw model prediction only
+RandomForest,block24_10percent,temporal_only,inference,Test,0.17130180000094697,4392,86.0,2,1,1,42,Warm-up excluded; raw model prediction only
+RandomForest,block24_10percent,temporal_only,inference,Test,0.17409839999163523,4392,86.0,3,1,1,42,Warm-up excluded; raw model prediction only
+RandomForest,block24_10percent,temporal_only,inference,Test,0.1946044000214897,4392,86.0,4,1,1,42,Warm-up excluded; raw model prediction only
+RandomForest,block24_10percent,temporal_only,inference,Test,0.1703538000001572,4392,86.0,5,1,1,42,Warm-up excluded; raw model prediction only
+RandomForest,block24_10percent,spatio_temporal,model_load,Test,0.30529030004981905,4392,97.0,1,1,1,42,Excluded from pure inference time
+RandomForest,block24_10percent,spatio_temporal,inference,Test,0.09628649998921901,4392,97.0,1,1,1,42,Warm-up excluded; raw model prediction only
+RandomForest,block24_10percent,spatio_temporal,inference,Test,0.09642269997857511,4392,97.0,2,1,1,42,Warm-up excluded; raw model prediction only
+RandomForest,block24_10percent,spatio_temporal,inference,Test,0.0962199000059627,4392,97.0,3,1,1,42,Warm-up excluded; raw model prediction only
+RandomForest,block24_10percent,spatio_temporal,inference,Test,0.0951958000077866,4392,97.0,4,1,1,42,Warm-up excluded; raw model prediction only
+RandomForest,block24_10percent,spatio_temporal,inference,Test,0.09736559999873862,4392,97.0,5,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,block24_10percent,temporal_only,model_load,Test,0.0913995000300929,4392,86.0,1,1,1,42,Excluded from pure inference time
+XGBoost,block24_10percent,temporal_only,inference,Test,0.024220699968282133,4392,86.0,1,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,block24_10percent,temporal_only,inference,Test,0.0188697999692522,4392,86.0,2,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,block24_10percent,temporal_only,inference,Test,0.01684559998102486,4392,86.0,3,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,block24_10percent,temporal_only,inference,Test,0.01537749997805804,4392,86.0,4,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,block24_10percent,temporal_only,inference,Test,0.01531669998075813,4392,86.0,5,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,block24_10percent,spatio_temporal,model_load,Test,0.1054648999706842,4392,97.0,1,1,1,42,Excluded from pure inference time
+XGBoost,block24_10percent,spatio_temporal,inference,Test,0.030280300008598715,4392,97.0,1,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,block24_10percent,spatio_temporal,inference,Test,0.020362399984151125,4392,97.0,2,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,block24_10percent,spatio_temporal,inference,Test,0.019646400003693998,4392,97.0,3,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,block24_10percent,spatio_temporal,inference,Test,0.019133699999656528,4392,97.0,4,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,block24_10percent,spatio_temporal,inference,Test,0.01901170000201091,4392,97.0,5,1,1,42,Warm-up excluded; raw model prediction only
+SharedPipeline,block72_10percent,all,feature_engineering,Test,1.2706183000118472,219120,,1,1,1,42,Scenario-specific leakage-safe feature construction
+SharedPipeline,block72_10percent,temporal_only,preprocessing_transform,Test,0.0045146000338718295,4536,86.0,1,1,1,42,Frozen Train-fitted imputer
+SharedPipeline,block72_10percent,spatio_temporal,preprocessing_transform,Test,0.004712799971457571,4536,97.0,1,1,1,42,Frozen Train-fitted imputer
+RandomForest,block72_10percent,temporal_only,model_load,Test,1.0364946000045165,4536,86.0,1,1,1,42,Excluded from pure inference time
+RandomForest,block72_10percent,temporal_only,inference,Test,0.14268049999373034,4536,86.0,1,1,1,42,Warm-up excluded; raw model prediction only
+RandomForest,block72_10percent,temporal_only,inference,Test,0.14038700005039573,4536,86.0,2,1,1,42,Warm-up excluded; raw model prediction only
+RandomForest,block72_10percent,temporal_only,inference,Test,0.1349546000128612,4536,86.0,3,1,1,42,Warm-up excluded; raw model prediction only
+RandomForest,block72_10percent,temporal_only,inference,Test,0.13544839998940006,4536,86.0,4,1,1,42,Warm-up excluded; raw model prediction only
+RandomForest,block72_10percent,temporal_only,inference,Test,0.1312006000080146,4536,86.0,5,1,1,42,Warm-up excluded; raw model prediction only
+RandomForest,block72_10percent,spatio_temporal,model_load,Test,0.30370579997543246,4536,97.0,1,1,1,42,Excluded from pure inference time
+RandomForest,block72_10percent,spatio_temporal,inference,Test,0.08302740001818165,4536,97.0,1,1,1,42,Warm-up excluded; raw model prediction only
+RandomForest,block72_10percent,spatio_temporal,inference,Test,0.08302929997444153,4536,97.0,2,1,1,42,Warm-up excluded; raw model prediction only
+RandomForest,block72_10percent,spatio_temporal,inference,Test,0.0830699999933131,4536,97.0,3,1,1,42,Warm-up excluded; raw model prediction only
+RandomForest,block72_10percent,spatio_temporal,inference,Test,0.08526610000990331,4536,97.0,4,1,1,42,Warm-up excluded; raw model prediction only
+RandomForest,block72_10percent,spatio_temporal,inference,Test,0.08255350001854822,4536,97.0,5,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,block72_10percent,temporal_only,model_load,Test,0.08987409999826923,4536,86.0,1,1,1,42,Excluded from pure inference time
+XGBoost,block72_10percent,temporal_only,inference,Test,0.02459899999666959,4536,86.0,1,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,block72_10percent,temporal_only,inference,Test,0.01675519999116659,4536,86.0,2,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,block72_10percent,temporal_only,inference,Test,0.017273599980399013,4536,86.0,3,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,block72_10percent,temporal_only,inference,Test,0.015747299999929965,4536,86.0,4,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,block72_10percent,temporal_only,inference,Test,0.015843900036998093,4536,86.0,5,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,block72_10percent,spatio_temporal,model_load,Test,0.10647240001708269,4536,97.0,1,1,1,42,Excluded from pure inference time
+XGBoost,block72_10percent,spatio_temporal,inference,Test,0.030751399986911565,4536,97.0,1,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,block72_10percent,spatio_temporal,inference,Test,0.021135499991942197,4536,97.0,2,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,block72_10percent,spatio_temporal,inference,Test,0.020372500002849847,4536,97.0,3,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,block72_10percent,spatio_temporal,inference,Test,0.019707500003278255,4536,97.0,4,1,1,42,Warm-up excluded; raw model prediction only
+XGBoost,block72_10percent,spatio_temporal,inference,Test,0.019683699996676296,4536,97.0,5,1,1,42,Warm-up excluded; raw model prediction only

@@ -1,0 +1,5 @@
+Model,Scenario,FeatureSet,Stage,Split,ElapsedSeconds,NumberOfRows,NumberOfFeatures,NumberOfCandidates,Repetition,RequestedNJobs,EffectiveWorkers,Seed,Notes
+RandomForest,random30_point,temporal_only,tuning,Train+Validation,1177.8610591000142,127512,86,30,1,-1,12,42,Checkpointed random search; selected by Validation MAE
+RandomForest,random30_point,spatio_temporal,tuning,Train+Validation,1359.291917800001,127512,97,30,1,-1,12,42,Checkpointed random search; selected by Validation MAE
+XGBoost,random30_point,temporal_only,tuning,Train+Validation,247.1677937999848,127512,86,30,1,-1,12,42,Checkpointed random search with Validation early stopping
+XGBoost,random30_point,spatio_temporal,tuning,Train+Validation,248.50171629998658,127512,97,30,1,-1,12,42,Checkpointed random search with Validation early stopping

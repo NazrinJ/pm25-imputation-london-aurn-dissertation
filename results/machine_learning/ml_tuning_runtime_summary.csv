@@ -1,0 +1,5 @@
+Model,Scenario,FeatureSet,Stage,Split,RequestedNJobs,EffectiveWorkers,MedianSeconds,MeanSeconds,MinimumSeconds,MaximumSeconds,Repetitions,NumberOfRows,NumberOfFeatures,NumberOfCandidates,MillisecondsPer1000Predictions
+RandomForest,random30_point,spatio_temporal,tuning,Train+Validation,-1,12,1359.291917800001,1359.291917800001,1359.291917800001,1359.291917800001,1,127512,97,30,
+RandomForest,random30_point,temporal_only,tuning,Train+Validation,-1,12,1177.8610591000142,1177.8610591000142,1177.8610591000142,1177.8610591000142,1,127512,86,30,
+XGBoost,random30_point,spatio_temporal,tuning,Train+Validation,-1,12,248.50171629998658,248.50171629998658,248.50171629998658,248.50171629998658,1,127512,97,30,
+XGBoost,random30_point,temporal_only,tuning,Train+Validation,-1,12,247.1677937999848,247.1677937999848,247.1677937999848,247.1677937999848,1,127512,86,30,

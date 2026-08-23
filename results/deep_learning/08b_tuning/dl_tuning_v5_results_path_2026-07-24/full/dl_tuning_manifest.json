@@ -1,0 +1,71 @@
+{
+  "PipelineVersion": "dl_tuning_v5_results_path_2026-07-24",
+  "Status": "full_validation_tuning_complete",
+  "Notebook": "08b_deep_learning_graph_recurrent_pilot_and_tuning",
+  "RunProfile": "full",
+  "TestDataUsedForSelection": false,
+  "ModelFamily": "compact_GRIN_inspired_graph_enhanced_BiGRU",
+  "PrimaryGraph": "fixed_directed_top3_IDW",
+  "CandidateIDs": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "CandidateCount": 12,
+  "TrainSamplesPerEpoch": 2048,
+  "ValidationScope": "all_fixed_validation_targets",
+  "MaximumEpochs": 100,
+  "Patience": 10,
+  "BatchSize": 32,
+  "ValidationBatchSize": 64,
+  "GradientClipNorm": 1.0,
+  "Loss": "window_balanced_masked_L1_standardised_PM25_at_all_artificially_hidden_centre_step_nodes",
+  "EarlyStoppingMetric": "FamilyBalancedValidationMAE_original_units",
+  "NaNSafeTargetHandling": {
+    "NonTargetNaturalMissingTruth": "replaced_with_zero_after_target_finiteness_assertion",
+    "MaskedReduction": "torch_where_before_window_reduction"
+  },
+  "TrainingHistoryMetrics": {
+    "OptimisationLoss": "window-balanced masked L1 in standardised units",
+    "PooledTrainDiagnostic": "target-pooled masked MAE in original PM2.5 units"
+  },
+  "DiagnosticFigures": {
+    "CumulativeBest": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\deep_learning\\08b_tuning\\dl_tuning_v5_results_path_2026-07-24\\full\\dl_cumulative_best_validation_mae.png",
+    "TopCandidates": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\deep_learning\\08b_tuning\\dl_tuning_v5_results_path_2026-07-24\\full\\dl_top_candidate_validation_mae.png",
+    "TrainValidationLearningCurve": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\deep_learning\\08b_tuning\\dl_tuning_v5_results_path_2026-07-24\\full\\dl_selected_candidate_train_validation_learning_curve.png",
+    "ValidationFamilyLearningCurve": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\deep_learning\\08b_tuning\\dl_tuning_v5_results_path_2026-07-24\\full\\dl_selected_candidate_validation_family_learning_curve.png",
+    "CandidateScenarioHeatmap": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\deep_learning\\08b_tuning\\dl_tuning_v5_results_path_2026-07-24\\full\\dl_candidate_scenario_validation_mae_heatmap.png"
+  },
+  "TrainMasking": "deterministic_epoch_wise_resampling",
+  "BlockBackgroundMasking": {
+    "Purpose": "represent concurrent station gaps in the fixed block scenarios",
+    "ExpectedLocalCoverageOnNonTargetNodes": 0.1,
+    "MaximumBlocksPerNonTargetNodePerSample": 1
+  },
+  "ModelInitialisationSeed": 4242,
+  "TrainMaskBaseSeed": 42000,
+  "TrainOrderBaseSeed": 52000,
+  "SelectedCandidateID": 10,
+  "SelectedConfigurationPath": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\deep_learning\\08b_tuning\\dl_tuning_v5_results_path_2026-07-24\\full\\dl_best_graph_tuning_configuration.json",
+  "OverallTuningSecondsThisSession": 6631.0887042,
+  "TotalCandidateWallSecondsAcrossCandidates": 6585.822345399999,
+  "Device": "cuda",
+  "GPU": "NVIDIA GeForce GTX 1660 Ti",
+  "PyTorchVersion": "2.11.0+cu128",
+  "CUDAReportedByPyTorch": "12.8",
+  "DeterministicAlgorithmsWarnOnly": true,
+  "CuDNNBenchmark": false,
+  "CuDNNDeterministic": true,
+  "ContractFingerprint": "f07c6a2e2e3168141892f956fd013cec930a387d9f96aa32f43f20066b75eb50",
+  "OutputDirectory": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\deep_learning\\08b_tuning\\dl_tuning_v5_results_path_2026-07-24\\full",
+  "ModelDirectory": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\models\\deep_learning\\tuning\\dl_tuning_v5_results_path_2026-07-24\\full"
+}

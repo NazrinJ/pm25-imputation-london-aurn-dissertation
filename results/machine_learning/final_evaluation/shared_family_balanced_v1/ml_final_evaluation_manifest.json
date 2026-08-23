@@ -1,0 +1,119 @@
+{
+    "EnvironmentPath": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\final_evaluation\\shared_family_balanced_v1\\computational_environment_final_evaluation.json",
+    "EvaluationSplit": "Test",
+    "ExpectedEvaluations": 20,
+    "FamilyWeights": {
+        "block_gap": 0.5,
+        "random_point": 0.5
+    },
+    "FeatureSets": [
+        "temporal_only",
+        "spatio_temporal"
+    ],
+    "Figures": {
+        "Block72GapPositionMAE": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\final_evaluation\\shared_family_balanced_v1\\figures\\ml_block72_gap_position_mae.png",
+        "FinalTestMAEByScenario": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\final_evaluation\\shared_family_balanced_v1\\figures\\ml_final_test_mae_by_scenario.png",
+        "RQ3SpatialMAEImprovement": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\final_evaluation\\shared_family_balanced_v1\\figures\\ml_rq3_spatial_mae_improvement.png"
+    },
+    "FinalFitRepeats": 1,
+    "InferenceRepeats": 5,
+    "InputDataFingerprint": "5828033a47e47911682a9204d743dffbb93a284f3aeb293916b75eeab70aa331",
+    "ModelArtifacts": [
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\models\\machine_learning\\final_models\\shared_family_balanced_v1\\random_forest_temporal_only_final.joblib",
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\models\\machine_learning\\final_models\\shared_family_balanced_v1\\random_forest_spatio_temporal_final.joblib",
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\models\\machine_learning\\final_models\\shared_family_balanced_v1\\xgboost_temporal_only_final.json",
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\models\\machine_learning\\final_models\\shared_family_balanced_v1\\xgboost_spatio_temporal_final.json"
+    ],
+    "ModelManifests": [
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\models\\machine_learning\\final_models\\shared_family_balanced_v1\\manifests\\randomforest_temporal_only_manifest.json",
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\models\\machine_learning\\final_models\\shared_family_balanced_v1\\manifests\\randomforest_spatio_temporal_manifest.json",
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\models\\machine_learning\\final_models\\shared_family_balanced_v1\\manifests\\xgboost_temporal_only_manifest.json",
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\models\\machine_learning\\final_models\\shared_family_balanced_v1\\manifests\\xgboost_spatio_temporal_manifest.json"
+    ],
+    "Models": [
+        "RandomForest",
+        "XGBoost"
+    ],
+    "NestedRandomConditions": true,
+    "ObservedEvaluations": 20,
+    "OutputFiles": [
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\final_evaluation\\shared_family_balanced_v1\\scenario_input_audit.csv",
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\final_evaluation\\shared_family_balanced_v1\\mask_audit_by_split_station.csv",
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\final_evaluation\\shared_family_balanced_v1\\ml_shared_tuning_selection_audit.csv",
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\final_evaluation\\shared_family_balanced_v1\\ml_final_test_predictions.csv",
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\final_evaluation\\shared_family_balanced_v1\\ml_final_test_metrics.csv",
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\final_evaluation\\shared_family_balanced_v1\\ml_final_test_metrics_by_station.csv",
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\final_evaluation\\shared_family_balanced_v1\\ml_prediction_diagnostics.csv",
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\final_evaluation\\shared_family_balanced_v1\\ml_rq3_spatial_ablation.csv",
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\final_evaluation\\shared_family_balanced_v1\\ml_rq3_spatial_ablation_by_station.csv",
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\final_evaluation\\shared_family_balanced_v1\\ml_block_gap_predictions_with_position.csv",
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\final_evaluation\\shared_family_balanced_v1\\ml_block_gap_hourly_error_profile.csv",
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\final_evaluation\\shared_family_balanced_v1\\ml_block_gap_region_metrics.csv",
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\final_evaluation\\shared_family_balanced_v1\\ml_block_gap_edge_middle_comparison.csv",
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\final_evaluation\\shared_family_balanced_v1\\ml_accuracy_cost_summary.csv",
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\final_evaluation\\shared_family_balanced_v1\\ml_final_runtime_records.csv",
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\final_evaluation\\shared_family_balanced_v1\\ml_final_runtime_summary.csv",
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\final_evaluation\\shared_family_balanced_v1\\computational_environment_final_evaluation.json",
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\final_evaluation\\shared_family_balanced_v1\\figures\\ml_final_test_mae_by_scenario.png",
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\final_evaluation\\shared_family_balanced_v1\\figures\\ml_rq3_spatial_mae_improvement.png",
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\final_evaluation\\shared_family_balanced_v1\\figures\\ml_block72_gap_position_mae.png",
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\final_evaluation\\shared_family_balanced_v1\\ml_feature_importance.csv"
+    ],
+    "PipelineVersion": "ml_features_v2_2026-07-19",
+    "PredictionClippingApplied": false,
+    "RuntimeNJobs": 1,
+    "ScenarioDataFingerprints": {
+        "block24_10percent": "ddd99c0ebe9015eff57355abd6eea0c83f0c47c51a03c7d90328bde026fd68b7",
+        "block72_10percent": "290e1ef307c9a8034e203f460a930663568f58431e6b68d8438af707023a7cec",
+        "random10_point": "249f865a49f951d4b4ab25547ad51e77b486002384e2a3b8b20a1c59ea9c3cab",
+        "random30_point": "ac3f585c96f61adbd18f138f48784988b08bd60604af051cf4d9ce4040ca10aa",
+        "random50_point": "ba807c03d75a906f7aa2180e087f5d155e11503cc4319b03c1e3ae2c32cfacb3"
+    },
+    "ScenarioFamilies": {
+        "block_gap": [
+            "block24_10percent",
+            "block72_10percent"
+        ],
+        "random_point": [
+            "random10_point",
+            "random30_point",
+            "random50_point"
+        ]
+    },
+    "Scenarios": [
+        "random10_point",
+        "random30_point",
+        "random50_point",
+        "block24_10percent",
+        "block72_10percent"
+    ],
+    "SelectionMetric": "FamilyBalancedValidationMAE",
+    "SelectionSortColumns": [
+        "FamilyBalancedValidationMAE",
+        "FamilyBalancedValidationRMSE",
+        "FitSeconds",
+        "CandidateNumber"
+    ],
+    "Status": "complete",
+    "TuningArtifacts": {
+        "RandomForest": {
+            "spatio_temporal": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\models\\machine_learning\\random_forest_best_parameters_spatio_temporal_shared_family_balanced.json",
+            "temporal_only": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\models\\machine_learning\\random_forest_best_parameters_temporal_only_shared_family_balanced.json"
+        },
+        "XGBoost": {
+            "spatio_temporal": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\models\\machine_learning\\xgboost_best_parameters_spatio_temporal_shared_family_balanced.json",
+            "temporal_only": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\models\\machine_learning\\xgboost_best_parameters_temporal_only_shared_family_balanced.json"
+        }
+    },
+    "TuningManifestPath": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\ml_tuning_manifest_shared_family_balanced.json",
+    "TuningProtocol": "shared_family_balanced",
+    "TuningProtocolVersion": "shared_family_balanced_v1",
+    "TuningRuntimeSummaryPath": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\ml_tuning_runtime_summary_shared_family_balanced.csv",
+    "TuningScenarios": [
+        "random10_point",
+        "random30_point",
+        "random50_point",
+        "block24_10percent",
+        "block72_10percent"
+    ]
+}

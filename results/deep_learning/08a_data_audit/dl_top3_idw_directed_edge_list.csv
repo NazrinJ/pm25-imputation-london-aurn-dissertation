@@ -1,0 +1,16 @@
+TargetStation,SourceNeighbourStation,NeighbourRank,DistanceKm,IDWWeight
+London Bexley,London Honor Oak Park,1,15.5,0.457
+London Bexley,London Marylebone Road,2,24.32,0.292
+London Bexley,London N. Kensington,3,28.24,0.251
+London Harlington,London N. Kensington,1,16.2,0.421
+London Harlington,London Marylebone Road,2,20.22,0.338
+London Harlington,London Honor Oak Park,3,28.33,0.241
+London Honor Oak Park,London Marylebone Road,1,11.47,0.395
+London Honor Oak Park,London N. Kensington,2,14.54,0.312
+London Honor Oak Park,London Bexley,3,15.5,0.293
+London Marylebone Road,London N. Kensington,1,4.07,0.643
+London Marylebone Road,London Honor Oak Park,2,11.47,0.228
+London Marylebone Road,London Harlington,3,20.22,0.129
+London N. Kensington,London Marylebone Road,1,4.07,0.653
+London N. Kensington,London Honor Oak Park,2,14.54,0.183
+London N. Kensington,London Harlington,3,16.2,0.164

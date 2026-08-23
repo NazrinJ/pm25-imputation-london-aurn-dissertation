@@ -1,128 +1,117 @@
 # PM2.5 Imputation in the London AURN Monitoring Network
 
-This repository contains the code and notebooks for my MSc dissertation project:
+This repository contains the code and notebooks for the MSc dissertation:
 
-**A Comparative Evaluation of Statistical, Machine Learning and Deep Learning Methods for Spatio-Temporal PM2.5 Imputation in the London AURN Monitoring Network**
+**A Comparative Evaluation of Statistical, Machine Learning and Deep Learning Methods for PM2.5 Imputation in the London AURN Monitoring Network**
 
-The project evaluates different approaches for imputing missing hourly PM2.5 observations using data from selected London AURN monitoring stations between 2021 and 2025.
-
-## Project status
-
-The repository currently includes the completed data preparation, exploratory analysis, artificial masking setup, and statistical baseline modelling stages. Machine learning and deep learning models will be added in later stages of the project.
-
-Current completed stages:
-
-- Station and period selection
-- Final panel construction and validation
-- Missingness and data quality analysis
-- PM2.5 distribution and temporal exploratory data analysis
-- Spatial predictor and train-validation-test split analysis
-- Artificial masking scenario generation
-- Statistical baseline imputation models
-
-Planned next stages:
-
-- Random Forest imputation model
-- XGBoost imputation model
-- LSTM (unidirectional) deep learning model
-- Overall model comparison across masking scenarios
+The project compares statistical, machine-learning and deep-learning approaches for retrospective hourly PM2.5 imputation across five selected London AURN monitoring stations using data from 2021 to 2025.
 
 ## Repository structure
 
 ```text
 Codes/
-├── data/          # Processed or intermediate data files used by notebooks
-├── models/        # Local model outputs, excluded from GitHub where large
-├── notebooks/     # Jupyter notebooks for each project stage
-├── results/       # Figures, tables and model evaluation outputs
+├── data/
+│   ├── raw/               # Raw hourly CSV files downloaded from UK-AIR AURN
+│   ├── processed/         # Cleaned panel, station metadata, neighbour weights
+│   └── modelling/         # Masked scenario datasets for Train, Validation and Test
+├── models/
+│   └── deep_learning/     # Trained model checkpoints (.pt)
+├── notebooks/             # Jupyter notebooks for each project stage
+├── results/
+│   ├── statistical_baselines/
+│   ├── ml_evaluation/
+│   ├── deep_learning/
+│   │   ├── 08a_data_audit/
+│   │   ├── 08b_tuning/
+│   │   └── 08c_final_evaluation/
+│   ├── final_comparison/
+│   │   └── 09_cross_tier/
+│   └── regenerated_heatmaps/
 ├── .gitignore
 └── README.md
 ```
 
 ## Notebooks
 
-The current workflow is organised into sequential notebooks:
+The workflow is organised as a sequential pipeline. Each notebook reads the verified outputs of its predecessor. No notebook re-tunes or re-fits a model frozen in an earlier stage.
 
 | Notebook | Purpose |
-| --- | --- |
-| `01_station_and_period_selection.ipynb` | Selects the study period and final AURN monitoring stations based on PM2.5 capture criteria. |
-| `02_missingness_and_data_quality_eda.ipynb` | Analyses missingness, data quality, missing gap lengths and PM2.5/temperature availability. |
-| `03_pm25_distribution_and_temporal_eda.ipynb` | Explores PM2.5 distribution, skewness, temporal patterns and station-level variation. |
-| `04_spatial_predictor_and_split_eda.ipynb` | Examines spatial relationships and prepares train-validation-test split checks. |
-| `05_modelling_dataset_and_masking_setup.ipynb` | Builds the modelling dataset and creates artificial masking scenarios. |
-| `06_statistical_baseline_imputation.ipynb` | Evaluates statistical baseline imputation methods under random and block masking scenarios. |
+|---|---|
+| `01_station_and_period_selection.ipynb` | Selects the five study stations and the 2021–2025 period based on the AURN 85% data-capture threshold. Saves the processed PM2.5–temperature panel and station metadata. |
+| `02_missingness_and_data_quality_eda.ipynb` | Profiles natural PM2.5 missingness by station, year, month, season and consecutive gap length. |
+| `03_pm25_distribution_and_temporal_eda.ipynb` | Explores PM2.5 distributional, seasonal, diurnal and station-level patterns. |
+| `04_spatial_predictor_and_split_eda.ipynb` | Examines temperature as an auxiliary predictor, computes inverse-distance-weighted nearest-neighbour relationships and verifies the chronological train–validation–test split. |
+| `05_modelling_dataset_and_masking_setup.ipynb` | Constructs the modelling dataset and applies the five artificial masking scenarios to the Validation and Test periods. |
+| `06_statistical_baselines.ipynb` | Evaluates three statistical baselines (station train mean, linear interpolation, Kalman-ARIMA) across all five masking scenarios. |
+| `07_ml_tuning.ipynb` | Tunes Random Forest and XGBoost under non-spatial and spatio-temporal feature sets using a family-balanced Validation objective (30 candidates per configuration). |
+| `08_ml_evaluation.ipynb` | Evaluates the four frozen ML configurations on the held-out Test split and computes spatial-gain diagnostics. |
+| `09a_dl_data_audit.ipynb` | Audits the deep-learning data contract, constructs the fixed top-three IDW station graph and adjacency matrix. |
+| `09b_dl_tuning.ipynb` | Tunes twelve structured deep-learning candidates (compact GRIN-inspired graph-enhanced bidirectional GRU) and selects the final configuration using Validation data only. |
+| `09c_dl_evaluation.ipynb` | Performs final fitting and evaluation of the graph-enhanced BiGRU and the zero-neighbour ablation control. Produces spatial-gain and 72-hour gap-position diagnostics. |
+| `10_cross_tier_comparison.ipynb` | Combines frozen Test outputs from all three tiers into a unified comparison. Generates the cross-tier MAE heatmap, family-balanced rankings, station-level diagnostics, gap-position profiles and accuracy–cost Pareto analysis. |
+| `regenerate_heatmaps.ipynb` | Regenerates six heatmap figures with improved colour palettes and adaptive text contrast in response to supervisor feedback. Reads saved outputs only; no data values are altered. |
 
 ## Data summary
 
-The final analytical panel contains hourly PM2.5 and temperature data for five London AURN stations:
-
-- London Bexley
-- London Harlington
-- London Honor Oak Park
-- London Marylebone Road
-- London N. Kensington
-
-Final panel structure:
-
 | Item | Value |
-| --- | --- |
+|---|---|
+| Source | UK-AIR Automatic Urban and Rural Network (AURN) |
+| Variables | Hourly PM2.5 (µg/m³), UK-AIR Modelled Temperature (°C) |
 | Study period | 2021–2025 |
-| Number of stations | 5 |
-| Hourly records per station | 43,824 |
+| Stations | London Bexley, London Harlington, London Honor Oak Park, London Marylebone Road, London N. Kensington |
 | Total station-hour rows | 219,120 |
-| PM2.5 capture | 97.67% |
-| Temperature capture | 98.08% |
+| Chronological split | 2021–2023 Train, 2024 Validation, 2025 Test |
+| PM2.5 data capture | 97.67% |
 
 ## Artificial masking scenarios
 
-Five artificial masking scenarios are used to evaluate imputation performance on originally observed PM2.5 values:
+Five artificial masking scenarios are applied to originally observed PM2.5 values in the Validation and Test periods. The Train period is not artificially masked.
 
 | Scenario | Description |
-| --- | --- |
+|---|---|
 | `random10_point` | Random point masking at 10% intensity |
 | `random30_point` | Random point masking at 30% intensity |
 | `random50_point` | Random point masking at 50% intensity |
-| `block24_10percent` | 24-hour block masking at approximately 10% intensity |
-| `block72_10percent` | 72-hour block masking at approximately 10% intensity |
+| `block24_10percent` | 24-hour contiguous block masking at approximately 10% intensity |
+| `block72_10percent` | 72-hour contiguous block masking at approximately 10% intensity |
 
-The training split is not artificially masked. Artificial masking is applied only to the validation and test splits so that model predictions can be compared against known PM2.5 ground-truth values. All masking scenarios use a fixed random seed (42), and the three random point scenarios are nested (10% ⊂ 30% ⊂ 50%).
+The three random-point scenarios are nested (10% ⊂ 30% ⊂ 50%). Block scenarios place non-adjacent blocks within clean windows only. All masking uses a fixed random seed (42).
 
-## Statistical baseline models
+## Model configurations
 
-The current modelling stage evaluates three PM2.5-only statistical baselines:
+Nine frozen model configurations are compared across all five scenarios:
 
-| Model | Description |
-| --- | --- |
-| Station train mean | Static station-specific mean calculated from the training split. |
-| Linear interpolation | Local temporal interpolation within each station and split. |
-| Kalman-ARIMA | Station-specific univariate ARIMA implemented using the SARIMAX state-space framework, without seasonal or exogenous components. |
+| Tier | Configuration | Spatial setting |
+|---|---|---|
+| Statistical | Station train mean | Non-spatial |
+| Statistical | Linear interpolation | Non-spatial |
+| Statistical | Kalman-ARIMA | Non-spatial |
+| Machine Learning | Random Forest non-spatial | Non-spatial |
+| Machine Learning | Random Forest spatio-temporal | Spatio-temporal |
+| Machine Learning | XGBoost non-spatial | Non-spatial |
+| Machine Learning | XGBoost spatio-temporal | Spatio-temporal |
+| Deep Learning | BiGRU zero-neighbour control | Non-spatial |
+| Deep Learning | Graph-enhanced BiGRU | Spatio-temporal |
 
-Initial results show that Kalman-ARIMA and linear interpolation perform strongly under random point masking, while errors increase substantially under longer block-gap scenarios. The station train mean baseline acts as a lower benchmark and performs weakest across all scenarios.
+## Software environment
 
-## Notes on data and large files
+| Component | Version |
+|---|---|
+| Python | 3.11.15 |
+| PyTorch | 2.11.0 (CUDA 12.8) |
+| XGBoost | 3.2.0 |
+| scikit-learn | (recorded in notebook manifests) |
+| statsmodels | (recorded in notebook manifests) |
+| GPU | NVIDIA GTX 1660 Ti (6 GB) |
+| OS | Windows 10 (build 19045) |
 
-Large raw datasets and trained model files are not included in this repository. In particular, large `.pkl` model outputs and raw data files are excluded using `.gitignore`.
+Package versions were recorded programmatically in per-notebook environment manifests.
 
-This keeps the repository focused on reproducible code, notebooks and selected results rather than large local files.
+## Reproducibility
 
-## Requirements
+The notebooks should be run in order from NB01 to NB10 because later notebooks depend on outputs created in earlier stages. The leakage rule used throughout is:
 
-The notebooks were developed in Python using Jupyter Notebook. Main Python libraries used include:
+- `PM25_original` is the ground-truth value used only for evaluation.
+- `PM25_model_input` is the model-visible value used for imputation and feature construction.
 
-- pandas
-- numpy
-- matplotlib
-- seaborn
-- scikit-learn
-- statsmodels
-
-A formal `requirements.txt` file may be added later as the modelling workflow expands (XGBoost and deep learning libraries will be added with the corresponding notebooks).
-
-## Reproducibility notes
-
-The project is designed as a sequential notebook workflow. The notebooks should generally be run in order from Notebook 01 to Notebook 06, because later notebooks depend on processed outputs created in earlier stages.
-
-The main leakage rule used throughout the modelling setup is:
-
-- `PM25_original` is the ground-truth PM2.5 value used only for evaluation.
-- `PM25_model_input` is the model-visible PM2.5 value used for imputation and feature construction.
+Large raw data files and trained model checkpoints are excluded from version control via `.gitignore`. The complete dataset, all intermediate outputs and model checkpoints are deposited in the University secure shared space.

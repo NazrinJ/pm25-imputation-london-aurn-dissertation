@@ -1,0 +1,18 @@
+{
+    "FinalFitRepeats": 1,
+    "InferenceRepeats": 5,
+    "LogicalCPUCount": 12,
+    "NumPyVersion": "1.26.4",
+    "PandasVersion": "2.1.4",
+    "PipelineVersion": "ml_features_v2_2026-07-19",
+    "Platform": "Windows-10-10.0.19045-SP0",
+    "PredictionClippingApplied": false,
+    "Processor": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+    "PythonVersion": "3.11.7",
+    "RandomSeed": 42,
+    "RuntimeEffectiveWorkers": 1,
+    "RuntimeRequestedNJobs": 1,
+    "ScikitLearnVersion": "1.2.2",
+    "TuningInputDataFingerprint": "ac3f585c96f61adbd18f138f48784988b08bd60604af051cf4d9ce4040ca10aa",
+    "XGBoostVersion": "3.2.0"
+}

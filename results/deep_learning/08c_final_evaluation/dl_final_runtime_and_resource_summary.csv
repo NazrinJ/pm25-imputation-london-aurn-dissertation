@@ -1,0 +1,3 @@
+ModelVariant,FixedTrainingEpochs,TrainSamplesPerEpoch,TrainingSeconds,TrainingDevice,ValidationEvaluationSeconds,TestEvaluationAndPredictionSeconds,MedianFullFiveScenarioInferenceSeconds,InferenceDevice,CPUInferenceThreads,PeakGPUAllocatedGB,PeakGPUReservedGB,TrainableParameters
+graph_enhanced,74,2048,179.7878880999633,cuda,62.54698479999206,64.92715960001806,56.50125069997739,cpu,1,0.3936500549316406,0.54296875,51649
+zero_neighbour,74,2048,178.87893090004218,cuda,63.7558498000144,57.44791049999185,56.34815639999579,cpu,1,0.39250612258911133,0.42578125,51649

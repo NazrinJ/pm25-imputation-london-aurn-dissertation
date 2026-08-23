@@ -1,0 +1,16 @@
+Scenario,Split,TimeSteps,Stations,Features,ArtificialTargets,RealMissingTargets
+random10_point,Train,26280,5,18,0,3888
+random10_point,Validation,8784,5,18,4332,600
+random10_point,Test,8760,5,18,4318,619
+random30_point,Train,26280,5,18,0,3888
+random30_point,Validation,8784,5,18,12997,600
+random30_point,Test,8760,5,18,12954,619
+random50_point,Train,26280,5,18,0,3888
+random50_point,Validation,8784,5,18,21660,600
+random50_point,Test,8760,5,18,21590,619
+block24_10percent,Train,26280,5,18,0,3888
+block24_10percent,Validation,8784,5,18,4392,600
+block24_10percent,Test,8760,5,18,4392,619
+block72_10percent,Train,26280,5,18,0,3888
+block72_10percent,Validation,8784,5,18,4608,600
+block72_10percent,Test,8760,5,18,4536,619

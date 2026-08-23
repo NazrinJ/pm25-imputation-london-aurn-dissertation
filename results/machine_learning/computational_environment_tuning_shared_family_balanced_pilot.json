@@ -1,0 +1,55 @@
+{
+    "ExpectedXGBoostVersion": "3.2.0",
+    "FamilyWeights": {
+        "block_gap": 0.5,
+        "random_point": 0.5
+    },
+    "LogicalCPUCount": 12,
+    "NestedRandomConditions": true,
+    "NumPyVersion": "1.26.4",
+    "PandasVersion": "2.1.4",
+    "PipelineVersion": "ml_features_v2_2026-07-19",
+    "Platform": "Windows-10-10.0.19045-SP0",
+    "Processor": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+    "PythonVersion": "3.11.7",
+    "RandomSeed": 42,
+    "ReferenceScenario": "random30_point",
+    "ScenarioFamilies": {
+        "block_gap": [
+            "block24_10percent",
+            "block72_10percent"
+        ],
+        "random_point": [
+            "random10_point",
+            "random30_point",
+            "random50_point"
+        ]
+    },
+    "ScikitLearnVersion": "1.2.2",
+    "SelectionMetric": "FamilyBalancedValidationMAE",
+    "SelectionSortColumns": [
+        "FamilyBalancedValidationMAE",
+        "FamilyBalancedValidationRMSE",
+        "FitSeconds",
+        "CandidateNumber"
+    ],
+    "TuningEffectiveWorkers": 12,
+    "TuningIterations": 3,
+    "TuningProfile": "pilot",
+    "TuningProtocol": "shared_family_balanced",
+    "TuningProtocolVersion": "shared_family_balanced_v1",
+    "TuningRequestedNJobs": -1,
+    "TuningScenarios": [
+        "random10_point",
+        "random30_point",
+        "random50_point",
+        "block24_10percent",
+        "block72_10percent"
+    ],
+    "XGBEarlyStoppingRounds": 50,
+    "XGBMaximumRounds": 5000,
+    "XGBTreeMethod": "hist",
+    "XGBWeightAuditAbsoluteTolerance": 5e-05,
+    "XGBWeightAuditRelativeTolerance": 1e-06,
+    "XGBoostVersion": "3.2.0"
+}

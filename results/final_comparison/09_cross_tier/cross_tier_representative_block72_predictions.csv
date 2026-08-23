@@ -1,0 +1,289 @@
+ModelID,DisplayName,Station,Datetime,Truth,Prediction,SelectionRule
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-25 01:00:00,6.15,6.151797402579127,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-25 02:00:00,5.931,6.144985263267287,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-25 03:00:00,5.787,6.145002822298779,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-25 04:00:00,5.659,6.146098439919447,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-25 05:00:00,6.166,6.147098388171327,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-25 06:00:00,6.508,6.147787800900379,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-25 07:00:00,5.695,6.148150774601588,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-25 08:00:00,6.17,6.148211000714709,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-25 09:00:00,8.87,6.147998518427885,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-25 10:00:00,10.045,6.147542941980572,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-25 11:00:00,12.165,6.14687223403438,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-25 12:00:00,12.524,6.146012630834939,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-25 13:00:00,12.238,6.144988797703418,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-25 14:00:00,12.859,6.14382402274838,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-25 15:00:00,13.566,6.142540409800376,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-25 16:00:00,12.302,6.141159063658084,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-25 17:00:00,12.686,6.139700267411174,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-25 18:00:00,13.781,6.138183652954318,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-25 19:00:00,12.009,6.13662836604698,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-25 20:00:00,11.184,6.13505322729018,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-25 21:00:00,10.156,6.13347689037024,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-25 22:00:00,9.71,6.1319179988993175,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-25 23:00:00,10.347,6.130395343171269,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-26 00:00:00,11.566,6.128928018150819,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-26 01:00:00,11.764,6.127535584024419,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-26 02:00:00,11.528,6.1262382306627,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-26 03:00:00,11.078,6.125056947377318,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-26 04:00:00,10.554,6.124013699399511,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-26 05:00:00,9.797,6.123131612564224,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-26 06:00:00,9.256,6.122435167752604,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-26 07:00:00,7.2,6.12195040672774,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-26 08:00:00,3.787,6.121705151094361,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-26 09:00:00,2.275,6.121729236223445,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-26 10:00:00,2.584,6.12205476210864,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-26 11:00:00,2.091,6.122716363263665,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-26 12:00:00,1.651,6.123751499930017,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-26 13:00:00,2.382,6.12520077304345,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-26 14:00:00,2.657,6.12710826560748,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-26 15:00:00,2.656,6.129521913344178,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-26 16:00:00,2.401,6.132493907738716,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-26 17:00:00,2.856,6.136081134866437,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-26 18:00:00,3.281,6.140345653692156,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-26 19:00:00,3.36,6.145355217863202,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-26 20:00:00,18.726,6.1511838453834855,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-26 21:00:00,5.15,6.157912440958393,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-26 22:00:00,6.183,6.16562947624321,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-26 23:00:00,5.812,6.174431733714626,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-27 00:00:00,4.057,6.184425120419777,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-27 01:00:00,3.362,6.1957255584448845,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-27 02:00:00,2.644,6.208459959590533,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-27 03:00:00,2.616,6.222767292448698,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-27 04:00:00,2.93,6.238799750853531,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-27 05:00:00,3.379,6.256724033530235,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-27 06:00:00,3.561,6.276722745701386,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-27 07:00:00,4.261,6.298995934435416,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-27 08:00:00,5.119,6.323762770646547,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-27 09:00:00,6.169,6.351263391888757,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-27 10:00:00,6.929,6.381760921439149,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-27 11:00:00,7.543,6.41554368065288,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-27 12:00:00,7.794,6.45292761321792,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-27 13:00:00,7.455,6.494258941820166,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-27 14:00:00,6.215,6.539917080162602,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-27 15:00:00,5.791,6.590317827709618,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-27 16:00:00,5.169,6.645916887761784,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-27 17:00:00,5.568,6.70721380387355,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-27 18:00:00,5.707,6.774756659226823,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-27 19:00:00,5.992,6.849149061557926,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-27 20:00:00,7.478,6.9310665331449455,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-27 21:00:00,7.206,7.02131605911765,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-27 22:00:00,8.497,7.121099333635365,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-27 23:00:00,8.255,7.233243841772969,DL graph block MAE closest to median DL graph block MAE
+stat_kalman_arima,Kalman-ARIMA,London Harlington,2025-07-28 00:00:00,6.925,7.3680395525478275,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-25 01:00:00,6.15,6.462196768311503,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-25 02:00:00,5.931,6.423493106039972,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-25 03:00:00,5.787,6.417454304843748,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-25 04:00:00,5.659,6.3865975019057615,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-25 05:00:00,6.166,6.249806869175748,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-25 06:00:00,6.508,6.404106488648382,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-25 07:00:00,5.695,6.54132625074433,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-25 08:00:00,6.17,6.345670224807507,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-25 09:00:00,8.87,7.00574710700713,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-25 10:00:00,10.045,7.672619427267121,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-25 11:00:00,12.165,8.042696606765256,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-25 12:00:00,12.524,8.405629238225462,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-25 13:00:00,12.238,7.959115118232474,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-25 14:00:00,12.859,8.370257949067314,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-25 15:00:00,13.566,8.305371183265924,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-25 16:00:00,12.302,8.450924017987163,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-25 17:00:00,12.686,8.409848764290594,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-25 18:00:00,13.781,8.520771487463412,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-25 19:00:00,12.009,8.67377484252417,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-25 20:00:00,11.184,8.215613982131877,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-25 21:00:00,10.156,7.76877583548045,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-25 22:00:00,9.71,7.809592304948794,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-25 23:00:00,10.347,7.829768555313796,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-26 00:00:00,11.566,7.736990969009334,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-26 01:00:00,11.764,8.18299419620804,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-26 02:00:00,11.528,8.037965412272138,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-26 03:00:00,11.078,8.059962963644434,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-26 04:00:00,10.554,8.208204257524443,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-26 05:00:00,9.797,7.863386219706314,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-26 06:00:00,9.256,7.912826178052089,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-26 07:00:00,7.2,6.785629157310756,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-26 08:00:00,3.787,6.781602181431217,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-26 09:00:00,2.275,6.276631912123513,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-26 10:00:00,2.584,6.016214914571637,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-26 11:00:00,2.091,5.733212732901887,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-26 12:00:00,1.651,5.776124114539816,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-26 13:00:00,2.382,5.558925571926514,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-26 14:00:00,2.657,5.496769127222563,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-26 15:00:00,2.656,5.417836662598811,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-26 16:00:00,2.401,5.643514399002745,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-26 17:00:00,2.856,5.870986623749424,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-26 18:00:00,3.281,5.798303525400546,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-26 19:00:00,3.36,5.7717077021386425,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-26 20:00:00,18.726,6.384123014245386,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-26 21:00:00,5.15,6.132170655142679,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-26 22:00:00,6.183,6.375072016940943,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-26 23:00:00,5.812,6.804553088672576,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-27 00:00:00,4.057,6.581269279866606,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-27 01:00:00,3.362,6.592256459655556,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-27 02:00:00,2.644,6.044117709870197,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-27 03:00:00,2.616,5.71443907646564,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-27 04:00:00,2.93,5.724972010418362,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-27 05:00:00,3.379,5.758123613681557,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-27 06:00:00,3.561,6.00720613396756,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-27 07:00:00,4.261,6.385895901992184,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-27 08:00:00,5.119,6.387469703630614,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-27 09:00:00,6.169,6.353924822228922,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-27 10:00:00,6.929,6.862566312718193,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-27 11:00:00,7.543,7.18933705151285,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-27 12:00:00,7.794,7.340969761451628,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-27 13:00:00,7.455,7.173551393483167,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-27 14:00:00,6.215,7.1234535913505965,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-27 15:00:00,5.791,6.679767007466104,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-27 16:00:00,5.169,6.5688121937647646,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-27 17:00:00,5.568,6.861829857238015,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-27 18:00:00,5.707,6.521882531515091,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-27 19:00:00,5.992,6.406392223772426,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-27 20:00:00,7.478,6.970866110988732,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-27 21:00:00,7.206,6.5827458335592,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-27 22:00:00,8.497,6.65499687892811,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-27 23:00:00,8.255,7.328300619715694,DL graph block MAE closest to median DL graph block MAE
+ml_rf_spatio_temporal,RF spatio-temporal,London Harlington,2025-07-28 00:00:00,6.925,7.567547179344668,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-25 01:00:00,6.15,6.6178789138793945,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-25 02:00:00,5.931,6.632972240447998,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-25 03:00:00,5.787,6.784740447998047,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-25 04:00:00,5.659,7.2119364738464355,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-25 05:00:00,6.166,6.777344226837158,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-25 06:00:00,6.508,6.593284130096436,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-25 07:00:00,5.695,6.816341400146484,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-25 08:00:00,6.17,7.445784568786621,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-25 09:00:00,8.87,7.64090633392334,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-25 10:00:00,10.045,9.090267181396484,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-25 11:00:00,12.165,8.53734016418457,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-25 12:00:00,12.524,8.190359115600586,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-25 13:00:00,12.238,8.439154624938965,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-25 14:00:00,12.859,8.617816925048828,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-25 15:00:00,13.566,9.023472785949709,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-25 16:00:00,12.302,8.696889877319336,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-25 17:00:00,12.686,10.100944519042969,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-25 18:00:00,13.781,9.703529357910156,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-25 19:00:00,12.009,9.43594741821289,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-25 20:00:00,11.184,8.032729148864746,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-25 21:00:00,10.156,8.168601989746094,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-25 22:00:00,9.71,8.24544620513916,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-25 23:00:00,10.347,9.168478965759276,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-26 00:00:00,11.566,8.574141502380371,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-26 01:00:00,11.764,9.144523620605469,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-26 02:00:00,11.528,8.529376983642578,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-26 03:00:00,11.078,8.836286544799805,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-26 04:00:00,10.554,8.939409255981445,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-26 05:00:00,9.797,8.828937530517578,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-26 06:00:00,9.256,9.393390655517578,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-26 07:00:00,7.2,8.31580638885498,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-26 08:00:00,3.787,7.449112415313721,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-26 09:00:00,2.275,6.822563648223877,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-26 10:00:00,2.584,6.057394027709961,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-26 11:00:00,2.091,5.928677082061768,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-26 12:00:00,1.651,5.55833101272583,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-26 13:00:00,2.382,5.370891094207764,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-26 14:00:00,2.657,4.722151756286621,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-26 15:00:00,2.656,5.138726234436035,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-26 16:00:00,2.401,5.036696434020996,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-26 17:00:00,2.856,5.193249225616455,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-26 18:00:00,3.281,5.604022979736328,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-26 19:00:00,3.36,6.402674198150635,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-26 20:00:00,18.726,6.320158004760742,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-26 21:00:00,5.15,6.823863506317139,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-26 22:00:00,6.183,6.6585798263549805,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-26 23:00:00,5.812,7.599950313568115,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-27 00:00:00,4.057,7.274576663970947,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-27 01:00:00,3.362,6.550304412841797,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-27 02:00:00,2.644,5.938344955444336,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-27 03:00:00,2.616,5.796560287475586,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-27 04:00:00,2.93,5.723934173583984,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-27 05:00:00,3.379,5.923256874084473,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-27 06:00:00,3.561,6.421006202697754,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-27 07:00:00,4.261,6.684972763061523,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-27 08:00:00,5.119,6.508866786956787,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-27 09:00:00,6.169,6.859703540802002,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-27 10:00:00,6.929,7.079037666320801,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-27 11:00:00,7.543,7.644421100616455,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-27 12:00:00,7.794,7.098328590393066,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-27 13:00:00,7.455,6.980736255645752,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-27 14:00:00,6.215,7.016798496246338,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-27 15:00:00,5.791,6.101381301879883,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-27 16:00:00,5.169,5.967807292938232,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-27 17:00:00,5.568,6.445910453796387,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-27 18:00:00,5.707,6.005924224853516,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-27 19:00:00,5.992,6.7383222579956055,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-27 20:00:00,7.478,6.929857730865479,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-27 21:00:00,7.206,6.823464870452881,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-27 22:00:00,8.497,6.676507949829102,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-27 23:00:00,8.255,7.2773284912109375,DL graph block MAE closest to median DL graph block MAE
+ml_xgb_spatio_temporal,XGBoost spatio-temporal,London Harlington,2025-07-28 00:00:00,6.925,8.537467956542969,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-25 01:00:00,6.15,5.3483505,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-25 02:00:00,5.931,5.1840143,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-25 03:00:00,5.787,4.86191,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-25 04:00:00,5.659,4.457669,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-25 05:00:00,6.166,4.062216,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-25 06:00:00,6.508,4.0673914,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-25 07:00:00,5.695,4.4743896,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-25 08:00:00,6.17,5.119482,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-25 09:00:00,8.87,6.823923,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-25 10:00:00,10.045,9.082473,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-25 11:00:00,12.165,10.696573,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-25 12:00:00,12.524,11.291741,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-25 13:00:00,12.238,10.827143,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-25 14:00:00,12.859,11.10408,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-25 15:00:00,13.566,10.878935,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-25 16:00:00,12.302,11.149746,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-25 17:00:00,12.686,11.381189,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-25 18:00:00,13.781,12.282563,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-25 19:00:00,12.009,12.910679,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-25 20:00:00,11.184,12.728985,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-25 21:00:00,10.156,12.228733,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-25 22:00:00,9.71,11.9279785,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-25 23:00:00,10.347,11.553518,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-26 00:00:00,11.566,11.51536,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-26 01:00:00,11.764,11.370739,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-26 02:00:00,11.528,11.0889845,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-26 03:00:00,11.078,10.9303875,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-26 04:00:00,10.554,10.799536,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-26 05:00:00,9.797,10.411749,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-26 06:00:00,9.256,9.374768,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-26 07:00:00,7.2,7.7245803,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-26 08:00:00,3.787,6.2422094,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-26 09:00:00,2.275,4.7120657,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-26 10:00:00,2.584,3.2416134,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-26 11:00:00,2.091,2.4126377,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-26 12:00:00,1.651,2.292676,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-26 13:00:00,2.382,1.946526,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-26 14:00:00,2.657,1.7410641,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-26 15:00:00,2.656,1.5232015,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-26 16:00:00,2.401,1.7633481,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-26 17:00:00,2.856,2.0576,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-26 18:00:00,3.281,2.431985,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-26 19:00:00,3.36,2.6298265,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-26 20:00:00,18.726,3.195116,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-26 21:00:00,5.15,3.6318917,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-26 22:00:00,6.183,4.329342,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-26 23:00:00,5.812,5.0884075,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-27 00:00:00,4.057,5.29202,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-27 01:00:00,3.362,5.4681373,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-27 02:00:00,2.644,4.3780713,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-27 03:00:00,2.616,3.3610973,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-27 04:00:00,2.93,3.0893822,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-27 05:00:00,3.379,3.275949,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-27 06:00:00,3.561,3.1876307,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-27 07:00:00,4.261,3.538899,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-27 08:00:00,5.119,3.8644032,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-27 09:00:00,6.169,4.371731,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-27 10:00:00,6.929,5.13111,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-27 11:00:00,7.543,5.833185,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-27 12:00:00,7.794,6.0792465,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-27 13:00:00,7.455,5.954583,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-27 14:00:00,6.215,5.649229,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-27 15:00:00,5.791,5.24711,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-27 16:00:00,5.169,4.9724293,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-27 17:00:00,5.568,4.9019136,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-27 18:00:00,5.707,4.7367234,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-27 19:00:00,5.992,4.730732,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-27 20:00:00,7.478,5.0128517,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-27 21:00:00,7.206,5.3289814,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-27 22:00:00,8.497,5.9329205,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-27 23:00:00,8.255,6.5676847,DL graph block MAE closest to median DL graph block MAE
+dl_graph_enhanced,Graph-enhanced BiGRU,London Harlington,2025-07-28 00:00:00,6.925,6.8133707,DL graph block MAE closest to median DL graph block MAE

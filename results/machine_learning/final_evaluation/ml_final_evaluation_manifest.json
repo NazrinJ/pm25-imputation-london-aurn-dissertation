@@ -1,0 +1,54 @@
+{
+    "EnvironmentPath": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\final_evaluation\\computational_environment_final_evaluation.json",
+    "EvaluationSplit": "Test",
+    "ExpectedEvaluations": 20,
+    "FeatureSets": [
+        "temporal_only",
+        "spatio_temporal"
+    ],
+    "FinalFitRepeats": 1,
+    "InferenceRepeats": 5,
+    "InputDataFingerprint": "ac3f585c96f61adbd18f138f48784988b08bd60604af051cf4d9ce4040ca10aa",
+    "ModelArtifacts": [
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\models\\machine_learning\\final_models\\random_forest_temporal_only_final.joblib",
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\models\\machine_learning\\final_models\\random_forest_spatio_temporal_final.joblib",
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\models\\machine_learning\\final_models\\xgboost_temporal_only_final.json",
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\models\\machine_learning\\final_models\\xgboost_spatio_temporal_final.json"
+    ],
+    "ModelManifests": [
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\models\\machine_learning\\final_models\\manifests\\randomforest_temporal_only_manifest.json",
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\models\\machine_learning\\final_models\\manifests\\randomforest_spatio_temporal_manifest.json",
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\models\\machine_learning\\final_models\\manifests\\xgboost_temporal_only_manifest.json",
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\models\\machine_learning\\final_models\\manifests\\xgboost_spatio_temporal_manifest.json"
+    ],
+    "Models": [
+        "RandomForest",
+        "XGBoost"
+    ],
+    "ObservedEvaluations": 20,
+    "OutputFiles": [
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\final_evaluation\\ml_final_test_predictions.csv",
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\final_evaluation\\ml_final_test_metrics.csv",
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\final_evaluation\\ml_final_test_metrics_by_station.csv",
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\final_evaluation\\ml_prediction_diagnostics.csv",
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\final_evaluation\\ml_rq3_spatial_ablation.csv",
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\final_evaluation\\ml_rq3_spatial_ablation_by_station.csv",
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\final_evaluation\\ml_block_gap_hourly_error_profile.csv",
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\final_evaluation\\ml_block_gap_region_metrics.csv",
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\final_evaluation\\ml_accuracy_cost_summary.csv",
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\final_evaluation\\ml_final_runtime_records.csv",
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\final_evaluation\\ml_final_runtime_summary.csv",
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\final_evaluation\\computational_environment_final_evaluation.json"
+    ],
+    "PipelineVersion": "ml_features_v2_2026-07-19",
+    "PredictionClippingApplied": false,
+    "RuntimeNJobs": 1,
+    "Scenarios": [
+        "random10_point",
+        "random30_point",
+        "random50_point",
+        "block24_10percent",
+        "block72_10percent"
+    ],
+    "Status": "complete"
+}

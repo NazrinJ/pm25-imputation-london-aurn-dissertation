@@ -1,0 +1,4 @@
+ComparisonID,ComparisonLabel,ComparisonType,RandomMacroDeltaMAE,BlockMacroDeltaMAE,FamilyBalancedDeltaMAE,ScenariosImproved,ScenariosWorsened
+RandomForest,Random Forest,Separately tuned feature-set comparison,0.1351448265124935,0.9646432720906541,0.5498940493015738,5,0
+XGBoost,XGBoost,Separately tuned feature-set comparison,-0.09539426715613179,1.095041967266459,0.49982385005516367,3,2
+DeepLearning,Graph BiGRU,Controlled zero-neighbour ablation,0.2212561037360892,1.6377438047022546,0.9294999542191719,5,0

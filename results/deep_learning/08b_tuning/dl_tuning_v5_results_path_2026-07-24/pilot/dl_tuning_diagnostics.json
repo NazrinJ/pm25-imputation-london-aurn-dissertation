@@ -1,0 +1,22 @@
+{
+  "PipelineVersion": "dl_tuning_v5_results_path_2026-07-24",
+  "RunProfile": "pilot",
+  "CandidateCount": 2,
+  "SelectedCandidateID": 10,
+  "SelectedBestEpoch": 3,
+  "TopCandidateSpreadPercent": 36.32179934571288,
+  "BoundaryFlags": {
+    "context_hours": true,
+    "hidden_units": true,
+    "recurrent_layers": true,
+    "dropout": true,
+    "learning_rate": true
+  },
+  "BoundaryFlagInterpretation": "Descriptive only. Binary search dimensions consist entirely of endpoint values.",
+  "ClaimOfExhaustiveSearch": false,
+  "CumulativeBestPlot": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\deep_learning\\08b_tuning\\dl_tuning_v5_results_path_2026-07-24\\pilot\\dl_cumulative_best_validation_mae.png",
+  "TopCandidatePlot": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\deep_learning\\08b_tuning\\dl_tuning_v5_results_path_2026-07-24\\pilot\\dl_top_candidate_validation_mae.png",
+  "TrainValidationLearningCurve": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\deep_learning\\08b_tuning\\dl_tuning_v5_results_path_2026-07-24\\pilot\\dl_selected_candidate_train_validation_learning_curve.png",
+  "ValidationFamilyLearningCurve": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\deep_learning\\08b_tuning\\dl_tuning_v5_results_path_2026-07-24\\pilot\\dl_selected_candidate_validation_family_learning_curve.png",
+  "CandidateScenarioHeatmap": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\deep_learning\\08b_tuning\\dl_tuning_v5_results_path_2026-07-24\\pilot\\dl_candidate_scenario_validation_mae_heatmap.png"
+}

@@ -1,0 +1,160 @@
+{
+  "RQ1": {
+    "Question": "Accuracy across statistical, ML and DL approaches",
+    "FamilyBalancedBestModel": "Graph-enhanced BiGRU",
+    "FamilyBalancedBestMAE": 1.3956859907941626,
+    "ScenarioWinners": [
+      {
+        "Scenario": "random10_point",
+        "WinningModel": "Kalman-ARIMA",
+        "WinningMAE": 0.9397811312414817
+      },
+      {
+        "Scenario": "random30_point",
+        "WinningModel": "Kalman-ARIMA",
+        "WinningMAE": 1.0566995416076794
+      },
+      {
+        "Scenario": "random50_point",
+        "WinningModel": "Kalman-ARIMA",
+        "WinningMAE": 1.2340599156696002
+      },
+      {
+        "Scenario": "block24_10percent",
+        "WinningModel": "Graph-enhanced BiGRU",
+        "WinningMAE": 1.6248977984198543
+      },
+      {
+        "Scenario": "block72_10percent",
+        "WinningModel": "Graph-enhanced BiGRU",
+        "WinningMAE": 1.728032124574515
+      }
+    ]
+  },
+  "RQ2": {
+    "Question": "Performance across point and block missingness",
+    "ScenarioDifficultyByMedianMAE": [
+      {
+        "Scenario": "random10_point",
+        "MedianModelMAE": 1.1024769002045123,
+        "DifficultyRankByMedianMAE": 1
+      },
+      {
+        "Scenario": "random30_point",
+        "MedianModelMAE": 1.4980225096205346,
+        "DifficultyRankByMedianMAE": 2
+      },
+      {
+        "Scenario": "random50_point",
+        "MedianModelMAE": 1.9841865707143584,
+        "DifficultyRankByMedianMAE": 3
+      },
+      {
+        "Scenario": "block24_10percent",
+        "MedianModelMAE": 3.267837876237373,
+        "DifficultyRankByMedianMAE": 4
+      },
+      {
+        "Scenario": "block72_10percent",
+        "MedianModelMAE": 3.988087851223696,
+        "DifficultyRankByMedianMAE": 5
+      }
+    ],
+    "Block72EdgeMiddleDiagnostics": [
+      {
+        "ModelID": "dl_graph_enhanced",
+        "DisplayName": "Graph-enhanced BiGRU",
+        "EdgeMAE": 1.3891783003968254,
+        "MiddleMAE": 2.0242747344444445,
+        "MiddleMinusEdgeMAE": 0.6350964340476191,
+        "MiddleToEdgeRatio": 1.4571741682591794
+      },
+      {
+        "ModelID": "ml_rf_spatio_temporal",
+        "DisplayName": "RF spatio-temporal",
+        "EdgeMAE": 2.2771721171601156,
+        "MiddleMAE": 4.729409997371955,
+        "MiddleMinusEdgeMAE": 2.4522378802118396,
+        "MiddleToEdgeRatio": 2.0768785818746323
+      },
+      {
+        "ModelID": "ml_xgb_spatio_temporal",
+        "DisplayName": "XGBoost spatio-temporal",
+        "EdgeMAE": 2.334072859714902,
+        "MiddleMAE": 4.16601340906456,
+        "MiddleMinusEdgeMAE": 1.8319405493496586,
+        "MiddleToEdgeRatio": 1.7848686221275127
+      },
+      {
+        "ModelID": "stat_kalman_arima",
+        "DisplayName": "Kalman-ARIMA",
+        "EdgeMAE": 1.6124906517347017,
+        "MiddleMAE": 5.6045725938636695,
+        "MiddleMinusEdgeMAE": 3.9920819421289675,
+        "MiddleToEdgeRatio": 3.4757240842508605
+      }
+    ]
+  },
+  "RQ3": {
+    "Question": "Contribution of neighbouring-station information",
+    "SpatialGainDefinition": "non-spatial MAE minus spatio-temporal MAE",
+    "FamilySpatialGain": [
+      {
+        "ComparisonID": "RandomForest",
+        "ComparisonLabel": "Random Forest",
+        "ComparisonType": "Separately tuned feature-set comparison",
+        "RandomMacroDeltaMAE": 0.1351448265124935,
+        "BlockMacroDeltaMAE": 0.9646432720906541,
+        "FamilyBalancedDeltaMAE": 0.5498940493015738,
+        "ScenariosImproved": 5,
+        "ScenariosWorsened": 0
+      },
+      {
+        "ComparisonID": "XGBoost",
+        "ComparisonLabel": "XGBoost",
+        "ComparisonType": "Separately tuned feature-set comparison",
+        "RandomMacroDeltaMAE": -0.09539426715613179,
+        "BlockMacroDeltaMAE": 1.095041967266459,
+        "FamilyBalancedDeltaMAE": 0.49982385005516367,
+        "ScenariosImproved": 3,
+        "ScenariosWorsened": 2
+      },
+      {
+        "ComparisonID": "DeepLearning",
+        "ComparisonLabel": "Graph BiGRU",
+        "ComparisonType": "Controlled zero-neighbour ablation",
+        "RandomMacroDeltaMAE": 0.2212561037360892,
+        "BlockMacroDeltaMAE": 1.6377438047022546,
+        "FamilyBalancedDeltaMAE": 0.9294999542191719,
+        "ScenariosImproved": 5,
+        "ScenariosWorsened": 0
+      }
+    ],
+    "DesignDifference": "ML feature sets were tuned separately; DL used a controlled zero-neighbour ablation"
+  },
+  "RQ4": {
+    "Question": "Accuracy versus computational cost",
+    "PrimaryCostDefinition": "CPU-standardised operational application time for the complete five-scenario Test workload",
+    "ParetoFrontierModels": [
+      {
+        "DisplayName": "Graph-enhanced BiGRU",
+        "RuntimeDevice": "CPU, one PyTorch thread",
+        "FamilyBalancedMAE": 1.3956859907941626,
+        "OperationalFiveScenarioSeconds": 56.50125069997739
+      },
+      {
+        "DisplayName": "Linear interpolation",
+        "RuntimeDevice": "CPU, one effective worker",
+        "FamilyBalancedMAE": 2.281357482428987,
+        "OperationalFiveScenarioSeconds": 0.1425262999837285
+      },
+      {
+        "DisplayName": "Station train mean",
+        "RuntimeDevice": "CPU, one effective worker",
+        "FamilyBalancedMAE": 5.332880008901109,
+        "OperationalFiveScenarioSeconds": 0.023416599957272098
+      }
+    ],
+    "RuntimeCaveat": "Operational inference used CPU execution with one effective worker or PyTorch thread across all model families. Selection and final fitting remained device-aware and model-family appropriate. The comparison is not fully implementation-neutral because preprocessing, batching and application boundaries differ."
+  }
+}

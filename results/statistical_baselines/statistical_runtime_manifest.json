@@ -1,0 +1,68 @@
+{
+    "Status": "complete",
+    "Notebook": "06_statistical_baseline_imputation.ipynb",
+    "ModelFamily": "Statistical",
+    "Models": [
+        "Station train mean",
+        "Linear interpolation",
+        "Kalman-ARIMA"
+    ],
+    "Scenarios": [
+        "random10_point",
+        "random30_point",
+        "random50_point",
+        "block24_10percent",
+        "block72_10percent"
+    ],
+    "RuntimeSplit": "Test",
+    "SelectionProtocol": {
+        "Station train mean": "Not applicable",
+        "Linear interpolation": "Not applicable",
+        "Kalman-ARIMA": "AIC-based search on Train only across the predefined candidate orders"
+    },
+    "FinalFitProtocol": "One timed fit using frozen model specifications and Train data only",
+    "InferenceProtocol": {
+        "WarmupRepeats": 1,
+        "TimedRepeats": 5,
+        "SummaryStatistic": "median",
+        "DiskIOIncluded": false,
+        "Normalisation": "milliseconds per 1,000 artificial Test targets"
+    },
+    "RequestedNJobs": 1,
+    "EffectiveWorkers": 1,
+    "PythonVersion": "3.11.7",
+    "Platform": "Windows-10-10.0.19045-SP0",
+    "Processor": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+    "LogicalCPUCount": 12,
+    "PandasVersion": "2.1.4",
+    "NumPyVersion": "1.26.4",
+    "StatsmodelsVersion": "0.14.0",
+    "ThreadpoolctlVersion": "2.2.0",
+    "ThreadpoolInformation": [
+        {
+            "filepath": "C:\\Users\\Msi\\anaconda3\\Library\\bin\\mkl_rt.2.dll",
+            "prefix": "mkl_rt",
+            "user_api": "blas",
+            "internal_api": "mkl",
+            "version": "2023.1-Product",
+            "num_threads": 6,
+            "threading_layer": "intel"
+        },
+        {
+            "filepath": "C:\\Users\\Msi\\anaconda3\\Library\\bin\\libiomp5md.dll",
+            "prefix": "libiomp",
+            "user_api": "openmp",
+            "internal_api": "openmp",
+            "version": null,
+            "num_threads": 12
+        }
+    ],
+    "ARIMASelectionSeconds": 331.69452069999534,
+    "OutputFiles": [
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\statistical_baselines\\statistical_runtime_records.csv",
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\statistical_baselines\\statistical_runtime_summary.csv",
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\statistical_baselines\\statistical_accuracy_cost_summary.csv",
+        "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\statistical_baselines\\statistical_runtime_accuracy_reproduction_audit.csv"
+    ],
+    "ImportantInterpretation": "Selection cost, final-fit cost and inference cost are reported separately. Linear interpolation has no trainable fit stage. Inference timing excludes disk loading and includes the computation required to apply each statistical imputation method to the full Test time-series context."
+}

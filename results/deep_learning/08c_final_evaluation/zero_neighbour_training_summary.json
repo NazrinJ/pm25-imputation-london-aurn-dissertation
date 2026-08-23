@@ -1,0 +1,29 @@
+{
+  "FinalPipelineVersion": "dl_final_evaluation_v1_2026-07-27",
+  "TuningPipelineVersion": "dl_tuning_v5_results_path_2026-07-24",
+  "VariantName": "zero_neighbour",
+  "SelectedCandidateID": 10,
+  "Configuration": {
+    "CandidateID": 10,
+    "context_hours": 168,
+    "hidden_units": 64,
+    "recurrent_layers": 1,
+    "dropout": 0.0,
+    "learning_rate": 0.001
+  },
+  "ConfigurationHash": "fb14d159a8f2f289dcd021d238ec73e6571e9fab1f0b7e8a0081a3ae6b1dc072",
+  "ContractFingerprint": "f07c6a2e2e3168141892f956fd013cec930a387d9f96aa32f43f20066b75eb50",
+  "MaskScheduleHash": "678812e414be213a261efe45baaa79cfe4c33d2d92e21c36e49687aaa2f3c635",
+  "CompletedEpochs": 74,
+  "TrainSamplesPerEpoch": 2048,
+  "TrainableParameters": 51649,
+  "InitialTrainableParameterHash": "03283890e55b97d2ce7ea8a143c9474a8d5b9c8e1e380b9ace17c77649a85101",
+  "FinalTrainableParameterHash": "d07e973a0e686cb682ee45d5e7adf26f87b623ab54eb7a1e9f23e38f9a70ac10",
+  "AccumulatedTrainSeconds": 178.87893090004218,
+  "SessionTrainSeconds": 180.77714609999384,
+  "PeakGPUAllocatedGB": 0.39250612258911133,
+  "PeakGPUReservedGB": 0.42578125,
+  "CheckpointPath": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\models\\deep_learning\\final\\dl_final_evaluation_v1_2026-07-27\\zero_neighbour_final.pt",
+  "HistoryPath": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\deep_learning\\08c_final_evaluation\\zero_neighbour_fixed_epoch_history.csv",
+  "DeviceUsed": "cuda"
+}

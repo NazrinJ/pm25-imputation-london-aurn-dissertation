@@ -1,0 +1,226 @@
+ModelID,Scenario,Station,NTargets,MAE,RMSE,MedianAE,R2,DisplayName,ShortLabel,ModelFamily,SpatialSetting
+dl_graph_enhanced,block24_10percent,London Bexley,864,1.543163179050926,2.437922256062671,0.9897030000000002,0.9236918868083506,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,block24_10percent,London Harlington,888,1.6698226988063063,2.955442284966645,0.7785511,0.899768057163538,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,block24_10percent,London Honor Oak Park,888,1.1490710338063064,1.6248683296187096,0.80403665,0.9472648933544311,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,block24_10percent,London Marylebone Road,864,2.616290375,3.7494911562115276,1.9534339999999997,0.8115369027948448,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,block24_10percent,London N. Kensington,888,1.1707270556306306,1.744659368424607,0.8351051999999997,0.9061934600338353,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,block72_10percent,London Bexley,864,1.8033297355324072,2.6305983892046316,1.1837264999999997,0.8164729491592755,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,block72_10percent,London Harlington,936,1.3860838622008547,2.302811934848224,0.8710605,0.9053020903342954,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,block72_10percent,London Honor Oak Park,936,1.365788441292735,2.2951655303380374,0.8642150000000002,0.9563273038466108,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,block72_10percent,London Marylebone Road,864,2.7967511099537035,4.0767220171850775,2.1319254999999995,0.7410492756069156,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,block72_10percent,London N. Kensington,936,1.376208750534188,1.9394791457461587,1.0002639999999998,0.8451175839364427,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,random10_point,London Bexley,863,0.7489327482387022,1.3154285792456788,0.42394,0.9777606694103377,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,random10_point,London Harlington,873,0.6669334978121421,1.1084156400130116,0.3924509999999999,0.9822637969817288,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,random10_point,London Honor Oak Park,865,0.6147997873063583,0.9976069302519494,0.36745170000000016,0.9828060080910377,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,random10_point,London Marylebone Road,843,2.250227771293001,3.191788557872511,1.6019877999999999,0.8680110543256991,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,random10_point,London N. Kensington,874,0.6375829539359267,1.0593860609253007,0.40587050000000024,0.9825754002922908,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,random30_point,London Bexley,2589,0.9277730679380842,1.7921483298159848,0.48547349999999945,0.963049423203146,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,random30_point,London Harlington,2618,0.8103824808212376,1.439491032731148,0.4556479499999999,0.9718320470174518,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,random30_point,London Honor Oak Park,2595,0.7251403999537572,1.2376555631096708,0.41977699999999984,0.9726399531018648,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,random30_point,London Marylebone Road,2529,2.31944689161724,3.268920307339373,1.6993749999999999,0.8554298208426939,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,random30_point,London N. Kensington,2623,0.7949336080670988,1.3449345154139822,0.4847600000000014,0.9705986248045345,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,random50_point,London Bexley,4315,1.1419982877288528,2.2172980800088484,0.5924934999999998,0.9456458019751967,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,random50_point,London Harlington,4364,0.9805927007234189,1.738748800410783,0.5521166000000002,0.9573640540270886,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,random50_point,London Honor Oak Park,4325,0.8360169484462427,1.4638658008180578,0.5081239999999996,0.9617356308418842,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,random50_point,London Marylebone Road,4214,2.408046167204556,3.3925396654787945,1.7511809999999994,0.8472906510593736,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,random50_point,London N. Kensington,4372,0.9703241531861849,1.6922151820348832,0.5906691500000001,0.9568617427279482,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_zero_neighbour,block24_10percent,London Bexley,864,3.3961371329861114,5.082487562302714,2.125132500000001,0.6683472062088662,BiGRU zero-neighbour control,BiGRU zero,Deep Learning,Non-spatial
+dl_zero_neighbour,block24_10percent,London Harlington,888,2.3840307166666665,4.607240634314114,1.2162075000000003,0.7564192435282917,BiGRU zero-neighbour control,BiGRU zero,Deep Learning,Non-spatial
+dl_zero_neighbour,block24_10percent,London Honor Oak Park,888,2.6321947971846846,3.7803481217709773,1.7593960000000002,0.714551956850166,BiGRU zero-neighbour control,BiGRU zero,Deep Learning,Non-spatial
+dl_zero_neighbour,block24_10percent,London Marylebone Road,864,3.6709138190972226,5.1082506371040655,2.713945,0.6501949680200962,BiGRU zero-neighbour control,BiGRU zero,Deep Learning,Non-spatial
+dl_zero_neighbour,block24_10percent,London N. Kensington,888,2.0468550013513513,2.916177126263823,1.448482,0.7379165349558245,BiGRU zero-neighbour control,BiGRU zero,Deep Learning,Non-spatial
+dl_zero_neighbour,block72_10percent,London Bexley,864,3.4045996109953705,4.235389335154117,2.9031470000000006,0.5242512415765656,BiGRU zero-neighbour control,BiGRU zero,Deep Learning,Non-spatial
+dl_zero_neighbour,block72_10percent,London Harlington,936,3.4982610036324786,5.408434578487755,2.3459331500000005,0.4776439719211405,BiGRU zero-neighbour control,BiGRU zero,Deep Learning,Non-spatial
+dl_zero_neighbour,block72_10percent,London Honor Oak Park,936,4.20989963775641,9.697706985688368,1.9497791499999995,0.22031335742129787,BiGRU zero-neighbour control,BiGRU zero,Deep Learning,Non-spatial
+dl_zero_neighbour,block72_10percent,London Marylebone Road,864,5.256431761574074,7.241023685394683,3.9824564999999996,0.18305114457104432,BiGRU zero-neighbour control,BiGRU zero,Deep Learning,Non-spatial
+dl_zero_neighbour,block72_10percent,London N. Kensington,936,2.7614856791666664,4.529675836817172,1.6808652999999998,0.15517621466120013,BiGRU zero-neighbour control,BiGRU zero,Deep Learning,Non-spatial
+dl_zero_neighbour,random10_point,London Bexley,863,1.0362080204634994,1.824574985629247,0.5197680000000009,0.9572131221374753,BiGRU zero-neighbour control,BiGRU zero,Deep Learning,Non-spatial
+dl_zero_neighbour,random10_point,London Harlington,873,0.8675568476632303,1.4593824044410304,0.5033770000000004,0.9692536495896158,BiGRU zero-neighbour control,BiGRU zero,Deep Learning,Non-spatial
+dl_zero_neighbour,random10_point,London Honor Oak Park,865,0.8285985555953758,1.3202139814598517,0.5140039999999999,0.9698875245740982,BiGRU zero-neighbour control,BiGRU zero,Deep Learning,Non-spatial
+dl_zero_neighbour,random10_point,London Marylebone Road,843,2.47935594911032,3.4774997467508464,1.7472180000000002,0.8433236134503592,BiGRU zero-neighbour control,BiGRU zero,Deep Learning,Non-spatial
+dl_zero_neighbour,random10_point,London N. Kensington,874,0.8551281298398168,1.3649647347654421,0.5585343500000002,0.9710734151011363,BiGRU zero-neighbour control,BiGRU zero,Deep Learning,Non-spatial
+dl_zero_neighbour,random30_point,London Bexley,2589,1.207786892402472,2.0864902719323757,0.6024703999999996,0.9499151881294471,BiGRU zero-neighbour control,BiGRU zero,Deep Learning,Non-spatial
+dl_zero_neighbour,random30_point,London Harlington,2618,1.0039213289037434,1.8533662115200804,0.5166189999999999,0.9533061330027729,BiGRU zero-neighbour control,BiGRU zero,Deep Learning,Non-spatial
+dl_zero_neighbour,random30_point,London Honor Oak Park,2595,0.9362693077302504,1.5842369248857655,0.5172432000000002,0.9551711597169712,BiGRU zero-neighbour control,BiGRU zero,Deep Learning,Non-spatial
+dl_zero_neighbour,random30_point,London Marylebone Road,2529,2.556705240292606,3.573300925872534,1.8691619999999993,0.8272535080010525,BiGRU zero-neighbour control,BiGRU zero,Deep Learning,Non-spatial
+dl_zero_neighbour,random30_point,London N. Kensington,2623,0.9824554245049942,1.66597750228546,0.5794609999999998,0.9548868003449893,BiGRU zero-neighbour control,BiGRU zero,Deep Learning,Non-spatial
+dl_zero_neighbour,random50_point,London Bexley,4315,1.3818883163383544,2.442501872700556,0.7472994999999996,0.93404393442085,BiGRU zero-neighbour control,BiGRU zero,Deep Learning,Non-spatial
+dl_zero_neighbour,random50_point,London Harlington,4364,1.1710661022387718,2.068299166944535,0.6317177,0.9396706104990048,BiGRU zero-neighbour control,BiGRU zero,Deep Learning,Non-spatial
+dl_zero_neighbour,random50_point,London Honor Oak Park,4325,1.0591139861757226,1.7292547892114358,0.6206139999999998,0.9466038428664749,BiGRU zero-neighbour control,BiGRU zero,Deep Learning,Non-spatial
+dl_zero_neighbour,random50_point,London Marylebone Road,4214,2.668329797721879,3.723816779749277,1.9436844999999998,0.8160107850011323,BiGRU zero-neighbour control,BiGRU zero,Deep Learning,Non-spatial
+dl_zero_neighbour,random50_point,London N. Kensington,4372,1.1214087715878316,1.9536534612914087,0.6631420000000001,0.9425028280174212,BiGRU zero-neighbour control,BiGRU zero,Deep Learning,Non-spatial
+ml_rf_non_spatial,block24_10percent,London Bexley,864,5.143621040819143,8.20130073624557,2.9335900753752804,0.13643210924194904,RF non-spatial,RF non-spatial,Machine Learning,Non-spatial
+ml_rf_non_spatial,block24_10percent,London Harlington,888,4.704310016053078,8.677250014616162,2.3012096341936674,0.13597679832712706,RF non-spatial,RF non-spatial,Machine Learning,Non-spatial
+ml_rf_non_spatial,block24_10percent,London Honor Oak Park,888,3.8079746029198867,6.364258693703289,2.1914085200873603,0.1909802389589601,RF non-spatial,RF non-spatial,Machine Learning,Non-spatial
+ml_rf_non_spatial,block24_10percent,London Marylebone Road,864,5.036524488635974,8.371167897254749,2.722996403452379,0.06059306521364827,RF non-spatial,RF non-spatial,Machine Learning,Non-spatial
+ml_rf_non_spatial,block24_10percent,London N. Kensington,888,3.3735147264544136,5.038594132143136,2.367729013757947,0.21759687424988705,RF non-spatial,RF non-spatial,Machine Learning,Non-spatial
+ml_rf_non_spatial,block72_10percent,London Bexley,864,4.669509464310567,6.159008948636415,3.655969862538444,-0.006033995157595395,RF non-spatial,RF non-spatial,Machine Learning,Non-spatial
+ml_rf_non_spatial,block72_10percent,London Harlington,936,4.4470411786054935,7.195365014568972,3.350131899041662,0.07545275288884534,RF non-spatial,RF non-spatial,Machine Learning,Non-spatial
+ml_rf_non_spatial,block72_10percent,London Honor Oak Park,936,4.997238358444914,10.794603470143505,2.8291062815126606,0.03395943012958924,RF non-spatial,RF non-spatial,Machine Learning,Non-spatial
+ml_rf_non_spatial,block72_10percent,London Marylebone Road,864,6.810513193918734,9.823553813205907,4.206893620924821,-0.5035995588491626,RF non-spatial,RF non-spatial,Machine Learning,Non-spatial
+ml_rf_non_spatial,block72_10percent,London N. Kensington,936,3.2123308432335915,4.763191207282533,2.5175364216072227,0.06582569515972958,RF non-spatial,RF non-spatial,Machine Learning,Non-spatial
+ml_rf_non_spatial,random10_point,London Bexley,863,1.0235822885071164,1.6743083027355565,0.5933876207159248,0.9639705173523202,RF non-spatial,RF non-spatial,Machine Learning,Non-spatial
+ml_rf_non_spatial,random10_point,London Harlington,873,0.9764890025654082,1.7614764825570768,0.5050672286267384,0.9552071124828387,RF non-spatial,RF non-spatial,Machine Learning,Non-spatial
+ml_rf_non_spatial,random10_point,London Honor Oak Park,865,0.8751664294433106,1.497709002303459,0.5017837208418712,0.9612463436754308,RF non-spatial,RF non-spatial,Machine Learning,Non-spatial
+ml_rf_non_spatial,random10_point,London Marylebone Road,843,2.4299237557182196,3.3535251445133096,1.864823457368531,0.8542956671414476,RF non-spatial,RF non-spatial,Machine Learning,Non-spatial
+ml_rf_non_spatial,random10_point,London N. Kensington,874,0.8590190315919319,1.4364094797257463,0.5431788823300827,0.9679660254262885,RF non-spatial,RF non-spatial,Machine Learning,Non-spatial
+ml_rf_non_spatial,random30_point,London Bexley,2589,1.7043594854857298,3.394923306073209,0.8264851201700285,0.8674031357155618,RF non-spatial,RF non-spatial,Machine Learning,Non-spatial
+ml_rf_non_spatial,random30_point,London Harlington,2618,1.5115005917737765,3.2276817016466586,0.7710494765927631,0.8583819011750059,RF non-spatial,RF non-spatial,Machine Learning,Non-spatial
+ml_rf_non_spatial,random30_point,London Honor Oak Park,2595,1.3989375213930744,2.8115328303912936,0.7690185872653643,0.85881012321347,RF non-spatial,RF non-spatial,Machine Learning,Non-spatial
+ml_rf_non_spatial,random30_point,London Marylebone Road,2529,2.776437682988871,4.156731476625165,1.935762919656698,0.7662379574677152,RF non-spatial,RF non-spatial,Machine Learning,Non-spatial
+ml_rf_non_spatial,random30_point,London N. Kensington,2623,1.4398593699998286,2.9567807990493074,0.7945723268845581,0.8578968763450822,RF non-spatial,RF non-spatial,Machine Learning,Non-spatial
+ml_rf_non_spatial,random50_point,London Bexley,4315,2.4914973290881512,5.196556298634358,1.1890800488077606,0.701450599215039,RF non-spatial,RF non-spatial,Machine Learning,Non-spatial
+ml_rf_non_spatial,random50_point,London Harlington,4364,2.10003753850103,4.108021026020086,1.140794774360975,0.76200516501269,RF non-spatial,RF non-spatial,Machine Learning,Non-spatial
+ml_rf_non_spatial,random50_point,London Honor Oak Park,4325,1.9435663933240928,3.7638744143582668,1.0470256200576369,0.7470339282493155,RF non-spatial,RF non-spatial,Machine Learning,Non-spatial
+ml_rf_non_spatial,random50_point,London Marylebone Road,4214,3.2553355337430125,5.276498311902805,2.076294840192959,0.6305910915572652,RF non-spatial,RF non-spatial,Machine Learning,Non-spatial
+ml_rf_non_spatial,random50_point,London N. Kensington,4372,2.125345346418137,4.22834255757498,1.1363394468880572,0.7306656468066666,RF non-spatial,RF non-spatial,Machine Learning,Non-spatial
+ml_rf_spatio_temporal,block24_10percent,London Bexley,864,4.035443028119594,6.464024340374032,2.1771911132010215,0.46354045457318394,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,block24_10percent,London Harlington,888,3.722619796432083,6.812928169387525,1.908164858175624,0.46736610094396946,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,block24_10percent,London Honor Oak Park,888,2.7832715539744775,4.587097671019993,1.6823503264992625,0.5797192914730281,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,block24_10percent,London Marylebone Road,864,4.18780714703797,6.674239326297081,2.480545259186309,0.4028475642279923,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,block24_10percent,London N. Kensington,888,2.546451654675583,3.866757026523127,1.784625932704874,0.5392072997808564,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,block72_10percent,London Bexley,864,3.7807757258157944,5.049613094706852,2.7364303574121975,0.32375013258848606,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,block72_10percent,London Harlington,936,3.3809701866124287,5.633847189106883,2.485684647836748,0.43319512663824056,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,block72_10percent,London Honor Oak Park,936,3.8700708917794056,9.081858074748764,1.9914334543752035,0.3161963733023315,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,block72_10percent,London Marylebone Road,864,5.757672653095805,8.225042102283073,3.834427630223647,-0.05407422047965249,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,block72_10percent,London N. Kensington,936,2.4900493113108144,3.8845549204939966,1.8146178492487604,0.3786813095433076,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,random10_point,London Bexley,863,0.9560504932702852,1.619186839884445,0.533216143194716,0.9663037869715011,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,random10_point,London Harlington,873,0.9123474061531871,1.6112699522272103,0.49271630383394704,0.962520656291718,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,random10_point,London Honor Oak Park,865,0.82323023581551,1.2994692555568008,0.5035445357248851,0.9708264136481167,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,random10_point,London Marylebone Road,843,2.288557631621595,3.163954097811579,1.7013717446333754,0.8703030745117766,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,random10_point,London N. Kensington,874,0.74834329266734,1.2089713592127564,0.4487219260976385,0.9773072919310049,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,random30_point,London Bexley,2589,1.602537165237303,3.2799464255729114,0.8027566698086712,0.8762324430487569,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,random30_point,London Harlington,2618,1.4002380994689927,2.842520894376381,0.7835419726693389,0.8901640044060676,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,random30_point,London Honor Oak Park,2595,1.199426046205178,2.4474697789805684,0.7321110501373389,0.8930078495070297,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,random30_point,London Marylebone Road,2529,2.560275769035477,3.737604068114672,1.8511107597848646,0.8110022471034618,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,random30_point,London N. Kensington,2623,1.1992790474495536,2.471672500976946,0.7280783024089299,0.9007004643795417,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,random50_point,London Bexley,4315,2.4028283080197586,5.116200747538421,1.1435450927234037,0.710612289387663,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,random50_point,London Harlington,4364,2.0157313717154492,3.8514369278292166,1.1365264004396498,0.7908066875707562,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,random50_point,London Honor Oak Park,4325,1.763786495800633,3.533500361229616,1.0545020122465325,0.7770526532636544,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,random50_point,London Marylebone Road,4214,3.0904549978286546,4.962684587541917,1.9928613372252264,0.673224788254291,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,random50_point,London N. Kensington,4372,1.9184929634400536,3.907512469925871,1.0754307244669734,0.769987113915761,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_xgb_non_spatial,block24_10percent,London Bexley,864,4.833018324531891,7.987296346230737,2.5701776771545406,0.18091191760967362,XGBoost non-spatial,XGB non-spatial,Machine Learning,Non-spatial
+ml_xgb_non_spatial,block24_10percent,London Harlington,888,4.431221448913351,8.565898637682736,1.876361898422241,0.1580097837511637,XGBoost non-spatial,XGB non-spatial,Machine Learning,Non-spatial
+ml_xgb_non_spatial,block24_10percent,London Honor Oak Park,888,3.5416391457824026,6.220180991476794,1.8791347999572756,0.22719570998331595,XGBoost non-spatial,XGB non-spatial,Machine Learning,Non-spatial
+ml_xgb_non_spatial,block24_10percent,London Marylebone Road,864,5.0471107112588705,8.244158092740095,2.759432554244995,0.08888272801733232,XGBoost non-spatial,XGB non-spatial,Machine Learning,Non-spatial
+ml_xgb_non_spatial,block24_10percent,London N. Kensington,888,3.1234439966334953,4.960402701910026,2.0059866218566897,0.24169190093621895,XGBoost non-spatial,XGB non-spatial,Machine Learning,Non-spatial
+ml_xgb_non_spatial,block72_10percent,London Bexley,864,4.852806890531823,6.47011829930146,3.65779541015625,-0.11023631546834678,XGBoost non-spatial,XGB non-spatial,Machine Learning,Non-spatial
+ml_xgb_non_spatial,block72_10percent,London Harlington,936,4.175747477659812,7.123797479291545,2.979528121948243,0.0937530073110866,XGBoost non-spatial,XGB non-spatial,Machine Learning,Non-spatial
+ml_xgb_non_spatial,block72_10percent,London Honor Oak Park,936,4.820182718305506,10.950914704114675,2.502872997283936,0.005779369002488655,XGBoost non-spatial,XGB non-spatial,Machine Learning,Non-spatial
+ml_xgb_non_spatial,block72_10percent,London Marylebone Road,864,7.194318277968301,10.246566024655781,4.754788398742676,-0.635880660430699,XGBoost non-spatial,XGB non-spatial,Machine Learning,Non-spatial
+ml_xgb_non_spatial,block72_10percent,London N. Kensington,936,3.219433221140479,4.944815326587623,2.294613044738769,-0.006774112093280493,XGBoost non-spatial,XGB non-spatial,Machine Learning,Non-spatial
+ml_xgb_non_spatial,random10_point,London Bexley,863,0.8455334148119665,1.477567212316837,0.42710119628906185,0.9719403884060196,XGBoost non-spatial,XGB non-spatial,Machine Learning,Non-spatial
+ml_xgb_non_spatial,random10_point,London Harlington,873,0.8446116953496944,1.607567694424248,0.3993836517333982,0.9626926929865105,XGBoost non-spatial,XGB non-spatial,Machine Learning,Non-spatial
+ml_xgb_non_spatial,random10_point,London Honor Oak Park,865,0.7671122346999328,1.333754420566429,0.425088996887208,0.9692666751259865,XGBoost non-spatial,XGB non-spatial,Machine Learning,Non-spatial
+ml_xgb_non_spatial,random10_point,London Marylebone Road,843,2.3871587575683955,3.3135628228643657,1.735337257385254,0.8577475514293954,XGBoost non-spatial,XGB non-spatial,Machine Learning,Non-spatial
+ml_xgb_non_spatial,random10_point,London N. Kensington,874,0.7065526228998564,1.1373886641685076,0.42345383548736537,0.9799149881493739,XGBoost non-spatial,XGB non-spatial,Machine Learning,Non-spatial
+ml_xgb_non_spatial,random30_point,London Bexley,2589,1.391471154659584,2.9274431027728065,0.6163739700317383,0.9014060549705759,XGBoost non-spatial,XGB non-spatial,Machine Learning,Non-spatial
+ml_xgb_non_spatial,random30_point,London Harlington,2618,1.2251500010690768,2.917643629920521,0.5494945030212404,0.8842817521936637,XGBoost non-spatial,XGB non-spatial,Machine Learning,Non-spatial
+ml_xgb_non_spatial,random30_point,London Honor Oak Park,2595,1.1058457972366684,2.4928295351726244,0.5540105361938483,0.8890052585072673,XGBoost non-spatial,XGB non-spatial,Machine Learning,Non-spatial
+ml_xgb_non_spatial,random30_point,London Marylebone Road,2529,2.642199494660537,3.939193407924717,1.86234712600708,0.7900650906125347,XGBoost non-spatial,XGB non-spatial,Machine Learning,Non-spatial
+ml_xgb_non_spatial,random30_point,London N. Kensington,2623,1.1603620669410013,2.724030796655451,0.5563507385253921,0.8793883129054244,XGBoost non-spatial,XGB non-spatial,Machine Learning,Non-spatial
+ml_xgb_non_spatial,random50_point,London Bexley,4315,2.0403593497920007,4.575857920860848,0.8653604583740231,0.7685111950310954,XGBoost non-spatial,XGB non-spatial,Machine Learning,Non-spatial
+ml_xgb_non_spatial,random50_point,London Harlington,4364,1.6488424520431364,3.57956271038231,0.7761138019561762,0.8192983297091417,XGBoost non-spatial,XGB non-spatial,Machine Learning,Non-spatial
+ml_xgb_non_spatial,random50_point,London Honor Oak Park,4325,1.5491542136679632,3.34311158303734,0.7520216903686525,0.8004306822199244,XGBoost non-spatial,XGB non-spatial,Machine Learning,Non-spatial
+ml_xgb_non_spatial,random50_point,London Marylebone Road,4214,3.0410101561677587,4.850620628050309,1.9704022407531738,0.6878161904009815,XGBoost non-spatial,XGB non-spatial,Machine Learning,Non-spatial
+ml_xgb_non_spatial,random50_point,London N. Kensington,4372,1.675201334503519,3.7749202039350833,0.788517766952515,0.7853321663831464,XGBoost non-spatial,XGB non-spatial,Machine Learning,Non-spatial
+ml_xgb_spatio_temporal,block24_10percent,London Bexley,864,3.744550787245786,5.879506363754814,2.235971389770508,0.5561739996913238,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,block24_10percent,London Harlington,888,3.6174026328336004,6.314684119343524,2.109577178955078,0.5424227283703762,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,block24_10percent,London Honor Oak Park,888,2.70010243257746,4.186053535646518,2.023421623229981,0.649995976131192,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,block24_10percent,London Marylebone Road,864,3.7858555366595588,5.885535603438981,2.3550326824188232,0.53564124371162,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,block24_10percent,London N. Kensington,888,2.5181626019091223,3.56405846407268,2.0343009643554684,0.6085273166807733,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,block72_10percent,London Bexley,864,3.4197791276794898,4.422310046084059,2.7193929805755612,0.48133211135879816,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,block72_10percent,London Harlington,936,3.1924902206251766,4.88913230217924,2.5992200679779054,0.573138458248712,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,block72_10percent,London Honor Oak Park,936,4.0773985357712474,8.843405038741924,2.5007894840240477,0.3516328368207282,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,block72_10percent,London Marylebone Road,864,4.548000701047756,6.573898338212402,3.096829652786254,0.3266499451032412,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,block72_10percent,London N. Kensington,936,2.5526543434888884,3.572721449343195,2.169006759643555,0.47443044336587126,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,random10_point,London Bexley,863,0.9010740713664305,1.5538322420957467,0.49924425888061563,0.9689690249579328,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,random10_point,London Harlington,873,0.840767406085922,1.5244177899233728,0.3949333877563479,0.9664522515675857,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,random10_point,London Honor Oak Park,865,0.7715593290273854,1.4076334631515386,0.4006279354095459,0.9657676299413614,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,random10_point,London Marylebone Road,843,2.2911199550470283,3.2357746975532518,1.6151175498962402,0.8643480996818643,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,random10_point,London N. Kensington,874,0.6747422533095292,1.0407188330978987,0.40300279235839875,0.983184060789157,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,random30_point,London Bexley,2589,1.5338708880740548,3.2330930903201973,0.705580226898193,0.8797431739596501,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,random30_point,London Harlington,2618,1.2855954767838065,3.0418296556346816,0.6209610786437987,0.8742212892536196,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,random30_point,London Honor Oak Park,2595,1.2089671748038202,2.7091309010970726,0.6634473266601564,0.8689076886116089,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,random30_point,London Marylebone Road,2529,2.5506831109170247,3.8089196980457536,1.821457862854004,0.803721067902736,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,random30_point,London N. Kensington,2623,1.206381473785223,2.7297603195037374,0.6439617919921883,0.878880408100104,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,random50_point,London Bexley,4315,2.3634023126703285,5.14118854713801,1.1426441421508802,0.70777861605489,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,random50_point,London Harlington,4364,1.9970960470511487,4.01270829590561,1.066303268432618,0.7729207787936717,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,random50_point,London Honor Oak Park,4325,1.8304942674978621,3.717377408182046,1.0773800506591797,0.7532453539169379,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,random50_point,London Marylebone Road,4214,3.066696381266218,4.939421610080211,2.0361580848693848,0.6762811773177014,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,random50_point,London N. Kensington,4372,1.927261074468071,3.901377947363018,1.0853675460815433,0.7707087554456562,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+stat_kalman_arima,block24_10percent,London Bexley,864,3.1323348713490584,4.920636156400822,1.8966303601926287,0.6891337903423458,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,block24_10percent,London Harlington,888,2.7108360861535026,5.304662855621964,1.2601002033818693,0.6770935224279035,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,block24_10percent,London Honor Oak Park,888,2.501177646806683,3.8771258947335396,1.6343756509336442,0.6997498124501974,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,block24_10percent,London Marylebone Road,864,3.401147686183011,4.721196760825079,2.5899752723944314,0.7011963777947139,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,block24_10percent,London N. Kensington,888,2.2645324763731822,3.3423107957514393,1.4592586461536692,0.6557249998378785,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,block72_10percent,London Bexley,864,4.0888720159636165,5.043428403530883,3.568843792493293,0.3254056397494117,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,block72_10percent,London Harlington,936,4.586965946632908,6.387282125638419,3.1854089490070354,0.2714562312174039,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,block72_10percent,London Honor Oak Park,936,4.338830888939647,9.621060318900149,2.5507362499123074,0.2325892947543291,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,block72_10percent,London Marylebone Road,864,5.3140165642212835,7.463057517279722,3.830788474941592,0.13218228760555872,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,block72_10percent,London N. Kensington,936,3.05675411671195,4.608812137856032,2.416582215913767,0.12539914357190285,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,random10_point,London Bexley,863,0.6998460085727454,1.2543135760095177,0.37714987662870847,0.9797791498834582,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,random10_point,London Harlington,873,0.5946289999043046,1.1252027026482865,0.2889968398317393,0.9817224957201516,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,random10_point,London Honor Oak Park,865,0.5559927820655266,0.9301395064402785,0.31435770924370754,0.985053001711619,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,random10_point,London Marylebone Road,843,2.3396507249191636,3.267864276885037,1.6235561064799429,0.8616442049377018,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,random10_point,London N. Kensington,874,0.551072522645818,0.9671153487872922,0.32487374183062956,0.9854785209355775,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,random30_point,London Bexley,2589,0.8044738111087029,1.48779964118062,0.42549468630335285,0.9745339130437166,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,random30_point,London Harlington,2618,0.7183029353022986,1.3760017627530725,0.35053709811949174,0.9742619677881856,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,random30_point,London Honor Oak Park,2595,0.6729611001310163,1.2072604523751318,0.36568864201287,0.9739673014578847,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,random30_point,London Marylebone Road,2529,2.44075250895629,3.391739485468478,1.8068757721823943,0.8443622199010076,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,random30_point,London N. Kensington,2623,0.6885966185335817,1.235920096038528,0.3843958246991974,0.9751717474824926,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,random50_point,London Bexley,4315,1.0720828722677005,2.0239673302821726,0.549168820793192,0.9547110839253643,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,random50_point,London Harlington,4364,0.8966600350998503,1.6273394613231198,0.4621811649587846,0.9626527586694517,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,random50_point,London Honor Oak Park,4325,0.8145244090047745,1.4153816105764083,0.44246492754881395,0.9642283374203993,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,random50_point,London Marylebone Road,4214,2.573127373329649,3.59302129984172,1.8858999234362162,0.8287086860177851,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,random50_point,London N. Kensington,4372,0.8550582735908063,1.611004887928295,0.4819940547174655,0.9609028466027142,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_linear_interpolation,block24_10percent,London Bexley,864,3.4630294444444445,5.538140353318571,2.126220000000001,0.6062152196210129,Linear interpolation,Interpolation,Statistical,Non-spatial
+stat_linear_interpolation,block24_10percent,London Harlington,888,2.6794960360360367,5.300286094785505,1.2824399999999987,0.6776261486959074,Linear interpolation,Interpolation,Statistical,Non-spatial
+stat_linear_interpolation,block24_10percent,London Honor Oak Park,888,2.5235381531531536,3.817540911566828,1.5074199999999998,0.7089075906462994,Linear interpolation,Interpolation,Statistical,Non-spatial
+stat_linear_interpolation,block24_10percent,London Marylebone Road,864,3.7300961538461537,5.536776240306091,2.559999999999999,0.5890437384121274,Linear interpolation,Interpolation,Statistical,Non-spatial
+stat_linear_interpolation,block24_10percent,London N. Kensington,888,2.1844299445599447,3.209480608477488,1.46422,0.6825456110400836,Linear interpolation,Interpolation,Statistical,Non-spatial
+stat_linear_interpolation,block72_10percent,London Bexley,864,3.63235822552004,4.575844483199849,2.9064657534246603,0.4446925526362844,Linear interpolation,Interpolation,Statistical,Non-spatial
+stat_linear_interpolation,block72_10percent,London Harlington,936,3.8193591938883036,5.466500400911583,2.8767602739726033,0.46636756602446394,Linear interpolation,Interpolation,Statistical,Non-spatial
+stat_linear_interpolation,block72_10percent,London Honor Oak Park,936,3.9786518264840187,7.912394722858686,2.1635,0.480963538309954,Linear interpolation,Interpolation,Statistical,Non-spatial
+stat_linear_interpolation,block72_10percent,London Marylebone Road,864,5.809043632673769,8.094881831882793,4.1575342465753415,-0.020977001383857496,Linear interpolation,Interpolation,Statistical,Non-spatial
+stat_linear_interpolation,block72_10percent,London N. Kensington,936,2.8137360818405344,4.663960990530991,1.8760753424657532,0.1043430402832175,Linear interpolation,Interpolation,Statistical,Non-spatial
+stat_linear_interpolation,random10_point,London Bexley,863,0.7098071552723058,1.2521138269303143,0.3773333333333331,0.9798500122152318,Linear interpolation,Interpolation,Statistical,Non-spatial
+stat_linear_interpolation,random10_point,London Harlington,873,0.6344975022273132,1.192613642341891,0.3115000000000001,0.9794668818146218,Linear interpolation,Interpolation,Statistical,Non-spatial
+stat_linear_interpolation,random10_point,London Honor Oak Park,865,0.6094274318744839,1.0320081879178553,0.3300000000000005,0.9815997345208741,Linear interpolation,Interpolation,Statistical,Non-spatial
+stat_linear_interpolation,random10_point,London Marylebone Road,843,2.4012158770643275,3.3502312897845052,1.666666666666667,0.8545817501081399,Linear interpolation,Interpolation,Statistical,Non-spatial
+stat_linear_interpolation,random10_point,London N. Kensington,874,0.5970247393846937,1.0060769757395105,0.37699999999999934,0.9842849154598611,Linear interpolation,Interpolation,Statistical,Non-spatial
+stat_linear_interpolation,random30_point,London Bexley,2589,0.8318687960970405,1.5152662184980876,0.44033333333333324,0.9735849643782646,Linear interpolation,Interpolation,Statistical,Non-spatial
+stat_linear_interpolation,random30_point,London Harlington,2618,0.7533111276328712,1.4347732338406087,0.3708333333333331,0.9720163801820982,Linear interpolation,Interpolation,Statistical,Non-spatial
+stat_linear_interpolation,random30_point,London Honor Oak Park,2595,0.704137800715662,1.2502187096005466,0.37749999999999995,0.9720816833548299,Linear interpolation,Interpolation,Statistical,Non-spatial
+stat_linear_interpolation,random30_point,London Marylebone Road,2529,2.4835320200789193,3.4799847902760614,2.0,0.8361581871408442,Linear interpolation,Interpolation,Statistical,Non-spatial
+stat_linear_interpolation,random30_point,London N. Kensington,2623,0.7290883855162925,1.2729586580276895,0.4240000000000004,0.9736613225123896,Linear interpolation,Interpolation,Statistical,Non-spatial
+stat_linear_interpolation,random50_point,London Bexley,4315,1.0868606558229275,2.0380972562936566,0.5659999999999998,0.9540765254595198,Linear interpolation,Interpolation,Statistical,Non-spatial
+stat_linear_interpolation,random50_point,London Harlington,4364,0.9313056764036197,1.6795285306012158,0.48999999999999977,0.960218881668497,Linear interpolation,Interpolation,Statistical,Non-spatial
+stat_linear_interpolation,random50_point,London Honor Oak Park,4325,0.8537876811491656,1.4799282520496493,0.4717500000000001,0.9608913026824099,Linear interpolation,Interpolation,Statistical,Non-spatial
+stat_linear_interpolation,random50_point,London Marylebone Road,4214,2.619023146639926,3.675353876935448,2.0,0.8207686073860481,Linear interpolation,Interpolation,Statistical,Non-spatial
+stat_linear_interpolation,random50_point,London N. Kensington,4372,0.8957884290902246,1.6701377833983122,0.5036666666666672,0.957980002297562,Linear interpolation,Interpolation,Statistical,Non-spatial
+stat_station_mean,block24_10percent,London Bexley,864,6.231728730822503,8.973838691590581,4.626960923487884,-0.033921409355092136,Station train mean,Train mean,Statistical,Non-spatial
+stat_station_mean,block24_10percent,London Harlington,888,5.612999182862966,9.426104271412216,3.2948296106479003,-0.019590223162065046,Station train mean,Train mean,Statistical,Non-spatial
+stat_station_mean,block24_10percent,London Honor Oak Park,888,4.680264117017571,7.081333604350657,3.2594530386740344,-0.0015983261848835362,Station train mean,Train mean,Statistical,Non-spatial
+stat_station_mean,block24_10percent,London Marylebone Road,864,5.900430656021654,8.638329363109635,4.144035549419732,-0.0003251193246662787,Station train mean,Train mean,Statistical,Non-spatial
+stat_station_mean,block24_10percent,London N. Kensington,888,4.496892148192486,5.7939977658943365,3.956986321314994,-0.03459046254712761,Station train mean,Train mean,Statistical,Non-spatial
+stat_station_mean,block72_10percent,London Bexley,864,5.015636590504357,6.180858599065902,4.335039076512116,-0.013184652667021401,Station train mean,Train mean,Statistical,Non-spatial
+stat_station_mean,block72_10percent,London Harlington,936,4.808726597963049,7.4939839753172315,3.7343296106479,-0.002879997937235812,Station train mean,Train mean,Statistical,Non-spatial
+stat_station_mean,block72_10percent,London Honor Oak Park,936,5.535812815790717,10.985001521456061,3.542453038674034,-0.0004196677415517769,Station train mean,Train mean,Statistical,Non-spatial
+stat_station_mean,block72_10percent,London Marylebone Road,864,6.016813251298669,8.469973312891572,4.144035549419732,-0.1177869023027931,Station train mean,Train mean,Statistical,Non-spatial
+stat_station_mean,block72_10percent,London N. Kensington,936,3.778651351829965,5.047320536502183,3.4849863213149943,-0.04894727331637516,Station train mean,Train mean,Statistical,Non-spatial
+stat_station_mean,random10_point,London Bexley,863,5.765585824532173,8.834550221010725,4.335039076512116,-0.0031273052055815764,Station train mean,Train mean,Statistical,Non-spatial
+stat_station_mean,random10_point,London Harlington,873,5.301072562224163,8.37406330851375,3.6873296106479003,-0.01234336484191445,Station train mean,Train mean,Statistical,Non-spatial
+stat_station_mean,random10_point,London Honor Oak Park,865,4.86473210487657,7.61040488201947,3.636453038674034,-0.0006295585233679901,Station train mean,Train mean,Statistical,Non-spatial
+stat_station_mean,random10_point,London Marylebone Road,843,6.0344017064163635,8.793198220942374,4.855964450580268,-0.0017585537636957138,Station train mean,Train mean,Statistical,Non-spatial
+stat_station_mean,random10_point,London N. Kensington,874,5.218515367642114,8.025570799009596,3.956986321314994,-1.4188334276576953e-05,Station train mean,Train mean,Statistical,Non-spatial
+stat_station_mean,random30_point,London Bexley,2589,6.042220190996369,9.352463881223901,4.438960923487884,-0.006295192108592973,Station train mean,Train mean,Statistical,Non-spatial
+stat_station_mean,random30_point,London Harlington,2618,5.3440344568319045,8.635272627492542,3.6794999999999995,-0.01365336479716861,Station train mean,Train mean,Statistical,Non-spatial
+stat_station_mean,random30_point,London Honor Oak Park,2595,4.866242627662632,7.482438717873032,3.731453038674034,-8.23897227175685e-06,Station train mean,Train mean,Statistical,Non-spatial
+stat_station_mean,random30_point,London Marylebone Road,2529,5.943046704220942,8.597572151494484,4.855964450580268,-4.999341321298978e-05,Station train mean,Train mean,Statistical,Non-spatial
+stat_station_mean,random30_point,London N. Kensington,2623,5.164329865721269,7.844031978451137,3.968013678685006,-0.0001014961466785369,Station train mean,Train mean,Statistical,Non-spatial
+stat_station_mean,random50_point,London Bexley,4315,6.094360596332111,9.544561775337716,4.3439609234878835,-0.007156399930952739,Station train mean,Train mean,Statistical,Non-spatial
+stat_station_mean,random50_point,London Harlington,4364,5.274322841267919,8.469905512688227,3.6253296106479005,-0.011717698745973948,Station train mean,Train mean,Statistical,Non-spatial
+stat_station_mean,random50_point,London Honor Oak Park,4325,4.89396483377511,7.483692280255711,3.731453038674034,-5.496716403108337e-05,Station train mean,Train mean,Statistical,Non-spatial
+stat_station_mean,random50_point,London Marylebone Road,4214,5.988188398525227,8.6814583648503,4.855964450580268,-2.6039580416359343e-06,Station train mean,Train mean,Statistical,Non-spatial
+stat_station_mean,random50_point,London N. Kensington,4372,5.301161388701274,8.152269230844247,4.050986321314994,-0.0011714347023914495,Station train mean,Train mean,Statistical,Non-spatial

@@ -1,0 +1,76 @@
+Scenario,Split,Station,Rows,EligibleObserved,ArtificialMasks,MaskRate
+random10_point,Test,London Bexley,8760,8630,863,0.1
+random10_point,Test,London Harlington,8760,8728,873,0.10002291475710358
+random10_point,Test,London Honor Oak Park,8760,8650,865,0.1
+random10_point,Test,London Marylebone Road,8760,8429,843,0.10001186380353541
+random10_point,Test,London N. Kensington,8760,8744,874,0.09995425434583714
+random10_point,Train,London Bexley,26280,26205,0,0.0
+random10_point,Train,London Harlington,26280,26146,0,0.0
+random10_point,Train,London Honor Oak Park,26280,25883,0,0.0
+random10_point,Train,London Marylebone Road,26280,23179,0,0.0
+random10_point,Train,London N. Kensington,26280,26099,0,0.0
+random10_point,Validation,London Bexley,8784,8772,877,0.09997720018239854
+random10_point,Validation,London Harlington,8784,8756,876,0.10004568296025583
+random10_point,Validation,London Honor Oak Park,8784,8749,875,0.10001142987770031
+random10_point,Validation,London Marylebone Road,8784,8292,829,0.09997588036661843
+random10_point,Validation,London N. Kensington,8784,8751,875,0.09998857273454462
+random30_point,Test,London Bexley,8760,8630,2589,0.3
+random30_point,Test,London Harlington,8760,8728,2618,0.29995417048579287
+random30_point,Test,London Honor Oak Park,8760,8650,2595,0.3
+random30_point,Test,London Marylebone Road,8760,8429,2529,0.30003559141060626
+random30_point,Test,London N. Kensington,8760,8744,2623,0.2999771271729186
+random30_point,Train,London Bexley,26280,26205,0,0.0
+random30_point,Train,London Harlington,26280,26146,0,0.0
+random30_point,Train,London Honor Oak Park,26280,25883,0,0.0
+random30_point,Train,London Marylebone Road,26280,23179,0,0.0
+random30_point,Train,London N. Kensington,26280,26099,0,0.0
+random30_point,Validation,London Bexley,8784,8772,2632,0.30004559963520294
+random30_point,Validation,London Harlington,8784,8756,2627,0.3000228414801279
+random30_point,Validation,London Honor Oak Park,8784,8749,2625,0.3000342896331009
+random30_point,Validation,London Marylebone Road,8784,8292,2488,0.30004823926676316
+random30_point,Validation,London N. Kensington,8784,8751,2625,0.2999657182036339
+random50_point,Test,London Bexley,8760,8630,4315,0.5
+random50_point,Test,London Harlington,8760,8728,4364,0.5
+random50_point,Test,London Honor Oak Park,8760,8650,4325,0.5
+random50_point,Test,London Marylebone Road,8760,8429,4214,0.4999406809823229
+random50_point,Test,London N. Kensington,8760,8744,4372,0.5
+random50_point,Train,London Bexley,26280,26205,0,0.0
+random50_point,Train,London Harlington,26280,26146,0,0.0
+random50_point,Train,London Honor Oak Park,26280,25883,0,0.0
+random50_point,Train,London Marylebone Road,26280,23179,0,0.0
+random50_point,Train,London N. Kensington,26280,26099,0,0.0
+random50_point,Validation,London Bexley,8784,8772,4386,0.5
+random50_point,Validation,London Harlington,8784,8756,4378,0.5
+random50_point,Validation,London Honor Oak Park,8784,8749,4374,0.49994285061149846
+random50_point,Validation,London Marylebone Road,8784,8292,4146,0.5
+random50_point,Validation,London N. Kensington,8784,8751,4376,0.5000571363272769
+block24_10percent,Test,London Bexley,8760,8630,864,0.10011587485515643
+block24_10percent,Test,London Harlington,8760,8728,888,0.10174152153987168
+block24_10percent,Test,London Honor Oak Park,8760,8650,888,0.10265895953757226
+block24_10percent,Test,London Marylebone Road,8760,8429,864,0.10250326254597224
+block24_10percent,Test,London N. Kensington,8760,8744,888,0.10155535224153706
+block24_10percent,Train,London Bexley,26280,26205,0,0.0
+block24_10percent,Train,London Harlington,26280,26146,0,0.0
+block24_10percent,Train,London Honor Oak Park,26280,25883,0,0.0
+block24_10percent,Train,London Marylebone Road,26280,23179,0,0.0
+block24_10percent,Train,London N. Kensington,26280,26099,0,0.0
+block24_10percent,Validation,London Bexley,8784,8772,888,0.1012311901504788
+block24_10percent,Validation,London Harlington,8784,8756,888,0.10141617176793057
+block24_10percent,Validation,London Honor Oak Park,8784,8749,888,0.10149731397874043
+block24_10percent,Validation,London Marylebone Road,8784,8292,840,0.10130246020260492
+block24_10percent,Validation,London N. Kensington,8784,8751,888,0.10147411724374357
+block72_10percent,Test,London Bexley,8760,8630,864,0.10011587485515643
+block72_10percent,Test,London Harlington,8760,8728,936,0.10724106324472961
+block72_10percent,Test,London Honor Oak Park,8760,8650,936,0.10820809248554913
+block72_10percent,Test,London Marylebone Road,8760,8429,864,0.10250326254597224
+block72_10percent,Test,London N. Kensington,8760,8744,936,0.1070448307410796
+block72_10percent,Train,London Bexley,26280,26205,0,0.0
+block72_10percent,Train,London Harlington,26280,26146,0,0.0
+block72_10percent,Train,London Honor Oak Park,26280,25883,0,0.0
+block72_10percent,Train,London Marylebone Road,26280,23179,0,0.0
+block72_10percent,Train,London N. Kensington,26280,26099,0,0.0
+block72_10percent,Validation,London Bexley,8784,8772,936,0.106703146374829
+block72_10percent,Validation,London Harlington,8784,8756,936,0.10689812699862951
+block72_10percent,Validation,London Honor Oak Park,8784,8749,936,0.10698365527488855
+block72_10percent,Validation,London Marylebone Road,8784,8292,864,0.10419681620839363
+block72_10percent,Validation,London N. Kensington,8784,8751,936,0.10695920466232431

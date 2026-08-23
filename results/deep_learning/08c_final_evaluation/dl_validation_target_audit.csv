@@ -1,0 +1,6 @@
+Split,Scenario,TargetRows,UniqueTargetTimestamps
+Validation,random10_point,4332,3594
+Validation,random30_point,12997,7284
+Validation,random50_point,21660,8489
+Validation,block24_10percent,4392,3662
+Validation,block72_10percent,4608,3547

@@ -1,0 +1,5 @@
+Model,Scenario,FeatureSet,Stage,Split,ElapsedSeconds,NumberOfRows,NumberOfFeatures,NumberOfCandidates,Repetition,RequestedNJobs,EffectiveWorkers,Seed,Notes
+RandomForest,shared_family_balanced_v1,temporal_only,tuning,Train_fit+Five_Validation_conditions,267.65482890000567,127512,86,3,1,-1,12,42,Checkpointed random search; selected by family-balanced Validation MAE
+RandomForest,shared_family_balanced_v1,spatio_temporal,tuning,Train_fit+Five_Validation_conditions,325.89493140002014,127512,97,3,1,-1,12,42,Checkpointed random search; selected by family-balanced Validation MAE
+XGBoost,shared_family_balanced_v1,temporal_only,tuning,Train_fit+Five_Validation_conditions,45.1159376000287,127512,86,3,1,-1,12,42,Checkpointed random search with weighted shared Validation early stopping
+XGBoost,shared_family_balanced_v1,spatio_temporal,tuning,Train_fit+Five_Validation_conditions,52.33151409999118,127512,97,3,1,-1,12,42,Checkpointed random search with weighted shared Validation early stopping

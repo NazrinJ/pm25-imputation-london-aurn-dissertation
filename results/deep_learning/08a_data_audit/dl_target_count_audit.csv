@@ -1,0 +1,11 @@
+Scenario,Split,TargetRows,UniqueTargetTimestamps,StationsWithTargets
+random10_point,Validation,4332,3594,5
+random10_point,Test,4318,3536,5
+random30_point,Validation,12997,7284,5
+random30_point,Test,12954,7259,5
+random50_point,Validation,21660,8489,5
+random50_point,Test,21590,8455,5
+block24_10percent,Validation,4392,3662,5
+block24_10percent,Test,4392,3546,5
+block72_10percent,Validation,4608,3547,5
+block72_10percent,Test,4536,3854,5

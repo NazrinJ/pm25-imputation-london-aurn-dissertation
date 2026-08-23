@@ -1,0 +1,6 @@
+Split,Scenario,TargetRows,UniqueTargetTimestamps
+Test,random10_point,4318,3536
+Test,random30_point,12954,7259
+Test,random50_point,21590,8455
+Test,block24_10percent,4392,3546
+Test,block72_10percent,4536,3854

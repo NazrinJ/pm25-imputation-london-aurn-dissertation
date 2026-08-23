@@ -1,0 +1,2 @@
+SelectionRule,MedianGraphBlockMAE,SelectedBlockID,Station,BlockStart,BlockEnd,SelectedGraphBlockMAE,DistanceFromMedianGraphBlockMAE
+graph block MAE closest to median graph block MAE,1.3609331316418118,London_Harlington__20250725T0100,London Harlington,2025-07-25 01:00:00,2025-07-28,1.3609331316418118,0.0

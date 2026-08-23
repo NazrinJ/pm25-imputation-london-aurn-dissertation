@@ -1,0 +1,395 @@
+{
+  "Status": "comparison_complete",
+  "ComparisonVersion": "cross_tier_comparison_v2_cpu_inference_2026-07-28",
+  "Notebook": "09_cross_tier_final_comparison_and_accuracy_cost_benchmark",
+  "DocumentedRerunReason": "Replace the previous cross-tier runtime comparison with CPU-aligned operational inference across statistical, ML and DL models. Model selection, architecture, hyperparameters, evaluation targets and final-fit checkpoints remain unchanged. CPU and GPU execution may produce negligible floating-point differences in predictions, without materially changing accuracy results or model rankings.",
+  "NoModelTuningOrRefitting": true,
+  "EvaluationSplit": "Test",
+  "Scenarios": [
+    "random10_point",
+    "random30_point",
+    "random50_point",
+    "block24_10percent",
+    "block72_10percent"
+  ],
+  "ExpectedTestTargetCounts": {
+    "random10_point": 4318,
+    "random30_point": 12954,
+    "random50_point": 21590,
+    "block24_10percent": 4392,
+    "block72_10percent": 4536
+  },
+  "Models": [
+    "stat_station_mean",
+    "stat_linear_interpolation",
+    "stat_kalman_arima",
+    "ml_rf_non_spatial",
+    "ml_rf_spatio_temporal",
+    "ml_xgb_non_spatial",
+    "ml_xgb_spatio_temporal",
+    "dl_zero_neighbour",
+    "dl_graph_enhanced"
+  ],
+  "ModelMetadata": {
+    "stat_station_mean": {
+      "DisplayName": "Station train mean",
+      "ShortLabel": "Train mean",
+      "ModelFamily": "Statistical",
+      "SpatialSetting": "Non-spatial"
+    },
+    "stat_linear_interpolation": {
+      "DisplayName": "Linear interpolation",
+      "ShortLabel": "Interpolation",
+      "ModelFamily": "Statistical",
+      "SpatialSetting": "Non-spatial"
+    },
+    "stat_kalman_arima": {
+      "DisplayName": "Kalman-ARIMA",
+      "ShortLabel": "Kalman-ARIMA",
+      "ModelFamily": "Statistical",
+      "SpatialSetting": "Non-spatial"
+    },
+    "ml_rf_non_spatial": {
+      "DisplayName": "RF non-spatial",
+      "ShortLabel": "RF non-spatial",
+      "ModelFamily": "Machine Learning",
+      "SpatialSetting": "Non-spatial"
+    },
+    "ml_rf_spatio_temporal": {
+      "DisplayName": "RF spatio-temporal",
+      "ShortLabel": "RF spatial",
+      "ModelFamily": "Machine Learning",
+      "SpatialSetting": "Spatio-temporal"
+    },
+    "ml_xgb_non_spatial": {
+      "DisplayName": "XGBoost non-spatial",
+      "ShortLabel": "XGB non-spatial",
+      "ModelFamily": "Machine Learning",
+      "SpatialSetting": "Non-spatial"
+    },
+    "ml_xgb_spatio_temporal": {
+      "DisplayName": "XGBoost spatio-temporal",
+      "ShortLabel": "XGB spatial",
+      "ModelFamily": "Machine Learning",
+      "SpatialSetting": "Spatio-temporal"
+    },
+    "dl_zero_neighbour": {
+      "DisplayName": "BiGRU zero-neighbour control",
+      "ShortLabel": "BiGRU zero",
+      "ModelFamily": "Deep Learning",
+      "SpatialSetting": "Non-spatial"
+    },
+    "dl_graph_enhanced": {
+      "DisplayName": "Graph-enhanced BiGRU",
+      "ShortLabel": "Graph BiGRU",
+      "ModelFamily": "Deep Learning",
+      "SpatialSetting": "Spatio-temporal"
+    }
+  },
+  "ExpectedModelScenarioEvaluations": 45,
+  "ObservedModelScenarioEvaluations": 45,
+  "TargetRowAuditPassed": true,
+  "MetricReproductionAuditPassed": true,
+  "SpatialGainDefinition": "DeltaMAE = non-spatial MAE - spatio-temporal MAE",
+  "RuntimeProtocol": {
+    "WarmupRuns": 1,
+    "TimedInferenceRepeats": 5,
+    "SummaryStatistic": "median",
+    "DiskIOIncluded": false,
+    "OperationalInferenceDeviceControlled": true,
+    "OperationalInferenceDevice": "CPU",
+    "CPUWorkersOrThreads": 1,
+    "PrimaryCostMeasure": "CPU-standardised complete five-scenario operational application seconds",
+    "SelectionCostReportedSeparately": true,
+    "SelectionAndFinalFitDeviceAware": true,
+    "DLSelectionAndFinalFitDevice": "GPU: NVIDIA GeForce GTX 1660 Ti",
+    "HardwareNeutralComparison": false,
+    "ImplementationNeutralComparison": false,
+    "IdenticalOperationalBoundariesAcrossFamilies": false
+  },
+  "SourceFiles": [
+    {
+      "SourceGroup": "Statistical",
+      "LogicalName": "predictions_baselines",
+      "Path": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\statistical_baselines\\statistical_baseline_predictions_mean_interpolation.csv",
+      "Bytes": 20226094,
+      "SHA256": "38f8ec3dcbd4e026fe7cf80bd26d1bda13bf8882d249e90d6bd081de97c14add"
+    },
+    {
+      "SourceGroup": "Statistical",
+      "LogicalName": "predictions_kalman",
+      "Path": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\statistical_baselines\\kalman_arima_predictions.csv",
+      "Bytes": 9790116,
+      "SHA256": "bf83e9a5cad893c336b879a8969d1ec05d96806d7724ca2ecac0ba88b19a9cb9"
+    },
+    {
+      "SourceGroup": "Statistical",
+      "LogicalName": "accuracy_cost",
+      "Path": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\statistical_baselines\\statistical_accuracy_cost_summary.csv",
+      "Bytes": 3780,
+      "SHA256": "f1ced9ed80db5ef748e5c2880831c6f73f2785f0e0fa9ddbf49b25ffe49ff4a7"
+    },
+    {
+      "SourceGroup": "Statistical",
+      "LogicalName": "runtime_summary",
+      "Path": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\statistical_baselines\\statistical_runtime_summary.csv",
+      "Bytes": 3939,
+      "SHA256": "e075591c8de0851fa64d9e04f3fb8580c6d602cd3399cf575ab0cd0a9338cef1"
+    },
+    {
+      "SourceGroup": "Statistical",
+      "LogicalName": "runtime_manifest",
+      "Path": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\statistical_baselines\\statistical_runtime_manifest.json",
+      "Bytes": 2922,
+      "SHA256": "0fd33365586b1f7bfb980ad21cbc0b8f2de215075b61b11bdfdcb82d78cc18d4"
+    },
+    {
+      "SourceGroup": "MachineLearning",
+      "LogicalName": "predictions",
+      "Path": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\final_evaluation\\shared_family_balanced_v1\\ml_final_test_predictions.csv",
+      "Bytes": 37404781,
+      "SHA256": "3b419ec9ef4280380b3a3a3c1098826e3a7e9eb9d544d9925c358cf9b7133442"
+    },
+    {
+      "SourceGroup": "MachineLearning",
+      "LogicalName": "metrics",
+      "Path": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\final_evaluation\\shared_family_balanced_v1\\ml_final_test_metrics.csv",
+      "Bytes": 2961,
+      "SHA256": "0d040350ff2c232ea6492c50b340bf7fc19c0331ae6260ed20562b75f7cf83a7"
+    },
+    {
+      "SourceGroup": "MachineLearning",
+      "LogicalName": "accuracy_cost",
+      "Path": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\final_evaluation\\shared_family_balanced_v1\\ml_accuracy_cost_summary.csv",
+      "Bytes": 6014,
+      "SHA256": "97397dfdce953334843fc3453237c6c13b3858df3ceabd00b8db8ec78b5c39e1"
+    },
+    {
+      "SourceGroup": "MachineLearning",
+      "LogicalName": "runtime_records",
+      "Path": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\final_evaluation\\shared_family_balanced_v1\\ml_final_runtime_records.csv",
+      "Bytes": 20037,
+      "SHA256": "03e698507bd2653cab0eef1aae13e2a12469c2ba2bf25ce9865d0ef6817549ad"
+    },
+    {
+      "SourceGroup": "MachineLearning",
+      "LogicalName": "runtime_summary",
+      "Path": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\final_evaluation\\shared_family_balanced_v1\\ml_final_runtime_summary.csv",
+      "Bytes": 10306,
+      "SHA256": "5ec0d3ce9c31098c02ca3b5b69cc7c341f78b7d7a0b32ac530ca545f0b615b30"
+    },
+    {
+      "SourceGroup": "MachineLearning",
+      "LogicalName": "environment",
+      "Path": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\final_evaluation\\shared_family_balanced_v1\\computational_environment_final_evaluation.json",
+      "Bytes": 2390,
+      "SHA256": "535e2ef50c46fb72cd68977250c969ebf3a56c486d32db7e868b66bb121b4b7f"
+    },
+    {
+      "SourceGroup": "MachineLearning",
+      "LogicalName": "manifest",
+      "Path": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\final_evaluation\\shared_family_balanced_v1\\ml_final_evaluation_manifest.json",
+      "Bytes": 8977,
+      "SHA256": "6d359660773435fb7be9aba320afa942785e339bc66ccd8c167098078e5afa9a"
+    },
+    {
+      "SourceGroup": "DeepLearning",
+      "LogicalName": "predictions",
+      "Path": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\deep_learning\\08c_final_evaluation\\dl_test_predictions.csv",
+      "Bytes": 11783071,
+      "SHA256": "b2548378b36ac9ceeb864a8f789515c6a8e430ea6ea13d33bedc1d50e2041f12"
+    },
+    {
+      "SourceGroup": "DeepLearning",
+      "LogicalName": "metrics",
+      "Path": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\deep_learning\\08c_final_evaluation\\dl_validation_test_metrics_by_scenario.csv",
+      "Bytes": 2471,
+      "SHA256": "9521efe351395135c290864f020d29df8b09745501f4aa00e4632277cf121e1a"
+    },
+    {
+      "SourceGroup": "DeepLearning",
+      "LogicalName": "runtime",
+      "Path": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\deep_learning\\08c_final_evaluation\\dl_final_runtime_and_resource_summary.csv",
+      "Bytes": 568,
+      "SHA256": "e3b089e840a39ef6a01b38168e3dc86fe2c9e3ff7cf3076bbced83b30a624b8f"
+    },
+    {
+      "SourceGroup": "DeepLearning",
+      "LogicalName": "inference_timing",
+      "Path": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\deep_learning\\08c_final_evaluation\\dl_inference_timing.csv",
+      "Bytes": 594,
+      "SHA256": "d738e48a937e2ac1df332c8918c02c37ee0ad7f722b2119beeead90b5ba3650f"
+    },
+    {
+      "SourceGroup": "DeepLearning",
+      "LogicalName": "spatial_delta",
+      "Path": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\deep_learning\\08c_final_evaluation\\dl_test_spatial_ablation_delta.csv",
+      "Bytes": 1605,
+      "SHA256": "1d2936ec23096ca0e3795251e98005bb14ca48cbf86d2ab3603ca6ff5d5bdc55"
+    },
+    {
+      "SourceGroup": "DeepLearning",
+      "LogicalName": "representative_selection",
+      "Path": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\deep_learning\\08c_final_evaluation\\dl_representative_block72_selection.csv",
+      "Bytes": 308,
+      "SHA256": "693d383a543f7a8167372a5d8422979a17122935a23104d95293a879f322846c"
+    },
+    {
+      "SourceGroup": "DeepLearning",
+      "LogicalName": "manifest",
+      "Path": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\deep_learning\\08c_final_evaluation\\dl_final_evaluation_manifest.json",
+      "Bytes": 5400,
+      "SHA256": "89769be5c1a0755de1f42a37bb8c014f49009f4ecff5beec17ffa96c1d72ddf1"
+    },
+    {
+      "SourceGroup": "DeepLearning",
+      "LogicalName": "tuning_manifest",
+      "Path": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\deep_learning\\08b_tuning\\dl_tuning_v5_results_path_2026-07-24\\full\\dl_tuning_manifest.json",
+      "Bytes": 3694,
+      "SHA256": "ecf0bd17ed86c1cdd52135fecbf600097f662e4a1c63c8823576c83d653d47ca"
+    }
+  ],
+  "OutputFiles": [
+    {
+      "Path": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\final_comparison\\09_cross_tier\\cross_tier_source_file_audit.csv",
+      "Bytes": 4519,
+      "SHA256": "2fbff0c504bde447dd3a47a5dc101e9af10357c3f56a4eeb7a95c3a56c29d458"
+    },
+    {
+      "Path": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\final_comparison\\09_cross_tier\\cross_tier_unified_test_predictions.csv",
+      "Bytes": 41869438,
+      "SHA256": "f3912d473ba3a9bae44cfca101fb0cdb2910fbb225a325aba5eb08f76dd549cb"
+    },
+    {
+      "Path": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\final_comparison\\09_cross_tier\\cross_tier_test_target_key_audit.csv",
+      "Bytes": 2695,
+      "SHA256": "7c785b51dd44d2a5e8b27b25102c201efef5b6607cbf2ff9caf2cea675c842a5"
+    },
+    {
+      "Path": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\final_comparison\\09_cross_tier\\cross_tier_metric_reproduction_audit.csv",
+      "Bytes": 11903,
+      "SHA256": "599076571a1728ff3815bdcf623057d357d326ad21b3d97d0f3c80b38c4611c0"
+    },
+    {
+      "Path": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\final_comparison\\09_cross_tier\\cross_tier_test_metrics.csv",
+      "Bytes": 8066,
+      "SHA256": "6f9d9e3260d9ec60f028887d62d1c1bcac8630216d465a73bdce7b4e4f9817d7"
+    },
+    {
+      "Path": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\final_comparison\\09_cross_tier\\cross_tier_family_balanced_metrics.csv",
+      "Bytes": 2664,
+      "SHA256": "056c39874b46ab054a47019fd533f2fbcddca426b21b378d1348d3c99a3dd75d"
+    },
+    {
+      "Path": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\final_comparison\\09_cross_tier\\cross_tier_scenario_rankings.csv",
+      "Bytes": 6719,
+      "SHA256": "72fd480c50a2d4cee79c1c8801b349fa5f5930950417a5b65309a187ed15b006"
+    },
+    {
+      "Path": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\final_comparison\\09_cross_tier\\cross_tier_scenario_winners.csv",
+      "Bytes": 901,
+      "SHA256": "1b1915c1d7875b566b2543c129f24e958d97c5ec841879d22938fffb0e9e3438"
+    },
+    {
+      "Path": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\final_comparison\\09_cross_tier\\cross_tier_scenario_difficulty_summary.csv",
+      "Bytes": 414,
+      "SHA256": "dfcbf329abc070d354e514aaf33ace34aee1f426f0e0978bf22ce3dc55d7be1f"
+    },
+    {
+      "Path": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\final_comparison\\09_cross_tier\\cross_tier_spatial_gain_by_scenario.csv",
+      "Bytes": 4000,
+      "SHA256": "03f9e7d54914c49dc8c1b005a0791b9a42db17400259b39dfb376883a0df3035"
+    },
+    {
+      "Path": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\final_comparison\\09_cross_tier\\cross_tier_spatial_gain_by_family.csv",
+      "Bytes": 514,
+      "SHA256": "09babb450b17ee8730abd58ff5c0f41cd096a57fcc0dfd9466ea144e1562d63f"
+    },
+    {
+      "Path": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\final_comparison\\09_cross_tier\\cross_tier_block72_position_metrics.csv",
+      "Bytes": 46829,
+      "SHA256": "d2aeda8eff65784f6657887f93008a9335779ac775c173eba9adbfc1dd0b9642"
+    },
+    {
+      "Path": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\final_comparison\\09_cross_tier\\cross_tier_block72_edge_middle_summary.csv",
+      "Bytes": 538,
+      "SHA256": "c9cb9458c307bf54d96ddca7097f67705631b9802242944d8561da4c355cdde2"
+    },
+    {
+      "Path": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\final_comparison\\09_cross_tier\\cross_tier_representative_block72_predictions.csv",
+      "Bytes": 45135,
+      "SHA256": "4228f585d6ddff2885114a7a75cc7e40f54312206891ab90f46f035053aed908"
+    },
+    {
+      "Path": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\final_comparison\\09_cross_tier\\cross_tier_runtime_summary.csv",
+      "Bytes": 4786,
+      "SHA256": "598a4f587671b0c48efe4f2c83d9e5affac98296573bb62c58d1c1cb71190e42"
+    },
+    {
+      "Path": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\final_comparison\\09_cross_tier\\cross_tier_accuracy_cost_summary.csv",
+      "Bytes": 6819,
+      "SHA256": "1b36d7cdc3a227b6c5c2ce9fd080c945cbba70025c38bf32926b94c0564ac2f6"
+    },
+    {
+      "Path": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\final_comparison\\09_cross_tier\\cross_tier_test_metrics_by_station.csv",
+      "Bytes": 44347,
+      "SHA256": "695fb74e174dd1c1bac15977a96e6a8fb58e483c758bbf10ddebef49e8d2f6cc"
+    },
+    {
+      "Path": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\final_comparison\\09_cross_tier\\cross_tier_rq_summary.json",
+      "Bytes": 5771,
+      "SHA256": "96f64a804546d43c0932c2d8b0e3f0bb0332bbe6dcf3485601d95c536953c574"
+    },
+    {
+      "Path": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\final_comparison\\09_cross_tier\\figures\\cross_tier_test_mae_heatmap.png",
+      "Bytes": 291236,
+      "SHA256": "9221cf0f348e08828ff84e19be1ef0ad0cc0b7ac4fbfcaa5a44ed896e274e008"
+    },
+    {
+      "Path": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\final_comparison\\09_cross_tier\\figures\\cross_tier_family_balanced_mae.png",
+      "Bytes": 148894,
+      "SHA256": "081d46e050980ff1d80f8817a85c1dccf718e911e18810e9a79ad28b7f8ef2cc"
+    },
+    {
+      "Path": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\final_comparison\\09_cross_tier\\figures\\cross_tier_spatial_gain_delta_mae.png",
+      "Bytes": 152203,
+      "SHA256": "291abda3913ce7d84b008e44d03bfd5a722e754dd2c35464979639aa63afbf8b"
+    },
+    {
+      "Path": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\final_comparison\\09_cross_tier\\figures\\cross_tier_block72_position_mae.png",
+      "Bytes": 446564,
+      "SHA256": "83379bfcfa8076e8f2163b61bb8eb86d24aae39a821f03e7be9499639a72c312"
+    },
+    {
+      "Path": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\final_comparison\\09_cross_tier\\figures\\cross_tier_representative_block72_reconstruction.png",
+      "Bytes": 429421,
+      "SHA256": "4f1b2de7e9b01062ac2fa34eb4fa5b7f843865ea8d91869320ded7d95a7946b2"
+    },
+    {
+      "Path": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\final_comparison\\09_cross_tier\\figures\\cross_tier_accuracy_cost_pareto.png",
+      "Bytes": 213037,
+      "SHA256": "82938f86c57bd15bec11c9077f739c7e8db97cc80eaefafd6b3271b627802279"
+    },
+    {
+      "Path": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\final_comparison\\09_cross_tier\\figures\\cross_tier_fit_plus_application_pareto.png",
+      "Bytes": 209366,
+      "SHA256": "3622eea2ca4074854bd5dcb777aa509588d276e6a452b3152aa3a14d194c9ecd"
+    },
+    {
+      "Path": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\final_comparison\\09_cross_tier\\figures\\cross_tier_inference_throughput_pareto.png",
+      "Bytes": 161499,
+      "SHA256": "a6d6575c507e34c33ab64dfc7530bcae65cc390774e4b2ad1af087d77bf438f2"
+    },
+    {
+      "Path": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\final_comparison\\09_cross_tier\\figures\\cross_tier_block72_station_mae_heatmap.png",
+      "Bytes": 293099,
+      "SHA256": "eea8ee98b15f6872fe87c5e439a8a1b7880f0931e25d1e686d18fe8232a03b60"
+    }
+  ],
+  "Environment": {
+    "PythonVersion": "3.11.15",
+    "Platform": "Windows-10-10.0.19045-SP0",
+    "PandasVersion": "3.0.5",
+    "NumPyVersion": "2.4.6"
+  }
+}

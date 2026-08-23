@@ -1,0 +1,218 @@
+{
+    "BestParameterArtifacts": {
+        "RandomForest": {
+            "spatio_temporal": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\models\\machine_learning\\random_forest_best_parameters_spatio_temporal_shared_family_balanced.json",
+            "temporal_only": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\models\\machine_learning\\random_forest_best_parameters_temporal_only_shared_family_balanced.json"
+        },
+        "XGBoost": {
+            "spatio_temporal": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\models\\machine_learning\\xgboost_best_parameters_spatio_temporal_shared_family_balanced.json",
+            "temporal_only": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\models\\machine_learning\\xgboost_best_parameters_temporal_only_shared_family_balanced.json"
+        }
+    },
+    "CandidateResultFiles": {
+        "RandomForest": {
+            "spatio_temporal": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\random_forest_tuning_spatio_temporal_shared_family_balanced.csv",
+            "temporal_only": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\random_forest_tuning_temporal_only_shared_family_balanced.csv"
+        },
+        "XGBoost": {
+            "spatio_temporal": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\xgboost_tuning_spatio_temporal_shared_family_balanced.csv",
+            "temporal_only": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\xgboost_tuning_temporal_only_shared_family_balanced.csv"
+        }
+    },
+    "CheckpointFiles": {
+        "RandomForest": {
+            "spatio_temporal": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\checkpoints\\rf_tuning_spatio_temporal_shared_family_balanced_checkpoint.csv",
+            "temporal_only": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\checkpoints\\rf_tuning_temporal_only_shared_family_balanced_checkpoint.csv"
+        },
+        "XGBoost": {
+            "spatio_temporal": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\checkpoints\\xgb_tuning_spatio_temporal_shared_family_balanced_checkpoint.csv",
+            "temporal_only": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\checkpoints\\xgb_tuning_temporal_only_shared_family_balanced_checkpoint.csv"
+        }
+    },
+    "CommonTrainFeatureFingerprint": "8935a295aa89e89a35c82db4449973e39e8d14bb51e38e318672c90f13654a1a",
+    "Diagnostics": {
+        "AllCandidates": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\diagnostics\\ml_tuning_all_candidates_shared_family_balanced.csv",
+        "BoundaryAudit": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\diagnostics\\ml_tuning_boundary_audit_shared_family_balanced.csv",
+        "DiagnosticSummary": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\diagnostics\\ml_tuning_diagnostic_summary_shared_family_balanced.csv",
+        "Figures": {
+            "RandomForestCumulativeBestFamilyBalancedMAE": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\figures\\randomforest_cumulative_best_family_balanced_mae_shared_family_balanced.png",
+            "SelectedCandidateRandomVsBlockMAE": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\figures\\selected_candidate_random_vs_block_mae_shared_family_balanced.png",
+            "XGBoostBestIterations": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\figures\\xgboost_best_iterations_shared_family_balanced.png",
+            "XGBoostCumulativeBestFamilyBalancedMAE": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\figures\\xgboost_cumulative_best_family_balanced_mae_shared_family_balanced.png"
+        },
+        "SelectedFamilyComparison": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\diagnostics\\ml_selected_candidate_family_comparison_shared_family_balanced.csv",
+        "Top5Candidates": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\diagnostics\\ml_tuning_top5_candidates_shared_family_balanced.csv",
+        "ValidationFeatureMissingness": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\diagnostics\\ml_shared_validation_feature_missingness_shared_family_balanced.csv",
+        "ValidationWeightAudit": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\diagnostics\\ml_shared_validation_weight_audit_shared_family_balanced.csv",
+        "XGBoostIterationAudit": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\diagnostics\\ml_tuning_xgb_iteration_audit_shared_family_balanced.csv",
+        "XGBoostWeightedEvalSmokeTest": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\diagnostics\\ml_xgboost_weighted_eval_smoke_test_shared_family_balanced.json"
+    },
+    "EffectiveWorkers": 12,
+    "EnvironmentPath": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\computational_environment_tuning_shared_family_balanced.json",
+    "ExpectedXGBoostVersion": "3.2.0",
+    "FamilyWeights": {
+        "block_gap": 0.5,
+        "random_point": 0.5
+    },
+    "InputDataFingerprint": "5828033a47e47911682a9204d743dffbb93a284f3aeb293916b75eeab70aa331",
+    "NestedRandomConditions": true,
+    "ObservedXGBoostVersion": "3.2.0",
+    "PipelineVersion": "ml_features_v2_2026-07-19",
+    "ReferenceScenario": "random30_point",
+    "RequestedNJobs": -1,
+    "RuntimeRecordsPath": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\ml_tuning_runtime_records_shared_family_balanced.csv",
+    "RuntimeSummaryPath": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\machine_learning\\ml_tuning_runtime_summary_shared_family_balanced.csv",
+    "ScenarioDataFingerprints": {
+        "block24_10percent": "ddd99c0ebe9015eff57355abd6eea0c83f0c47c51a03c7d90328bde026fd68b7",
+        "block72_10percent": "290e1ef307c9a8034e203f460a930663568f58431e6b68d8438af707023a7cec",
+        "random10_point": "249f865a49f951d4b4ab25547ad51e77b486002384e2a3b8b20a1c59ea9c3cab",
+        "random30_point": "ac3f585c96f61adbd18f138f48784988b08bd60604af051cf4d9ce4040ca10aa",
+        "random50_point": "ba807c03d75a906f7aa2180e087f5d155e11503cc4319b03c1e3ae2c32cfacb3"
+    },
+    "ScenarioFamilies": {
+        "block_gap": [
+            "block24_10percent",
+            "block72_10percent"
+        ],
+        "random_point": [
+            "random10_point",
+            "random30_point",
+            "random50_point"
+        ]
+    },
+    "SelectionMetric": "FamilyBalancedValidationMAE",
+    "SelectionSortColumns": [
+        "FamilyBalancedValidationMAE",
+        "FamilyBalancedValidationRMSE",
+        "FitSeconds",
+        "CandidateNumber"
+    ],
+    "Status": "complete",
+    "TuningCandidateCount": 30,
+    "TuningProfile": "full",
+    "TuningProtocol": "shared_family_balanced",
+    "TuningProtocolVersion": "shared_family_balanced_v1",
+    "TuningScenarios": [
+        "random10_point",
+        "random30_point",
+        "random50_point",
+        "block24_10percent",
+        "block72_10percent"
+    ],
+    "ValidationIndependenceNote": "The three nested random conditions are related severity conditions and are not treated as independent Validation replicates.",
+    "XGBoostWeightedEvaluationSmokeTest": {
+        "AbsoluteDifference": 1.804939486760304e-08,
+        "AbsoluteTolerance": 5e-05,
+        "AggregateMetrics": {
+            "BlockMacroValidationMAE": 3.7222300502471626,
+            "BlockMacroValidationMedianAE": 2.6824216842651367,
+            "BlockMacroValidationR2": 0.030077877199451708,
+            "BlockMacroValidationRMSE": 5.6936823544670085,
+            "FamilyBalancedValidationMAE": 2.8151524298882578,
+            "FamilyBalancedValidationMedianAE": 1.9154934883117676,
+            "FamilyBalancedValidationR2": 0.3660585071563842,
+            "FamilyBalancedValidationRMSE": 4.416681957599879,
+            "FiveScenarioMacroValidationMAE": 2.633736905816477,
+            "FiveScenarioMacroValidationMedianAE": 1.7621078491210938,
+            "FiveScenarioMacroValidationR2": 0.43325463314777063,
+            "FiveScenarioMacroValidationRMSE": 4.161281878226454,
+            "RandomMacroValidationMAE": 1.908074809529353,
+            "RandomMacroValidationMedianAE": 1.1485652923583984,
+            "RandomMacroValidationR2": 0.7020391371133167,
+            "RandomMacroValidationRMSE": 3.1396815607327504,
+            "WorstScenarioValidationMAE": 3.829227751470171,
+            "WorstScenarioValidationMedianAE": 2.729421615600586,
+            "WorstScenarioValidationR2": 0.011250489214473358,
+            "WorstScenarioValidationRMSE": 5.997307985107076
+        },
+        "BestIteration": 28,
+        "BestNEstimators": 29,
+        "CombinedValidationRows": 2560,
+        "ManualFamilyBalancedMAE": 2.8151524298882578,
+        "RelativeTolerance": 1e-06,
+        "ReportedWeightedBestScore": 2.815152411838863,
+        "ScenarioMetrics": {
+            "block24_10percent": {
+                "MAE": 3.6152323490241542,
+                "MedianAE": 2.729421615600586,
+                "R2": 0.04890526518443006,
+                "RMSE": 5.390056723826941
+            },
+            "block72_10percent": {
+                "MAE": 3.829227751470171,
+                "MedianAE": 2.6354217529296875,
+                "R2": 0.011250489214473358,
+                "RMSE": 5.997307985107076
+            },
+            "random10_point": {
+                "MAE": 1.320594941964373,
+                "MedianAE": 0.7344026565551758,
+                "R2": 0.8504597607304524,
+                "RMSE": 2.270873356839306
+            },
+            "random30_point": {
+                "MAE": 1.9473927831277251,
+                "MedianAE": 1.1465811729431152,
+                "R2": 0.7012040755801274,
+                "RMSE": 3.215592725701994
+            },
+            "random50_point": {
+                "MAE": 2.4562367034959607,
+                "MedianAE": 1.5647120475769043,
+                "R2": 0.55445357502937,
+                "RMSE": 3.9325785996569516
+            }
+        },
+        "Status": "passed",
+        "TrainRows": 5000,
+        "WeightAudit": [
+            {
+                "Family": "random_point",
+                "FamilyTotalWeight": 0.5,
+                "ObservedWeightSum": 0.16666666666666663,
+                "PerRowWeight": 0.0003255208333333333,
+                "Scenario": "random10_point",
+                "ScenarioTotalWeight": 0.16666666666666666,
+                "ValidationRows": 512
+            },
+            {
+                "Family": "random_point",
+                "FamilyTotalWeight": 0.5,
+                "ObservedWeightSum": 0.16666666666666663,
+                "PerRowWeight": 0.0003255208333333333,
+                "Scenario": "random30_point",
+                "ScenarioTotalWeight": 0.16666666666666666,
+                "ValidationRows": 512
+            },
+            {
+                "Family": "random_point",
+                "FamilyTotalWeight": 0.5,
+                "ObservedWeightSum": 0.16666666666666663,
+                "PerRowWeight": 0.0003255208333333333,
+                "Scenario": "random50_point",
+                "ScenarioTotalWeight": 0.16666666666666666,
+                "ValidationRows": 512
+            },
+            {
+                "Family": "block_gap",
+                "FamilyTotalWeight": 0.5,
+                "ObservedWeightSum": 0.25,
+                "PerRowWeight": 0.00048828125,
+                "Scenario": "block24_10percent",
+                "ScenarioTotalWeight": 0.25,
+                "ValidationRows": 512
+            },
+            {
+                "Family": "block_gap",
+                "FamilyTotalWeight": 0.5,
+                "ObservedWeightSum": 0.25,
+                "PerRowWeight": 0.00048828125,
+                "Scenario": "block72_10percent",
+                "ScenarioTotalWeight": 0.25,
+                "ValidationRows": 512
+            }
+        ],
+        "WeightedCombinedMAE": 2.8151524298882578,
+        "XGBoostVersion": "3.2.0"
+    }
+}

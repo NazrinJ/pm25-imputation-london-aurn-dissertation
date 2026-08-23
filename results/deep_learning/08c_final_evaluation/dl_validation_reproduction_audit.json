@@ -1,0 +1,7 @@
+{
+  "Frozen08bFamilyBalancedValidationMAE": 1.3556381059253284,
+  "RetrainedGraphFamilyBalancedValidationMAE": 1.3556381754755953,
+  "Difference": 6.95502668790482e-08,
+  "AbsoluteTolerance": 0.001,
+  "Passed": true
+}

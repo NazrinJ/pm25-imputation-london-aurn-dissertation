@@ -1,0 +1,13 @@
+{
+  "ModelClass": "GraphEnhancedBiGRU",
+  "SelectedCandidateID": 10,
+  "TrainableParametersGraph": 51649,
+  "TrainableParametersZeroNeighbour": 51649,
+  "SameTrainableParameterCount": true,
+  "SameInitialTrainableParameterHash": true,
+  "InitialTrainableParameterHash": "03283890e55b97d2ce7ea8a143c9474a8d5b9c8e1e380b9ace17c77649a85101",
+  "NeighbourProjectionBias": false,
+  "BatchNorm": false,
+  "PostFusionLayerNorm": false,
+  "ZeroAdjacencyProducesExactZeroNeighbourEmbedding": true
+}

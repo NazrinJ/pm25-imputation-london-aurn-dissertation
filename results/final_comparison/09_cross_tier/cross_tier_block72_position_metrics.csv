@@ -1,0 +1,289 @@
+ModelID,PositionInBlock,NTargets,MAE,RMSE,MedianAE,R2,DisplayName,ShortLabel,ModelFamily,SpatialSetting
+dl_graph_enhanced,1,63,1.523498823809524,2.571984623011088,0.8016495000000008,0.8735598589962505,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,2,63,1.6285669587301588,2.242262693826998,1.1053220000000001,0.9028669034249067,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,3,63,1.6449964984126981,2.2701607539237734,1.0368432000000003,0.8988273222683871,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,4,63,1.8368980253968252,3.0998739147795167,1.2222594999999998,0.8147956975847965,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,5,63,1.5654060920634925,1.9997138037779754,1.123004,0.9035176360376155,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,6,63,1.6445935253968256,2.0750726490647198,1.3602740000000004,0.890754163661866,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,7,63,1.6474371166666666,2.1736774485672377,1.2206104,0.8754893469499441,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,8,63,1.9719781365079365,3.0181648311545657,1.2482920000000002,0.7972535935200561,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,9,63,1.993997656507936,2.7692516375608185,1.3420035000000006,0.8342150809962501,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,10,63,1.6943363055555554,2.347471764782402,1.0726619999999998,0.8455379432888559,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,11,63,1.3166321063492061,1.7560885901549719,0.9423477,0.8937621836613898,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,12,63,1.3030508936507934,1.9150176367681477,0.9484890000000004,0.8795861379970441,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,13,63,1.4271290952380953,1.9519641623804385,1.1698874999999997,0.88707203180129,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,14,63,1.4759365015873016,2.1078685397152688,0.9429994,0.88069823399424,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,15,63,1.9007762936507941,2.685258499567175,1.3355789999999992,0.8269616168934746,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,16,63,1.7467031380952378,2.4634546394571766,1.443753,0.8218805787719127,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,17,63,1.566529625396825,2.3316555344284047,1.0396629999999991,0.8599923725433164,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,18,63,1.8285422142857144,2.8819913979767326,1.2187169999999998,0.7931712642877509,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,19,63,1.7357681888888885,2.6252635307254866,0.9184093000000004,0.8016691448403158,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,20,63,1.947963379365079,2.898722775825905,1.4014826999999999,0.8237966584357418,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,21,63,1.4834569412698413,1.8343829122430773,1.1687834000000006,0.9208236597860519,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,22,63,1.3340424492063494,1.7526711275434952,1.0372016999999998,0.9418071929439734,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,23,63,1.5901531015873018,2.0825294351842807,1.2677879999999995,0.9242467705253831,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,24,63,1.6424440190476188,2.4099932254185576,1.043164,0.9234859321435958,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,25,63,1.6757549,2.2513529924440414,1.2825847000000001,0.9374933730682768,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,26,63,2.331251819047619,5.522845098733384,1.1576334,0.7197072706709036,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,27,63,1.7339783015873014,2.855245448952494,1.0844609999999992,0.9174726000264051,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,28,63,1.7247063539682541,2.679412992501955,1.3109279999999988,0.9290873324497329,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,29,63,1.8181488857142856,2.751774979067071,1.1430101000000001,0.9256958386325776,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,30,63,1.820229319047619,2.5416774368252097,1.3702580000000002,0.9385964515507029,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,31,63,1.948288388888889,2.8433246940946146,1.3334919999999997,0.9297140330921823,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,32,63,1.8291927863492061,2.6908509067564275,1.0594204999999999,0.9303614170014588,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,33,63,1.8383049333333334,2.9153127037065776,1.1095579999999998,0.9162169925225839,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,34,63,2.0323191365079363,3.1871970029131957,1.3163163,0.9163586271572066,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,35,63,2.344017131746032,4.154142704234851,1.1503389,0.8778689634185237,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,36,63,2.2977144825396825,3.6495378178393763,1.3733760000000004,0.8974018165986459,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,37,63,1.9212643936507936,3.361264050730644,1.225973,0.9040501662433836,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,38,63,2.048636358730159,3.408030878747479,1.2746849999999998,0.8568234492472234,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,39,63,1.9538478396825396,3.4393453621102887,1.2046912,0.8477338418060566,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,40,63,1.9590192714285717,2.757385321600987,1.4188716000000001,0.9133238620127823,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,41,63,1.9266859809523806,2.6071813139750675,1.3778780000000008,0.9144826273407908,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,42,63,2.1920061095238106,4.032972238765736,1.5512010000000007,0.8508892434051181,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,43,63,2.7816256317460315,5.181615840949192,1.5372085000000002,0.7561297296213879,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,44,63,2.232480290476191,3.4060726879508314,1.4133334999999998,0.8701992839262538,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,45,63,1.750406125396825,2.3169845002353453,1.350038,0.9465572015863324,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,46,63,1.7519320523809523,2.7887818270426186,1.1470219999999998,0.9244889761771962,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,47,63,1.702995609523809,2.525572601404127,0.9316872999999997,0.9321228317960051,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,48,63,1.798722863492063,2.5073204996358713,1.2350199999999996,0.924559389097547,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,49,63,1.828577880952381,2.713409738160131,1.1789989999999992,0.9071176467567372,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,50,63,1.817559831269841,2.7539268566114026,1.2927149999999994,0.8987751186661942,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,51,63,1.8070230365079367,2.795059028457704,1.006015,0.8930934088944007,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,52,63,1.5924215873015868,2.4178350229572745,0.8873443000000005,0.9072586249766605,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,53,63,2.0373328380952382,3.6050464349448355,0.8873492000000001,0.8126465746228831,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,54,63,1.634001787301587,2.4854217997943726,0.9563638000000001,0.9031303188223343,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,55,63,1.9524665888888892,3.1026587111883153,1.127408,0.8513284597804536,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,56,63,1.762999026984127,2.7164601888407756,0.8332539999999993,0.885860157023651,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,57,63,1.2939519507936508,1.7954522881677821,1.0595197,0.9366826090749271,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,58,63,1.551868938095238,2.4578487093571706,0.9020909999999995,0.9006571737850231,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,59,63,1.5773657349206345,2.456469103423129,1.0925078,0.8992072139245253,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,60,63,1.4867097984126985,2.0847561787846525,1.032667,0.9318448634822901,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,61,63,1.7335845698412695,2.5792912437489264,1.0774650000000001,0.9056610004603873,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,62,63,1.6002821206349205,2.4547545618901476,0.8421163999999997,0.8895134189097653,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,63,63,1.7202891968253966,2.896691745360394,1.080419,0.8262123736625075,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,64,63,1.766058826984127,2.5828115746494564,0.9369734000000003,0.8449439237082708,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,65,63,1.5271827936507936,2.016195310575295,1.1349772000000002,0.881219027666279,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,66,63,1.2959648952380955,2.0902009390434384,0.9033580000000008,0.876058034779557,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,67,63,1.1242249952380952,1.4643722888916315,0.9604290000000013,0.9187238387958535,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,68,63,1.218599115873016,1.5734698835169705,0.9262639999999998,0.9011457913134364,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,69,63,1.4467357095238094,2.2157834574593633,0.789765,0.7780296746748827,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,70,63,1.3740982746031747,1.9873411970905188,0.9283479999999997,0.873999643046624,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,71,63,1.2006692190476191,1.6647322200148207,0.8503590000000001,0.9244361185176988,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+dl_graph_enhanced,72,63,1.2039781999999997,2.0309518925667818,0.650652,0.9136080416701073,Graph-enhanced BiGRU,Graph BiGRU,Deep Learning,Spatio-temporal
+ml_rf_spatio_temporal,1,63,2.0201082016103786,3.706368766128004,1.1119213167399398,0.7374297663027989,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,2,63,2.72513741731635,4.76194679353385,1.8976976762018647,0.5619100112817039,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,3,63,2.9427949782733456,4.912614963352669,1.8316773507814723,0.5262213618981407,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,4,63,3.2650541117599023,5.4832609091825795,2.092876157821614,0.42051681966798093,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,5,63,2.8447805891206452,4.505280887644151,2.045221295602479,0.5102708079760899,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,6,63,2.7353136559189837,4.369516676130641,1.8309839782647392,0.5155989410807138,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,7,63,3.0861629760518206,4.829124199610378,2.0814114607284626,0.38545588828418464,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,8,63,3.5369456367676286,5.374632591095681,2.6111324152220607,0.35706832925468523,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,9,63,3.7725883317030373,5.468093426554999,2.651703415587583,0.35361386614425905,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,10,63,3.219280223611146,4.65588724273387,2.4915362600675204,0.3923885257593721,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,11,63,2.9406282908582817,4.090415706903199,2.353476294369216,0.4236036953121264,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,12,63,2.956917862222841,4.234671987345983,2.0414461440022977,0.41119636617829614,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,13,63,3.1884871756543167,4.476469701684955,2.2139736981432874,0.4060783818714302,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,14,63,3.2184828227013798,4.740616799639188,2.165252061843929,0.39656634111423716,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,15,63,3.3109732137555907,5.076960586608964,1.8985882834984897,0.38144569715049914,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,16,63,2.9157024905654425,4.4744817703715105,1.6867836117886323,0.4123650448242395,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,17,63,3.1410841759197115,4.677967632714844,2.246264602965716,0.43644365984481004,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,18,63,3.203310601531109,5.023113261967095,1.9807113103085534,0.37169363629670926,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,19,63,2.7501846289834813,4.431915145302379,1.674003203327418,0.4347672115910084,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,20,63,3.390104655650059,5.668304516911122,1.5462028565462438,0.32623705575332107,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,21,63,2.986070727517691,5.147641557728675,1.9276497653497788,0.3765063600608267,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,22,63,3.5411456934447547,5.824347743210896,2.334152806445392,0.35736698224201235,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,23,63,3.6440430095297645,6.198942873036581,2.638674170899211,0.328796637962405,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,24,63,3.7938441259788567,7.39375071428115,2.2418663071664646,0.2798229855202229,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,25,63,3.904613713903541,7.812035574061788,2.188286344485747,0.24739465163627106,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,26,63,4.599503918701062,9.62507609487509,2.4142356917826984,0.1486768354952408,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,27,63,4.055126441983609,8.746662086418896,2.306053932847049,0.22554539932575568,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,28,63,4.192526714645087,8.764116265610765,2.3827184676949824,0.24131627913774711,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,29,63,4.323287176044992,8.789132938317934,2.3655583787102286,0.24198226156712022,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,30,63,4.355718705624755,8.817755921913154,2.436343441215148,0.26095863227929506,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,31,63,4.7276615919817795,9.228809683999486,2.6547207443857546,0.2595306440552737,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,32,63,4.582273134568946,8.67599638261168,2.5474524604965207,0.27604865463111294,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,33,63,4.533868407618186,8.66627731299801,2.6896864258157986,0.25962657896429464,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,34,63,4.793828949365626,9.548128109276123,2.4059004975914933,0.2493459872201218,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,35,63,5.130728470710459,10.281157467227947,2.832404434543693,0.25192138135091235,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,36,63,5.53965979227665,9.962956068872252,2.9760881677224202,0.2353893106078201,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,37,63,5.191328246716516,9.349137723812547,2.543966823993646,0.2576955223500409,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,38,63,4.463571524387826,7.459329918428646,2.5951446546664587,0.31409418386426713,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,39,63,4.2145152324350965,7.2653900360063,2.57251867795089,0.3205309445801632,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,40,63,4.5158777359177815,7.936560070021796,2.518206283231451,0.2819259226121117,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,41,63,4.18793793489872,7.459963028420027,2.638037190572301,0.2998594518966987,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,42,63,4.871668947585884,9.210599116215832,2.6671418041399364,0.22226029754989884,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,43,63,4.977676485643078,9.435277060035805,2.5767143685311353,0.19139252616196856,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,44,63,4.79281266505665,8.306940231759194,2.7087580142718726,0.2279393180544783,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,45,63,4.684839171991512,8.60530302243531,2.534351515459563,0.2628170708689892,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,46,63,5.0412724058448335,8.837602129981322,2.7307583416203194,0.24168408519614948,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,47,63,4.883569710130758,8.269181289355219,2.45323672195601,0.27233912030989604,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,48,63,4.7928852266953585,7.593478136573173,2.7036664684001517,0.3080623099684616,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,49,63,4.780002393287455,7.341400077044237,2.67807843281376,0.32007621245192486,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,50,63,5.001416703346759,7.2467594617216164,3.2723736703279176,0.2990772340979976,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,51,63,4.89737285594459,7.112189873103362,2.628040138432301,0.3078038201457023,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,52,63,4.533410070106418,6.502453332082101,2.67078807357001,0.32922836347272577,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,53,63,4.836583467735403,7.151149069621406,2.9408480386600324,0.2627893949147918,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,54,63,4.333245940797412,6.480665184152553,2.6396361501298315,0.3413922553394536,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,55,63,4.352315366937598,6.684883596847009,2.465813420815392,0.30984358879633,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,56,63,4.273045084361554,6.523487867845636,2.488277751790985,0.3417508611457847,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,57,63,3.75785832724083,5.406113418526271,2.379465503592918,0.4259554753276399,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,58,63,4.067076341905364,6.160942360224645,2.4678869911503734,0.3758046788205712,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,59,63,3.912244090571726,6.031125450129319,2.335642181117898,0.3924198707602151,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,60,63,4.06248009011383,6.210427888822566,2.705379491009672,0.39517309840159376,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,61,63,4.339309074142623,6.648377927360577,2.8459118618892685,0.3732102343210707,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,62,63,3.7519370194281816,5.702933425436915,2.2415657231308845,0.40366542943277595,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,63,63,3.85513864140679,5.489690224492516,2.4894827461958258,0.3758198330385537,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,64,63,3.4594393206163367,5.209586403417758,2.149473619302248,0.36917363990202867,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,65,63,3.0747782141194975,4.496267645493496,1.9465509134825538,0.40927413637601484,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,66,63,3.2112400490857977,4.620444781056346,2.4351017995810844,0.39436652788757054,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,67,63,2.507481486737248,3.3217813902430655,1.93846099131311,0.5817824296489091,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,68,63,2.644427094383146,3.277429415452483,2.4443128735080006,0.5711109199662567,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,69,63,2.471868029671543,3.015529480080219,2.1972956381698645,0.5888810985437245,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,70,63,2.565767430683652,3.374327107284254,2.1504181269502425,0.6367536440780492,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,71,63,2.569605894382978,3.5883349783439016,1.9127451515395686,0.6489156708289344,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_rf_spatio_temporal,72,63,1.7938369553307552,2.7967076059203513,1.1691850239611412,0.8361795279348128,RF spatio-temporal,RF spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,1,63,2.0505093944640387,3.3894430864518994,1.209549015045166,0.7804138583801794,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,2,63,2.7902770751165966,4.8866220749424185,2.1754955101013183,0.5386699371134107,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,3,63,2.985501001812163,4.990365978167249,2.161722183227541,0.5111058788273097,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,4,63,3.3086926241677905,5.289267935129216,2.4355578422546387,0.4607947066567002,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,5,63,2.6687034560006766,4.205874726606985,1.566296745300292,0.5731995067445717,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,6,63,2.694981207983834,4.123362926269009,2.1760854721069336,0.5686384757348457,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,7,63,2.9016524696652852,4.159523235074186,1.9873943328857422,0.5440644870789204,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,8,63,3.6548919157603432,4.727312818623655,3.1259660720825195,0.5026112704393122,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,9,63,3.589267583090162,4.664416933444397,3.2940571784973143,0.529656760898694,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,10,63,3.041048461308555,3.875837649193567,2.567779640197754,0.5789320239247402,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,11,63,2.6877672366187686,3.3710382556416807,2.3668222427368164,0.6085163261883773,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,12,63,2.8018188509259905,3.5454981809077633,2.4508336296081543,0.5872515383318027,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,13,63,3.00251179704212,3.838107683317954,2.7798663482666015,0.5633915413739913,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,14,63,2.857552260020423,3.727604358396484,2.443456855773926,0.6269049816741548,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,15,63,3.080724479614742,4.115221569575802,2.5707636642456038,0.5935971967054525,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,16,63,2.7164927128383094,3.5397554946160086,2.4340950508117674,0.6322364654676556,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,17,63,3.0289013949197443,3.920708565675401,2.6512729568481443,0.6041305042083365,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,18,63,3.04238463083903,4.362066684219495,2.4443789672851555,0.5261835682813495,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,19,63,2.6439415729462157,3.867362658325623,2.3269155654907223,0.5695980081844076,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,20,63,3.197097082107786,4.984644085942913,2.487971305847168,0.47896237816665144,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,21,63,2.6882886359199647,4.300628054912044,1.9090120086669922,0.5648097083675736,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,22,63,3.1363754255506726,5.022361566061763,2.39917643737793,0.5221579204091971,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,23,63,3.2766640790909047,5.5688022906550225,2.6715220146179197,0.45832043277607515,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,24,63,3.661739386603946,6.774636733903691,2.504577499389648,0.3953811630168452,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,25,63,3.7171366421533008,7.278992384754241,2.6194763793945306,0.34659657629574414,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,26,63,4.321247395470029,9.247236710634997,2.5016030273437497,0.2142035598636799,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,27,63,3.6251195238506986,8.200974691827877,2.43178609085083,0.3191644722664275,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,28,63,3.7716912287757514,8.14029565301077,2.3908434906005858,0.34547707571270314,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,29,63,3.9390592718578517,8.098400247613366,2.8551409187316894,0.3564448408632447,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,30,63,3.898706330011761,8.046914472381571,2.660731815338135,0.3845236452854517,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,31,63,4.4547672685895625,8.400423354868094,3.22244486618042,0.38649506952001744,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,32,63,4.094868932875377,7.930420505738055,3.0793450355529783,0.3951285485903825,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,33,63,4.161098978557284,8.030262093451332,2.857706932067871,0.36431041549290777,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,34,63,4.340436257801359,8.617377333277746,2.4521589279174805,0.3885604093645716,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,35,63,4.534305656917511,9.297398713451287,2.510380744934082,0.38823287973774123,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,36,63,4.804874565003408,8.745435458106156,2.9135406417846674,0.41084873758100215,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,37,63,4.561828467535594,8.115170752841983,2.5803323516845706,0.4407135599690215,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,38,63,3.7046476374429367,6.311199560445458,2.7710447387695316,0.5089918745121835,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,39,63,3.5739866116841634,6.5544794459223334,2.6363020095825203,0.4469960586342936,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,40,63,3.873847057948037,7.212410060240164,2.6356964340209963,0.4069853061916008,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,41,63,3.576668014223613,6.750072530258546,2.693390632629397,0.42677020108798636,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,42,63,4.310831460195873,8.524520707198347,2.644499340057373,0.3338094790755334,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,43,63,4.569446897779192,8.755334223008868,2.4849558334350585,0.3037360734454637,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,44,63,4.3071226360381605,7.341139163942234,2.841993854522705,0.39702934246283783,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,45,63,4.205472238025967,7.645907549311254,2.5837508850097652,0.4180294358814167,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,46,63,4.654305495852516,7.921988653230073,3.0870847702026367,0.39067399799102676,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,47,63,4.481740134950667,7.237059336239824,3.1932399139404293,0.44264966391745375,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,48,63,4.229854708474779,6.295907298755557,3.217576663970947,0.5243339631688316,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,49,63,4.255108586144826,6.270353732560071,2.917161720275878,0.5039944515977113,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,50,63,4.6356188225519075,6.341800880628076,3.464382095336914,0.46320596952965254,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,51,63,4.5247913248576825,6.183725004900209,3.241346736907959,0.4767335994416383,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,52,63,4.088472665029859,5.52266242953926,3.0188689613342286,0.516142810766477,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,53,63,4.441605872078546,6.292047711864249,2.891481105804443,0.4292789040663214,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,54,63,3.956895422980899,5.563321754277609,2.860006202697754,0.5146488980479433,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,55,63,4.0226969711667016,5.88517979580276,2.577314884185791,0.4650917468524419,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,56,63,3.989519600156753,5.696620555649062,2.821099910736084,0.49804455824833527,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,57,63,3.400769265856063,4.6286873670504445,2.67658699798584,0.5791852341937661,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,58,63,3.7275320759727846,5.3201575454559125,2.733961582183838,0.534547674986858,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,59,63,3.731136022416372,5.177922812806676,2.7067881927490234,0.552165051884056,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,60,63,3.735235265429058,5.399428489511134,2.529319881439209,0.5428237719663118,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,61,63,3.96652028419858,5.849763386425393,2.499658283233643,0.51474826314225,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,62,63,3.297844548846049,4.709337581890304,2.4941749572753906,0.5933572534912027,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,63,63,3.3503262027558827,4.70021899035545,2.1637577857971193,0.5424374478364502,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,64,63,3.156730827392094,4.480604864006261,1.9571873283386232,0.5333657263913687,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,65,63,2.8553437802148247,3.9383731329646032,2.173713359832764,0.5467733949610916,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,66,63,3.0468581797887406,4.1726094366893145,2.560040397644043,0.5060786799504805,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,67,63,2.7450348070538237,3.4254590774625924,2.6009893760681155,0.5552686484306126,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,68,63,2.9499985593159996,3.5522755152227266,2.720796485900879,0.4961612346718747,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,69,63,2.8639805595155745,3.383860353064259,2.751622451782227,0.48231551278089757,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,70,63,2.748962375701419,3.52012198640318,2.4296125602722167,0.6046858752654743,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,71,63,2.8381955139523463,3.7502932201960584,2.3191069183349606,0.6165083277486023,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+ml_xgb_spatio_temporal,72,63,1.6573094553266252,2.4212116072900396,1.3301210861206054,0.8772166324418982,XGBoost spatio-temporal,XGB spatial,Machine Learning,Spatio-temporal
+stat_kalman_arima,1,63,1.3593243260751167,2.3781700226945657,0.5291366166450402,0.8918979233577364,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,2,63,1.8913082704170558,2.629889752774476,1.384115252828046,0.8663806553826777,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,3,63,2.095265430236963,3.0308103290360404,1.420956327257965,0.8196701841902886,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,4,63,2.5955918277077044,3.71640881579672,1.7840796098391323,0.7337988204727006,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,5,63,2.5529356526264633,3.3575574864911193,1.8597135138739223,0.7280061019177374,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,6,63,2.7742418820515335,3.523207819856869,2.33718013118383,0.6850694410498755,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,7,63,3.0523675873066116,3.9081047161018736,2.4671691693745665,0.5975159304748883,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,8,63,3.7697821228167983,4.618327465277698,3.1942507510499603,0.5252809016167529,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,9,63,4.074182299955606,4.799762516911224,3.354942894051959,0.5019652129053177,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,10,63,4.086344547116975,4.991791532863824,3.759579047862965,0.3015522240127413,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,11,63,3.329925113477563,4.34094881574489,3.146298322777903,0.35083421276915105,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,12,63,3.6547885048937916,4.5434659722257935,3.1433088138896252,0.3221938748314759,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,13,63,3.803836178443094,4.814499536225139,3.1992251309337787,0.31299462789296506,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,14,63,3.808608149049598,4.897759012490654,3.4894685627308277,0.3558979914403595,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,15,63,3.8554221205692416,5.127661006355429,2.8971593935558335,0.3690297827932866,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,16,63,3.8196849336227143,4.96556735439001,3.0276954299729733,0.27629780490317435,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,17,63,3.9614782713637764,5.386250950612893,2.9599574721716877,0.2528701596970192,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,18,63,3.9418915642095587,5.420750463546557,2.8609012108963925,0.26828097328484646,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,19,63,3.427614518790701,5.041547714472842,2.4766120137851804,0.2685708962389943,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,20,63,4.13593359902618,5.884489231717083,2.9353686742676555,0.2738634133424813,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,21,63,3.801356545808949,5.59500043258892,2.6874762295582872,0.26342719551952976,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,22,63,4.154195735622781,6.293553804204263,2.7302803767777326,0.2496561267622992,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,23,63,4.029420494304179,6.634617747541576,3.02605819265215,0.23113398080729308,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,24,63,4.406276379852829,7.693395802650451,3.032076669333326,0.22026720516325904,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,25,63,4.215427024557157,7.934985392167606,2.4076938274987185,0.22351845362137612,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,26,63,4.993535349153369,9.756733327785906,3.2146176989724333,0.12522779107184356,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,27,63,4.702112981151838,9.093928562845916,3.2274682949508398,0.16282867663683165,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,28,63,4.806304720954248,9.127976853350228,3.5015927986246256,0.17701188195729034,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,29,63,5.082523151063966,9.235540869108595,3.751102752455346,0.16302599263642115,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,30,63,5.215777272435055,9.24604100644449,3.7074486787278467,0.18742354802821393,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,31,63,5.610358956624814,9.727369791887504,3.683498444928505,0.1773661760771692,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,32,63,5.441311339543035,9.222090428152491,3.852301179537168,0.18204500690462877,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,33,63,5.136397616848006,9.283107732280147,3.705536781825784,0.15048229084314424,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,34,63,5.222873585955136,9.826455659116464,3.383283581890141,0.2049450728974811,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,35,63,5.751250728398943,10.553381361135742,3.590615350115658,0.21178175236627783,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,36,63,5.8440383257879125,10.010448884988977,3.5334433325124674,0.22808222889470875,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,37,63,6.037312552303846,9.771221744111639,3.7737318008162806,0.1891571275834022,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,38,63,5.436447453466761,8.447481509496066,3.772855605498597,0.12033086688932859,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,39,63,5.575643267272179,8.57904951498466,3.6121005477703374,0.05260701723046923,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,40,63,5.527872659863279,9.045832667987147,3.7463774605512192,0.06717165711027884,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,41,63,5.445428444324984,8.70966122029176,3.7442302322209056,0.04563521681207294,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,42,63,6.225936195975143,10.367619092931522,3.679473719047547,0.014590886700374894,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,43,63,6.202026257765923,10.396914743720954,3.3041340031283193,0.018167504645708488,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,44,63,5.849914522071221,9.220865002522856,3.567247612860588,0.048710743041509574,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,45,63,5.5626067154710555,9.51305839241665,3.2353864760564157,0.09908615955771238,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,46,63,5.7059943106653295,9.48885314609441,3.5203117729875455,0.1258041711060136,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,47,63,5.5280895378716375,8.852337838149847,3.7168583142507847,0.16608850519537222,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,48,63,5.379153411308189,8.058108680304949,3.6152621498560578,0.22079499293361682,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,49,63,5.245399348297355,7.746313129289365,3.8920967789328444,0.24300580624446166,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,50,63,5.313090694879796,7.229516109095803,3.6470811607090488,0.3024088967848847,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,51,63,5.312009622628372,6.928521266684354,3.78365358453005,0.3430934049547527,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,52,63,4.770148361392469,6.129865059225924,3.7082102020905117,0.4038960072838875,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,53,63,5.0993256316937545,6.5249017832467535,3.8999076682190976,0.38625513830106284,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,54,63,4.5446768715628405,5.8191973849175325,3.8703207072090513,0.4689763775729382,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,55,63,4.590610487531069,6.030775267928621,3.2680956842306816,0.438297808496222,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,56,63,4.6311873666417265,5.955655506019295,3.2284657383622513,0.45135715575582047,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,57,63,3.797301663535578,5.145289069854234,3.1005214809994417,0.4800101919036176,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,58,63,4.267355211114598,6.058316709313128,2.876821139611346,0.3964264999232878,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,59,63,4.258950222548368,5.818422418114219,3.312286057513315,0.43451989037150485,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,60,63,4.406261300540971,6.171718182338484,3.4139230698920233,0.40268939404314585,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,61,63,4.670985232557222,6.451314409451644,3.278633890582844,0.40981670216855937,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,62,63,3.9268789815891165,5.646887306235575,2.743829359868304,0.415328903590941,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,63,63,3.8792050341525393,5.449787039930113,2.381552201169489,0.384860873543571,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,64,63,4.084470282404543,5.9941873700793735,2.5295351370930437,0.16485099030558847,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,65,63,3.563790404562236,5.4844380440688045,2.229390767410937,0.12108688497878572,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,66,63,3.5428982905248403,5.026627599468822,2.730317698527622,0.2832037510902973,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,67,63,3.0750467799707937,4.089603531261353,2.2463219033479795,0.36609731174580984,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,68,63,3.032393234328413,4.130720483036337,2.1897508466774127,0.3187133001607432,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,69,63,2.8261529073251386,4.008089890952991,2.295528685871467,0.27370142301548206,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,70,63,2.0627914429269714,2.5983725721752626,1.6043468377668315,0.7846079096247536,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,71,63,1.8288082816761302,2.5650468381496174,1.5060271295137895,0.8206026235699235,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial
+stat_kalman_arima,72,63,1.3705217287705043,2.2899250932151105,0.8546376387739003,0.8901711089922866,Kalman-ARIMA,Kalman-ARIMA,Statistical,Non-spatial

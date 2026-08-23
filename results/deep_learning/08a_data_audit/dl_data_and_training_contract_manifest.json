@@ -1,0 +1,153 @@
+{
+  "Status": "data_and_training_contract_complete",
+  "Notebook": "08a_deep_learning_graph_recurrent_data_audit_v3_graph_visual_final",
+  "RandomSeed": 42,
+  "DeviceDetected": "cuda",
+  "StationOrder": [
+    "London Bexley",
+    "London Harlington",
+    "London Honor Oak Park",
+    "London Marylebone Road",
+    "London N. Kensington"
+  ],
+  "NumberOfStations": 5,
+  "Scenarios": [
+    "random10_point",
+    "random30_point",
+    "random50_point",
+    "block24_10percent",
+    "block72_10percent"
+  ],
+  "ExpectedTestTargets": {
+    "random10_point": 4318,
+    "random30_point": 12954,
+    "random50_point": 21590,
+    "block24_10percent": 4392,
+    "block72_10percent": 4536
+  },
+  "ContextHoursCandidates": [
+    96,
+    168
+  ],
+  "WindowLengthCandidatesIncludingTarget": [
+    97,
+    169
+  ],
+  "FeatureNames": [
+    "PM25_value_z",
+    "PM25_observed_mask",
+    "Temperature_z",
+    "Temperature_observed_mask",
+    "Hour_sin",
+    "Hour_cos",
+    "DayOfWeek_sin",
+    "DayOfWeek_cos",
+    "Month_sin",
+    "Month_cos",
+    "HoursSincePreviousObserved_scaled",
+    "HoursUntilNextObserved_scaled",
+    "Station_London Bexley",
+    "Station_London Harlington",
+    "Station_London Honor Oak Park",
+    "Station_London Marylebone Road",
+    "Station_London N. Kensington",
+    "ValidTimeStep"
+  ],
+  "TargetExtraction": {
+    "WindowRule": "one centred window per unique target timestamp",
+    "PredictionRule": "centre-step outputs retained only for artificially masked nodes",
+    "DuplicateTargetPredictions": 0,
+    "AveragingAcrossWindows": false
+  },
+  "GraphDefinition": {
+    "Type": "fixed_directed_top3_idw_neighbour_messages",
+    "MessagePassingLayers": 1,
+    "SelfPathway": "separate_and_always_active",
+    "NeighbourProjectionBias": false,
+    "NoGraphControl": "all_zero_neighbour_adjacency",
+    "BatchNorm": false,
+    "PostFusionLayerNorm": false,
+    "AdjacencyOrientation": "rows_are_target_stations_columns_are_source_neighbours",
+    "InformationFlowDirection": "source_neighbour_station_to_target_station",
+    "DirectedEdgeCount": 15,
+    "SelfLoopCount": 0,
+    "StationGraphFigurePath": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\deep_learning\\08a_data_audit\\dl_top3_idw_station_graph.png",
+    "AdjacencyHeatmapPath": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\deep_learning\\08a_data_audit\\dl_top3_idw_adjacency_heatmap.png",
+    "DirectedEdgeListPath": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\deep_learning\\08a_data_audit\\dl_top3_idw_directed_edge_list.csv"
+  },
+  "TrainingContract": {
+    "Loss": "masked_l1",
+    "TrainMaskingSchedule": "deterministic_epoch_wise_resampling",
+    "TrainMaskBaseSeed": 42000,
+    "ValidationSelectionMetric": "FamilyBalancedValidationMAE",
+    "MaximumEpochs": 100,
+    "Patience": 10,
+    "RestoreBestEpoch": true,
+    "BatchSize": 32,
+    "DataLoaderNumWorkers": 0,
+    "WindowsMaterialisedInAdvance": false
+  },
+  "TuningContract": {
+    "NumberOfTunedHyperparameters": 5,
+    "TunedHyperparameterSpace": {
+      "context_hours": [
+        96,
+        168
+      ],
+      "hidden_units": [
+        32,
+        64
+      ],
+      "recurrent_layers": [
+        1,
+        2
+      ],
+      "dropout": [
+        0.0,
+        0.2,
+        0.4
+      ],
+      "learning_rate": [
+        0.001,
+        0.0005,
+        0.0002
+      ]
+    },
+    "CandidateBudget": 12,
+    "ClaimOfExhaustiveSearch": false,
+    "PrimaryMetric": "FamilyBalancedValidationMAE",
+    "TieBreakOrder": [
+      "FamilyBalancedValidationMAE",
+      "FamilyBalancedValidationRMSE",
+      "TrainingSeconds",
+      "CandidateID"
+    ]
+  },
+  "AblationContract": {
+    "PrimaryVariant": "top3_idw_neighbour_messages",
+    "ControlVariant": "zero_neighbour_messages",
+    "SameModelClass": true,
+    "SameHyperparameters": true,
+    "SameInitializationSeed": true,
+    "SameEpochWiseTrainMaskSchedule": true,
+    "FittedSeparately": true,
+    "OnlyDesignDifference": "availability of cross-station neighbour messages"
+  },
+  "BaseDataFingerprintSHA256": "5969177fbd43126bc3275920230d0f7fb5c7dff472fab291041c085dd8350827",
+  "ScenarioFingerprintsSHA256": {
+    "random10_point": "4a1da5beb5ebce6bcc1f3809e6d930dd50c30b17f7aae4debf8956ef700bdaf7",
+    "random30_point": "d56d9d19873196793082638c3be71436189e484812498dc5d91431aeb47eb757",
+    "random50_point": "717e7c588251fb1741e6fab09376eeae5da58916b9759de7e10a8499c05974e5",
+    "block24_10percent": "1351e3c97455b5d9c83995bdfbd243e2d9f1f3f74eb539a67100bb772a284669",
+    "block72_10percent": "f802408861957e36f9271334965022c1187560dd37015b34cbdfc345f64558ce"
+  },
+  "GraphFingerprintSHA256": "a52ce5e1afd620344a9489037cec1de00e3a2f9aaf463581fe55b6440366b033",
+  "NormalisationStatsPath": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\deep_learning\\08a_data_audit\\dl_train_normalisation_stats.json",
+  "AdjacencyPath": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\deep_learning\\08a_data_audit\\dl_top3_idw_neighbour_adjacency.csv",
+  "StationGraphFigurePath": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\deep_learning\\08a_data_audit\\dl_top3_idw_station_graph.png",
+  "AdjacencyHeatmapPath": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\deep_learning\\08a_data_audit\\dl_top3_idw_adjacency_heatmap.png",
+  "DirectedEdgeListPath": "C:\\Users\\Msi\\Desktop\\DISSERTATION\\Codes\\results\\deep_learning\\08a_data_audit\\dl_top3_idw_directed_edge_list.csv",
+  "PythonVersion": "3.11.15",
+  "PyTorchVersion": "2.11.0+cu128",
+  "Platform": "Windows-10-10.0.19045-SP0"
+}

@@ -1,0 +1,21 @@
+{
+    "LogicalCPUCount": 12,
+    "NumPyVersion": "1.26.4",
+    "PandasVersion": "2.1.4",
+    "PipelineVersion": "ml_features_v2_2026-07-19",
+    "Platform": "Windows-10-10.0.19045-SP0",
+    "Processor": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+    "PythonVersion": "3.11.7",
+    "RandomSeed": 42,
+    "ScikitLearnVersion": "1.2.2",
+    "TuningEffectiveWorkers": 12,
+    "TuningIterations": 30,
+    "TuningMetric": "MAE",
+    "TuningProfile": "full",
+    "TuningRequestedNJobs": -1,
+    "TuningScenario": "random30_point",
+    "XGBEarlyStoppingRounds": 50,
+    "XGBMaximumRounds": 5000,
+    "XGBTreeMethod": "hist",
+    "XGBoostVersion": "3.2.0"
+}
